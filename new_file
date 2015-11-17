@@ -1,0 +1,87 @@
+sudo mii-tool -r eth0
+http://swserver:800/svn/SC6820  z830 用a37主板
+make PRODUCT-sprdroid_base-eng  -j4
+国家统计局山东调查总队	济阳调查队业务科室科员	1101715019
+
+ssh-keygen -t rsa
+
+iphone挂载
+sudo apt-get install libimobiledevice-utils 
+idevicepair unpair && idevicepair pair
+
+
+git clone git@192.168.1.202:sc6820_p12.git
+这是拉我们的代码库
+git clone git@192.168.1.202:foo.git
+这个是git练习的库，可以随便提交
+第一次拉代码，会提示要ssh确认，输入yes回车即可
+#*#*83789*#*#
+
+./mk -lp
+显示项目
+
+./mk -o=2sim z810 n
+
+
+./mk -o=2sim sp6820a n
+cp -rf ../sc6820_p12_qvga/* .
+cp -rf ../sc6820_p12_sp36/z830/* .
+
+make PRODUCT-sprdroid_base-eng  -j4
+logcat *:w
+
+sudo killall adb
+sudo killall fastboot
+
+
+代码:
+chmod +s adb
+chmod +s fastboot
+
+
+git pull
+git add Z830_CTP/frameworks/*
+git commit -m "add z830 call rings and message rings"
+git push
+
+/home/zhangzhaolei/android_code/p20/main/vendor/sprd/product/sprd_core.mk
+/home/zhangzhaolei/android_code/p20/main/customize/customer_cfg/sp6820a/res/system.prop
+/home/zhangzhaolei/android_code/p20/main/packages/apps/Settings/src/com/android/settings/LocalePicker.java
+/home/zhangzhaolei/android_code/bbbb_z830/main/packages/inputmethods/LatinIME/java/src/com/android/inputmethod/latin/InputLanguageSelection.java
+
+//zhangzhaolei 2012/10/12 add for english only去除语言
+				if(SystemProperties.getBoolean("ro.language.english_only",false))
+				{
+					if(language.equals("en"))
+					{					
+						if(country.equals("GB")||country.equals("US"))
+				        {
+				            //Log.e("language ================",""+language+"*"+country);
+							//Log.e("locale ================",""+s);
+				        }
+						else
+						{
+							continue;
+						}
+					}					
+					else
+					{
+						continue;
+					}
+				}
+				//end
+System.getBoolean()不能用
+DeskClock 的.mk文件的#LOCAL_SDK_VERSION := current 这样的话是不允许使用隐藏API的，去掉就好了
+或者用System.getproperty() 不用import
+输入法语言    
+ CheckBoxPreference pref = new CheckBoxPreference(this);
+            Locale locale = mAvailableLanguages.get(i).locale;
+			//zhangzhaolei 2012/10/12 add for english only
+			if(SystemProperties.getBoolean("ro.language.english_only",false))
+			{
+				if(!(locale.toString().substring(0, 2).equals("en")))
+				{
+					continue;
+				}
+			}
+			//end

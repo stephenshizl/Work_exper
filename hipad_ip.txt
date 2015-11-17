@@ -1,0 +1,420 @@
+10.1.10.88
+255.255.255.0
+10.1.10.1
+~~
+~~
+make -j16 otapackage
+./build/tools/releasetools/ota_from_target_files  //ota包编译
+
+./build/tools/releasetools/ota_from_target_files -i 第一个包  第二个包 差分包
+
+./build/tools/releasetools/ota_from_target_files -v -t MMC -i
+/OTA/msm8660_surf-target_files-eng.A.zip
+~/OTA/msm8660_surf-target_files-eng.B.zip
+~/OTA/update.zip
+
+高通工具
+\\10.10.1.6\sw\qualcomm\tools\QPST\QPST.WIN.2.7-00412\72-V1400-148_00412
+
+
+./5310.sh --build_number 010
+out/target/product/msm8610/obj/PACKAGING/target_files_intermediates/
+
+data/misc/wifi，目录里有个wpa_supplicant.conf
+
+adb shell monkey -p com.android.deskclock -v 50000
+用于指定用户操作（即事件）间的时延，单位是毫秒；
+adb shell monkey -p com.htc.Weather --throttle 3000 100
+--pct-touch ｛+百分比｝调整触摸事件的百分比(触摸事件是一个down-up事件，它发生在屏幕上的某单一位置)
+adb shell monkey -p com.htc.Weather --pct-touch 10 1000
+adb -s aa29152 shell monkey -v -p com.android.contacts 50000
+adb -d shell monkey -p your.package.name -v 6000
+
+
+monkeytset
+使用命令：adb shell monkey --ignore-crashes --ignore-timeouts --ignore-security-exceptions
+--monitor-native-crashes --ignore-native-crashes -v -v -v --pct-nav 0 --pct-anyevent 0 --throttle 1000 1000000000
+
+--pct-syskeys 0//SYS_KEYS has no physical keys but with factor 6.25% 
+
+monkey -p com.imusic.musicplayer --ignore-crashes --ignore-timeouts --ignore-security-exceptions --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct-anyevent 0 -v -v -v --throttle 500 1200000000 > /mnt/sdcard/monkeysyslog.log 2>&1 &
+
+
+adb shell monkey -p com.android.dialer --ignore-crashes --ignore-timeouts --ignore-security-exceptions --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct-anyevent 0 -v -v -v --throttle 500 120
+
+
+开机背光闪一下白屏bootloader/bootloader/lk/platform/msm_shared/display.c
+
+
+假设我们有许多个版本，版本号分别是1-10
+如果我们在7这里选择revert to this version那么7之后的8,9,10的操作都会被消除
+如果在7选择revert changes from this version那么7版本的修改将会被消除
+如果同时选择7,8 revert changes from this version那么7和8两个版本的所做的修改都会被消除
+将lm8004_release_CTA.qcn放入
+http://10.10.1.5/svn/msm8x12/branches/Andrew-E/modem/factory_xtt/01_sn+qcn/qcn 
+
+
+关闭后台信息发送
+在modem hipad_feature.h中
+注掉 #define HIPAD_CT_AUTO_REG_MSG
+Hipad_feature.h (modem_proc\build\ms)	3240	2014-6-16
+
+
+
+同志们问个问题，如何把在system/etc/tools目录下的驱动文件放到sd卡新建的tools目录下。。。，代码如何实现呢？
+10:18:12
+黄继伟
+2014-6-12 10:18:12
+@董俊霞 见android\frameworks\native\cmds\installd\install.c 
+
+@改清 init.rc 的修改不要修改 system\core\rootdir里的，移到 device\qcom\project\init.target.rc
+
+@赵磊 \vendor\qcom\proprietary\qrdplus\ChinaTelecom\config\spec.prop 只保留和phone相关的修改，其他移动到 device\qcom\project\lenovo_config.mk 或者 hipad_config.mk
+
+没有电池，需要用5217的同学们
+徐淑英
+2014-6-12 19:09:15
+把cp5217的/kernel/driver/power/qpnp-charger.c 和qpnp-bms.c替换联想项目对应文件
+
+
+
+./build/tools/releasetools/ota_from_target_files  -i 01.zip -k build/target/product/security/testkey 02.zip v01_v02_update.zip
+
+mkyaffs2image -f out/target/product//system out/target/product//obj/PACKAGING/systemimage_intermediates/system.img out/target/product//root/file_contexts system
+Install system fs image: out/target/product//system.img
+
+
+各位同学，
+cp5310 切换到新基线 193508a,请大家切换到新基线上。 
+http://10.10.1.5/svn/msm8x12/branches/cp5310/android_r193508a
+http://10.10.1.5/svn/msm8x12/branches/cp5310/modem_r193508a
+
+fgPhone.getPhoneType() == PhoneConstants.PHONE_TYPE_GSM//GSM==1,CDMA==2
+
+获取来电转接的dialog在TimeConsumingPreferenceActivity里面
+./qcom/common/bdroid_buildcfg.h:24:#define BTM_DEF_LOCAL_NAME 修改蓝牙名称
+
+silent=0 静音
+=2 标准
+=1 会议
+=2 户外
+=2 省电
+
+给5217添加了一个__PRJ_5217__的宏定义
+5310添加了一个__PRJ_5310__的宏定义
+所有.c,.cpp文件有效
+.c,.cpp文件中需要区分项目的可以用这个宏定义区分
+以上修改目前仅在5310分支上
+
+
+Z:\cp5217\libcore\luni\src\main\java\java\lang   system类路径
+
+if(SystemProperties.getBoolean("ro.config.coolpad", false)) {}
+getPreferenceScreen().removePreference(nfc);
+
+新增了外置SD判断接口
+Environment.getExternalSDStorageState(context).equals(Environment.MEDIA_MOUNTED)
+Environment.getExternalSDStorageDirectory();
+
+build\tools\buildinfo.sh
+
+xushuying
+ying821215
+\\10.10.1.11\xushuying\build\yulong\CP5217_V553_20131227050706\android
+
+linxiaofeng
+linxiaofeng
+
+
+dialogpreference窗口外不可点击方案
+import android.app.AlertDialog.Builder;
+@Override
+protected void onPrepareDialogBuilder(Builder builder) {
+    super.onPrepareDialogBuilder(builder);
+    builder.setCancelable(false);
+}
+
+
+yanzhennan 20073530 
+\\10.10.1.10\yanzhennan\android\android-4.3_r3.1  Google android 4.3原生代码，有需要的可以拷贝
+
+android\build\tools\buildinfo.sh
+build\core\Makefile
+版本号等定义
+
+*#*#123321#*#*
+*#*#2846579#*#*
+*#*#55555#*#*
+*#*#83781#*#*
+
+*#*#123321#*#*     内部版本号
+*#*#564548#*#*     logkit
+*#06#                IMEI
+*#*#4636#*#*         手机信息
+*#*#83789#*#*       工厂测试
+#*8378#1#           器件信息
+*#*#83781#*#*       工程模式
+*#*#55555#*#*       root
+####3333#         后台log
+*#0000#
+####1111#     亮度测试
+看看哪个能用吧，就是这么多
+
+
+
+关机的一些代码，以及长按重启==
+Intent shutdown = new Intent(Intent.ACTION_REQUEST_SHUTDOWN);
+　　shutdown.putExtra(Intent.EXTRA_KEY_CONFIRM， false);
+　　shutdown.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+　　mContext.startActivity(shutdown);
+
+Intent iReboot = new Intent(Intent.ACTION_REBOOT);
+　　iReboot.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+　　mContext.startActivity(iReboot);
+
+Intent i = new Intent(Intent.ACTION_REBOOT);
+i.putExtra("nowait", 1);
+i.putExtra("interval", 1);
+i.putExtra("window", 0);
+sendBroadcast(i);	
+
+
+三种获取系统时间函数的差别
+    SystemClock.currentThreadTimeMillis();
+    SystemClock.elapsedRealtime();
+    SystemClock.uptimeMillis();
+
+
+
+
+
+Z:\cp5217\hardware\qcom\sensors
+vendor\qcom\proprietary\qrdplus\BgSettings  ota prop
+
+Z:\cp5217\vendor\qcom\proprietary\qrdplus\Hipad 铃音
+
+http://10.10.1.5/svn/msm8x12/branches/cq5001  svn地址
+
+http://10.10.1.5/svn/msm8x12/branches/cp5217/android
+http://10.10.1.5/svn/msm8x12/branches/cp5217/5310_cta/android  
+
+myeclipse 10 注册码
+xiatian  kLR8ZC-855575-60536556376740576 admin  1f840000000b46d1477632 LICENSEE  admin  LICENSE_KEY   nLR8ZC-855555-6052665270244704 ACTIVATION_CODE   11d8498a3af6b46d147730nLR8ZC-855555-6052665270244704150711 ACTIVATION_KEY    9050711dd814a3f2444d8f93176412544ef5244fd1f90c6f168796ac682f3b3ffa8701b2297a905acf9d64a31ac47d812  7da02183e96b217ce7368136114677b797f3209b97e9960a7f6c548f602241f03652eeb2608fb490174fd45f8410d8ae3  15afe15171893aa1b3afda3bf7f9514aeb7cfe804838fe39db2bf8dc7211f0
+
+Z:\cp5217\external\webkit\Tools\vcbin
+
+
+fastboot flash aboot %AP_IMG_DIR%\emmc_appsboot.mbn
+
+
+fastboot flash modem  %MODEM_IMG_DIR%\asic\NON-HLOS.bin
+fastboot flash sbl1 %MODEM_IMG_DIR%\sbl1.mbn
+fastboot flash rpm %MODEM_IMG_DIR%\rpm.mbn
+fastboot flash tz %MODEM_IMG_DIR%\tz.mbn
+
+
+fastboot flash recovery %AP_IMG_DIR%\recovery.img
+fastboot flash userdata %AP_IMG_DIR%\userdata.img
+fastboot flash cache %AP_IMG_DIR%\cache.img
+fastboot flash persist %AP_IMG_DIR%\persist.img
+
+fastboot flash boot %AP_IMG_DIR%\boot.img
+
+fastboot flash system %AP_IMG_DIR%\system.img
+
+
+set AP_IMG_DIR=\\10.10.1.5\sw\qualcomm\msm8610_software_version\20131126-16-40\android
+set MODEM_IMG_DIR=\\10.10.1.5\sw\qualcomm\msm8610_software_version\20131126-16-40\modem\bin
+
+
+can not find symbol "import com.android.internal.telephony.PhoneFactory"  when add new module t o frameworks
+we add a new module in frameworks/base named coolpad, frameworks\base\coolpad\java\com\yulong\android\server\systeminterface\util\SystemUtil.java   in this file
+import com.android.internal.telephony.PhoneFactory
+error occured :can not find symbol "import com.android.internal.telephony.PhoneFactory"
+how to deal with it?  PhoneFactory.java   was transferred to the frameworks\opt
+frameworks\opt\telephony\src\java\com\android\internal\telephony\PhoneFactory.java
+
+
+SharedPreferences sp = getSharedPreferences("com.android.profile_preferences", MODE_WORLD_WRITEABLE);
+            	SharedPreferences.Editor editor = sp.edit();
+            	editor.putBoolean("ringtone_save", true);
+            	editor.commit();
+
+PreferenceManager.getDefaultSharedPreferences(this);
+
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
+
+语音信箱号码 
+
+统一语音信箱号码：13800XYZ166 
+
+备注：全球通语音信箱号码的格式是固定的，不同地区的语音信箱号码所不同的只是XYZ，XYZ是指您的手机入网地长途区号，长途区号不足三位的，在第三位补“0”，长途区号超过3位的，取后3位
+
+语音信箱的设置方式 
+
+1、 按手机菜单方式设置 
+
+在手机上设置呼叫转移，并将呼叫转移的号码设为语音信箱号码。呼叫转移的设置方法请参见本频道“呼叫转移”的介绍。 
+
+注1：您可以根据需要选择一项或数项呼叫转移方式。 
+
+注2：在手机要求输入“呼叫转移号码”时，请输入语音信箱号码：“13800XYZ166”。 
+
+2、按手机编码方式设置 
+
+将来电转移到语音信箱的编码方式 
+
+设置方式 
+启 用 
+取 消 
+查 询 
+
+关机转信箱 
+**62*13800XYZ166#按发送键 
+##62# 
+
+按发送键 
+*#62# 
+
+按发送键 
+
+无应答转信箱 
+**61*13800XYZ166#按发送键 
+##61# 
+
+按发送键 
+*#61# 
+
+按发送键 
+
+遇忙转信箱 
+**67*13800XYZ166#按发送键 
+##67# 
+
+按发送键 
+*#67# 
+
+按发送键 
+
+无条件转信箱 
+**21*13800XYZ166#按发送键 
+##21# 
+
+按发送键 
+*#21# 
+
+按发送键 
+
+l 编码方式对不同型号的手机均可通用。 
+
+l 您可按自己需要设置一项或数项转移功能。但如设置了“无条件转语音信箱”，其它转移功能则均无效。 
+
+l 若要取消所有的设置，只需按##002#键,再按发送键即可。 
+
+提示：以上两种设置方式都适合将来电转移到语音信箱，您可任选其中一种方式。 
+
+如何在别人的语音信箱中留言 
+
+方式一直接拨打对方手机号码而进入其语音信箱，然后根据系统提示音进行操作。 
+
+方式二先拨通13800XYZ166，根据系统提示音输入对方手机号码，并按#确认，再根据系统提示音进行操作。 
+
+（对方手机已设置为转入语音信箱后，您才能对其进行留言。） 
+
+如何听取您自己的语音信箱内的留言 
+
+方式一 
+
+直接用您本人的全球通手机拨通13800XYZ166，听到系统提示音，输入您的语音信箱密码，按# 确认。根据系统提示音进行听取留言，删除留言或修改密码等操作。 
+
+方式二 
+
+您用固定电话或其它电话(非您本人手机)拨通13800XYZ166，根据系统提示音输入您的手机号码，按# 确认，紧接着再按 * ，根据系统提示音进行听取留言，删除留言或修改密码的操作。 
+
+注意：* 
+
+l 您的语音信箱号码就是您的手机号码。 
+
+l 语音信箱初始密码是1234（或咨询当地移动1860客户服务热线），您可根据系统提示修改语音信箱初始密码。 
+
+l 您听完留言后请根据系统提示及时删除留言，使信箱保持空位接收新留言。 
+
+l 语音信箱可同时存储多达15条留言，每条留言的录音时间可长达1分钟，每条留言可在信箱中保留7天。 
+
+办理方法 
+
+您可在入网时办理；也可致电10086办理；或持有效证件到中国移动当地营业厅办理。 
+
+详细情况请以当地移动营业厅或10086客户服务电话的最新公告为准。
+
+
+
+
+身在桃源外 兀自笑春风
+
+女人再漂亮、也不过是男人的一道风景，男人再帅气、也不过是女人炫耀的工具!
+
+爱情的歌被无数人唱道;～女人的泪，男人的罪!
+
+没有激情的亲吻，哪来床上的翻滚，没有肉体的摩擦，哪来爱情的火花!
+
+上帝创造了处女，男人创造了妇女!
+
+女人为爱付出了性，男人为性付出了爱! 现在流行两个人的错一个人来承受，单身就是时尚，幸福不必勉强。
+
+都是水何必装纯…?都是狼又何必装羊…? 你有理由和我装，我就有本事让你受伤!
+
+不是每句‘对不起’都能换来一句‘没关系’;爱的世界，没有谁对不起谁，只有谁不懂得珍惜谁!
+
+男人的一句话可以骗女人一夜，而女人的一句话却可以骗男人一生!
+
+有种自卫，叫我无所谓，你我中间还有谁! 别提过去，别问将来，珍惜眼前美好的这一刻!
+
+人生就像一场戏站在自己的角落，假装自己是个过客。
+
+问世间情为何物?有钱人终成眷属!
+
+莫做无情之人，莫行绝情之事，对于错只在一恋之间而已!
+
+生命不在乎长短，但求活得灿烂，吃光用光，身体健康!
+
+很多人不需要再见，因为只是路过而已，遗忘就是我们给彼此最好的纪念!
+
+因为曾经爱过所以不能做敌人，因为曾经伤害过所以不能做朋友，那就做最熟悉的陌生人吧!在这场戏里面，我们都是临时演员!
+
+不怕别人看不起，就怕自己不争气!
+
+毕竟RMB上面的人不是我，做不到让每个人都喜欢…!
+
+世界不肮脏，又何来悲伤?
+
+青楼满座、因为人心寂寞!
+
+别人对你微笑，纯属礼貌!
+
+灯红酒绿，照穿男人花心，情场作戏，最怕女人多情!
+
+水因受阻而出声，人因挫折而成熟!
+
+是我不够成熟、还是你太年轻!
+
+是人都好假，我也不例外……
+
+雨说天空会流泪、咖啡说生活要习惯苦味、我说人活着简直就是受罪…。
+
+宁愿笑着流泪，也不哭着说后悔!。
+
+叶子的离开，是风的追求，还是树的不挽留…!
+
+谁是谁生命中的过客…
+
+谁也不是谁的谁，都TMD是临时工，话虽粗鲁，不过真实;挺真实的，说的真好
+
+女人出不出轨，取决于她的男人。男人出不出轨，取决于有没有机会。
+
+不要去痛恨小三，正是小三证明了一场经不起考验的爱情。
+
+其实女人很敏锐，你爱不爱她，她一眼就能分辨出来，只不过有的装傻，有的自欺欺人，有的委屈求全，有的决定和你一起演。
+
+选爱人不需要太多标准，只要这三样：不骗你，不伤害你，陪着你!
