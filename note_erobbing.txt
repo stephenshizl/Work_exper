@@ -1,16 +1,16 @@
-������	0769-88980888-68212
-���д�	0769-88980888-68203
-�����	0769-88980888-68549
-����	0769-88980888-68212
-лʿ��	0769-88980888-68549
-�Ŵ�    0769-88980888-68522
+陈立镇	0769-88980888-68212
+宋研聪	0769-88980888-68203
+侯杰文	0769-88980888-68549
+周锁	0769-88980888-68212
+谢士鹏	0769-88980888-68549
+张聪    0769-88980888-68522
 
 Http://bugz.hipad.com
 
 https://support.cdmatech.com/ 
  
-�û�����xushuying@hipad.com 
-���룺Hipad1234 
+用户名：xushuying@hipad.com 
+密码：Hipad1234 
 changshaobo@hipad.com
 Lf091011
 
@@ -20,11 +20,11 @@ pop.hipad.com
 smtp.hipad.com
 mail.hipad.hk
 mail.hipad.hk
-Ĭ������1qaz2wsx
+默认密码1qaz2wsx
 
-�Ϻ� ������
+上海 许明涛
 user:xumingtao
-password:123456����xumingtao
+password:123456或者xumingtao
 
 huangjiwei
 123456
@@ -35,21 +35,21 @@ xuchangzong release(server25)
 adb nodaemon server
 netstat -a | findstr "5037"
 
-��ͨ�ڿ�
-\\10.10.1.6\sw\qualcomm\�ڿ� 
+高通期刊
+\\10.10.1.6\sw\qualcomm\期刊 
 
 
-����
-��λͬ��.Bugzilla����������ϵͳ����ͨ������IP����.��ַ�ֱ���:http://10.1.1.106/bugzilla/ �� http://10.1.1.252/index.php
+海派
+各位同事.Bugzilla和软件发布系统可以通过内网IP访问.地址分别是:http://10.1.1.106/bugzilla/ 和 http://10.1.1.252/index.php
 
 
-��ͨ�޸���������
+高通修改蓝牙名字
 device/qcom/common/bdriod_buildcfg.h
 #define BTM_DEF_LOCAL_NAME   "Coolpad 5217"
 
-ACTION_BATTERY_CHANGED�㲥���ܾ�̬ע��
+ACTION_BATTERY_CHANGED广播不能静态注册
 
-ps -aux | grep 'make'���¿��Կ���Щ���ڱ��룬������ȷ��
+ps -aux | grep 'make'大致可以看哪些人在编译，但不精确。
 
 18614057009
 
@@ -58,7 +58,7 @@ ps -aux | grep 'make'���¿��Կ���Щ���ڱ��룬������ȷ��
 /* zhangzhaolei add for timepower 20141128 start */
 /* zhangzhaolei add for timepower 20141128 end */
 
-8015����
+8015编译
 . build/envsetup.sh ;lunch full_a310tp1-userdebug;make update-api BUILD_L1813_MODEM=false;make BUILD_L1813_MODEM=false -j16
 . build/envsetup.sh :lunch full_a310tp1-userdebug;make update-api BUILD_L1813_MODEM=false;make BUILD_L1813_MODEM=false -j16
 http://10.10.1.5/svn/l1860/branches/8015/cmcc_ruku/android
@@ -77,11 +77,11 @@ http://10.10.1.5/svn/msm8x12/branches/cp5217/build_tool
 http://10.10.1.5/svn/msm8x12/branches/Aiken-E/android
 8004_mp
 http://10.10.1.5/svn/msm8x12/branches/Andrew-E/mp/a355e/android
-8007��ͨ�汾��8004��ͨ�汾��
+8007普通版本（8004普通版本）
 http://10.10.1.5/svn/msm8x12/branches/Andrew-E/android
-1920�»���
+1920新基线
 http://10.10.1.5/svn/pxa1920/trunk/pxa988_kk4.4_k310.beta3-sp3
-marvell_sp4��֧
+marvell_sp4分支
 http://10.10.1.5/svn/pxa1920/branches/hm9028-sp4
 marvell9023
 http://10.10.1.5/svn/pxa1920/branches/hm9023
@@ -90,12 +90,12 @@ http://10.10.1.5/svn/pxa1920/branches/hm9023
 http://10.10.1.5/svn/msm89xx/branches/temporary_br/zq9055/zq9055_app_debug/android
 
 Aplan
-http://10.10.1.5/svn/sp7730/branches/Aplan/V600-stop    �����֧
+http://10.10.1.5/svn/sp7730/branches/Aplan/V600-stop    阿狸分支
 http://10.10.1.5/svn/sp7730/branches/Aplan/A1600-d/android_35.4
-\\10.10.1.6\sw\չѶ-7730-lbb\�����ĵ�\����+�����汾
+\\10.10.1.6\sw\展讯-7730-lbb\海派文档\编译+升级版本
 
 
-8916����
+8916需求
 http://10.10.1.5/svn/msm89xx/branches/qrd8916_xuqiu
 8909_demand
 http://10.10.1.5/svn/msm89xx/branches/temporary_br/zq9046/app_demand
@@ -103,44 +103,44 @@ http://10.10.1.5/svn/msm89xx/branches/temporary_br/zq9046/app_demand
 http://10.10.1.5/svn/msm89xx/branches/zq9046
 
 
-�����дbo_CN
+藏语简写bo_CN
 
 
-overlay��Դ
+overlay资源
 <?xml version="1.0" encoding="utf-8"?>  
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
     <add-resource type="string" name="app_name" />  
     <string name="app_name">MyAppName</string>  
 </resources>
-include��ǩ��overlayֱ�Ӹ��Ǽ���
+include标签的overlay直接覆盖即可
 
-ro.adb.secure=1      ro.secure=0    ������ֵ
+ro.adb.secure=1      ro.secure=0    这两个值
 
 ro.debuggable=1
 persist.sys.usb.config=adb
 
-A330e���߰汾��M8610AAAAANLYD193523B.1
+A330e基线版本：M8610AAAAANLYD193523B.1
 
-��ץȡdump layer��һ�£�dump layer������ 
-��������Ŀǰ���ֻ��� ȥִ�� 
+请抓取dump layer看一下，dump layer方法： 
+首先在你目前的手机上 去执行 
 $adb shell setprop debug.sf.dump.enable true 
 $adb shell stop 
 $adb shell start 
 
-����ῴ���ֻ����Զ����� 
-�������������������ʱ�� ��ִ���������� 
+后你会看到手机会自动重启 
+启动后请出现这个现象的时候 来执行下面的命令： 
 
-$adb shell setprop debug.sf.dump.png 300 ��ʼdump 
-$adb shell setprop debug.sf.dump.png 0 �ر�dump 
+$adb shell setprop debug.sf.dump.png 300 开始dump 
+$adb shell setprop debug.sf.dump.png 0 关闭dump 
 
 gps
-9023  ����֧�� pxa1L88H1
-9033  ����֧�� pxa1L88H4
-9019  ֧��GPS  pxa1L88H2
+9023  都不支持 pxa1L88H1
+9033  都不支持 pxa1L88H4
+9019  支持GPS  pxa1L88H2
 
 
-��ͨrtc�Ӻ�2����
-zq9046\kernel\kernel\time\alarmtimer.c��
+高通rtc延后2分钟
+zq9046\kernel\kernel\time\alarmtimer.c中
 #define ALARM_DELTA 120
 
 void set_power_on_alarm(long secs, bool enable)
@@ -159,7 +159,7 @@ void set_power_on_alarm(long secs, bool enable)
 
 
 
-����bugzilla��ַ
+海派bugzilla地址
 http://180.166.198.202:5751/bugzilla/show_bug.cgi?id=33879
 
 marvell
@@ -168,16 +168,16 @@ marvell
 
 
 
-�� �Ƚ��� �ֿ� �յ�
-Ȼ�� svn co ������ �յ��ļ���
-Ū���µ� �ļ� �� ����ѹ �����ļ� ���� patch ��
-svn ���� �����ļ� svn add . --force --no-ignore
+你 先建个 仓库 空的
+然后 svn co 下来个 空的文件夹
+弄个新的 文件 夹 ，解压 各个文件 ，打 patch 。
+svn 添加 所有文件 svn add . --force --no-ignore
 SVN COMMIT
 
-svn diff foo.c                  �Ƚϱ����޸�
-svn diff --r 3 foo.c      �ȽϹ��������Ͱ汾��
-svn diff --r 2:3 foo.c   �Ƚϰ汾����汾��
-svn revert   xx.java                      ɾ����ı����޸�,�ָ����޸�ǰ��״̬.
+svn diff foo.c                  比较本地修改
+svn diff --r 3 foo.c      比较工作拷贝和版本库
+svn diff --r 2:3 foo.c   比较版本库与版本库
+svn revert   xx.java                      删除你的本地修改,恢复到修改前的状态.
 svn revert -r 1882:1760
 svn update -r 1760
 //svn merge -r 1882:1760
@@ -185,96 +185,96 @@ svn export http://your-file-in-repository@1766 /tmp/filename
 svn propset svn:executable ON filename
 svn ps svn:executable yes filename
 
-����֧
+拉分支
 svn mkdir http://10.10.1.5/svn/msm89xx/branches/zq9055/zhuawaguo
 svn copy http://10.10.1.5/svn/msm89xx/branches/zq9055/android  -r HEAD http://10.10.1.5/svn/msm89xx/branches/zq9055/zhuawaguo/android
 
 
 
 
-�������ȥ��.svn
+打包命令去除.svn
 tar zcvf cp5310_r193506b.tar.gz cp5310_r193506b/ --exclude ".svn" --exclude out
 
-ֻ���packages�����strings.xml
+只打包packages下面的strings.xml
 tar zcvf tttt.tar.gz zq9055_Mexico_Telcel/packages/*/*/res/values/strings.xml zq9055_Mexico_Telcel/packages/inputmethods/LatinIME/java/res/values/strings.xml
 
 
 
-ȥ��.svn�ļ�
+去除.svn文件
 find . -name ".svn" | xargs rm -Rf
 
 adb logcat -b main -v time > main.log
 adb logcat -b radio -v time > radio.log
 adb logcat -b system -v time > radio.log
 
-�������logtool���߲���ץ/����main.log/radio.log,  ԭ���Ѿ��ҵ�����Ȩ�����⡣
-���æ������fix���뵽���ǵĴ����У���л����
+最近发现logtool工具不能抓/保存main.log/radio.log,  原因已经找到，是权限问题。
+请帮忙把下面fix加入到你们的代码中，多谢啦。
 Modified : /branches/hm9023/vendor/marvell/generic/lte-telephony/scripts/dumpall.sh
 
-�龰ģʽ��������չѶ��֧��ʹ�� �û��� huangjiwei password 123456
+情景模式联想需求（展讯分支）使用 用户名 huangjiwei password 123456
 http://10.1.1.253/android/Spreadtrum/Android_ICS/vendor/SP9620/SC9620_MP
 A2800
 http://10.1.1.253/android/Spreadtrum/Android_ICS/trunks/SC9830A/MP/SC9830A_MP
 
 
 
-http://10.10.1.5/svn/doc/Internal Training Doc/ģ��/��Ա��ת����ְ���ģ��.ppt
+http://10.10.1.5/svn/doc/Internal Training Doc/模板/新员工转正述职答辩模板.ppt
 
 
-13818310790     0913 0015 7016 7788ȫ��ͨpuk58789580(����97204124)
-189 1739 2507 pin��1234��PUK��38168303���ſ�
+13818310790     0913 0015 7016 7788全球通puk58789580(副本97204124)
+189 1739 2507 pin码1234，PUK码38168303电信卡
 
-����������ȥ��������Ϊandroid.mk����ȱ������library(ex fmTest)
-http://ua123.net/��¼�����վ���Բ鿴UA��Ϣ
+导包导不进去可能是因为android.mk里面缺少依赖library(ex fmTest)
+http://ua123.net/登录这个网站可以查看UA信息
 
-1.��������
- ����-����-������ʾ����ѡ��������2����ȫ���������붼û����ʾ��
+1.问题描述
+ 设置-声音-紧急提示音勾选报警，卡2呼出全部紧急号码都没有提示音
 
-2.ԭ�����
-  �����ƣ����ǵ����յ����أ�gsm��֧�ִ˹���
+2.原因分析
+  最初设计，考虑到风险等因素，gsm不支持此功能
 
-3.�������
-   ������ʾ���Ӷ�gsm���жϲ�������Ӧ����
+3.解决方案
+   紧急提示添加对gsm的判断并添加相应功能
 
-4.�޸ĵ�
-   MSimCallNotifier.java��
-     onCustomRingQueryComplete��onPhoneStateChanged ��
-   SoundSettings.java��
+4.修改点
+   MSimCallNotifier.java：
+     onCustomRingQueryComplete，onPhoneStateChanged 。
+   SoundSettings.java：
      onCreate
 
-5.Ӱ�췶Χ
-   ���ã��绰
+5.影响范围
+   设置，电话
 
-6.SVN�汾��
+6.SVN版本号
  revision 2335
 
-���������°汾��ȫ�汾ˢ������ֱ�ӽ�������ģʽ����ͨ�����������������ģʽ��
-adb shell setprod powermode 1       --�ϵ��������ģʽ
-adb shell setprod powermode 0       --�ϵ�������ģʽ
-9023root���� *#*#837800#*#*
+升级到最新版本后，全版本刷机开机直接进入生产模式，可通过以下命令进入正常模式：
+adb shell setprod powermode 1       --上电加入正常模式
+adb shell setprod powermode 0       --上电加入产线模式
+9023root暗码 *#*#837800#*#*
 
-[Author : zhangzhaolei][��Ŀ:ZQ9055] [Bug ]
-1.��������
- ���á����ƶ����ݱ���com.android.phoneֹͣ����
-2.ԭ�����
-  ����log��ʾ���Ƕ�Ӧ��ͼƬ��Դû���ҵ�
-3.�������
-   ������Ӧ��ͼƬ��Դ
-4.Ӱ�췶Χ
-   ����
-5.SVN�汾��
+[Author : zhangzhaolei][项目:ZQ9055] [Bug ]
+1.问题描述
+ 设置——移动数据必现com.android.phone停止运行
+2.原因分析
+  根据log显示，是对应的图片资源没有找到
+3.解决方案
+   添加相应的图片资源
+4.影响范围
+   设置
+5.SVN版本号
  AP revision 2335
-6. Bug�Բ�
-   �������-�����������Ӻ��������Ӷ�ѡ��sd���������������
-   �˳��ڽ���״̬���������б������
-   ��֤����δ����
-7.���Խ���
-  ��
+6. Bug自测
+   点击闹钟-建立两个闹钟后，两个闹钟都选择sd卡里的闹铃铃声，
+   退出在进从状态栏的下拉列表里进入
+   验证问题未复现
+7.测试建议
+  无
 
 
-Shutdown -s -t 3600                1Сʱ���Զ��ػ�
-at 12:00 Shutdown -s               12:00�Զ��رռ���� 
-shutdown -a                         �����
+Shutdown -s -t 3600                1小时后自动关机
+at 12:00 Shutdown -s               12:00自动关闭计算机 
+shutdown -a                         计算机
 
 
 system/corebcutils/android_reboot.h
@@ -288,85 +288,85 @@ android_reboot(ANDROID_RB_RESTART, 0, 0);
 
 
 
-vim����
-:wq ���沢�˳�
-ZZ ���沢�˳�
-:q! ǿ���˳����������и���
-:e! ���������޸ģ�����ԭ���ļ�
-:split��new ��һ���´��ڣ����ͣ�ڶ���Ĵ�����
-:split file��:new file ���´��ڴ��ļ�
+vim命令
+:wq 保存并退出
+ZZ 保存并退出
+:q! 强制退出并忽略所有更改
+:e! 放弃所有修改，并打开原来文件
+:split或new 打开一个新窗口，光标停在顶层的窗口上
+:split file或:new file 用新窗口打开文件
 
 
-find -name "*.mk" |grep "xxx" ����xxx��mk�ļ�
-find -name "*.mk" |xargs grep "xxx" ����xxx����
-grep -nHR "xxx" . ����xxx����
+find -name "*.mk" |grep "xxx" 包含xxx的mk文件
+find -name "*.mk" |xargs grep "xxx" 包含xxx内容
+grep -nHR "xxx" . 包含xxx内容
 
-//ɾ���ļ����µ����� .svn �ļ�
+//删除文件夹下的所有 .svn 文件
 find . -name ".svn" | xargs rm -Rf
 
 
-����Ҫ����.hk�ʼ��ģ����Ե� http://mail.hipad.hk:6080/ �����Զ�ת���� .com ����
+有需要接受.hk邮件的，可以到 http://mail.hipad.hk:6080/ 设置自动转发到 .com 邮箱
 
 
 
- �ƶ�MTBF����LOG���ڰٶ����̣�
+ 移动MTBF问题LOG放在百度网盘：
 
-   �ٶ������˺ţ�hongdachuangxin1@163.con
+   百度网盘账号：hongdachuangxin1@163.con
 
-   ��        �룺hongda
-
-
-1��android framework�ṩ��android app���õ�log�ӿ��ࣺandroid.util.Log
-2��android framework�ڲ�ʹ�õ�log�ӿ��ࣺandroid.util.Slog
-3��android framework֮���ģ�����log��Ϣʹ�ã�System.out��
+   密        码：hongda
 
 
-��ͨrtc�ļ�
+1、android framework提供给android app调用的log接口类：android.util.Log
+2、android framework内部使用的log接口类：android.util.Slog
+3、android framework之外的模块输出log信息使用：System.out类
+
+
+高通rtc文件
 /sys/devices/qpnp-rtc-df110e00/rtc/rtc0   
 sys/class/rtc/rtc0
 
 
-����sys/class/leds/wled-backlight
+亮度sys/class/leds/wled-backlight
 Z:\lm8004\kernel\drivers\leds\leds-qpnp.c
 
 
-[ԭ�����]�ָ�����������Ҫunmount sdcard������ʱProcess system_server (418) has open file /mnt/asec/com.opera.mini.android-1/pkg.apk��ProcessKiller: Sending SIGHUP to process 418��ϵͳ���̱�ɱ���£�
-[�������]���ϵͳ���̣���ֱ��ɱ�������ǳ���ִ��ϵͳ���̵�GC���������ܻ�ر���Ӧ��sdcard�ļ���
+[原因分析]恢复出厂设置需要unmount sdcard，但此时Process system_server (418) has open file /mnt/asec/com.opera.mini.android-1/pkg.apk，ProcessKiller: Sending SIGHUP to process 418，系统进程被杀导致；
+[解决方案]针对系统进程，不直接杀掉，而是尝试执行系统进程的GC工作，可能会关闭相应的sdcard文件。
 
 
-չѶ ftp�� OR in FTP Server(user:log password:Log?$1029):
+展讯 ftp： OR in FTP Server(user:log password:Log?$1029):
 
-textview���»��ߣ��������ÿ�����
+textview的下划线，不能设置宽，高
 style="?android:attr/listSeparatorTextViewStyle"
 
-1.svn��ַ��
+1.svn地址：
 http://10.10.1.5/svn/sp7730/trunk/Aplan
 
-2.չѶCQ
-��վ��http://222.66.158.139:2008/cqweb/
-�������ɵ�CQ�˺�
-�û�����bj_hipad�����룺bj_hipad123
-zoom�˺� zoom_sh           zoom_sh
-չѶ7730�ػ�����vendor\sprd\open-source\apps\alarm
-չѶ������С�޸�u-boot\include\configs\sp7730ec.h
+2.展讯CQ
+网站：http://222.66.158.139:2008/cqweb/
+北京海派的CQ账号
+用户名：bj_hipad，密码：bj_hipad123
+zoom账号 zoom_sh           zoom_sh
+展讯7730关机闹钟vendor\sprd\open-source\apps\alarm
+展讯分区大小修改u-boot\include\configs\sp7730ec.h
 
 3.FTP
 \huazhang\7730\MocorDroid4.4_3.10_14A_W14.27.5
-��FTP�˺���������
-����
-URL �� ftp.spreadtrum.com
+贵方FTP账号密码如下
+华章
+URL ： ftp.spreadtrum.com
 Account:     huazhang        Password:  Hua??ZHang3
 
-����ftp
+中兴ftp
 ftp://116.228.53.175:60021
-�û�����haipai
-���룺haipai20140617
+用户名：haipai
+密码：haipai20140617
 IP address: 116.228.53.171 
 Username: ztebuild 
 Password: FFOS*build@zte 
 
 
-�ļ�дֵlightservice
+文件写值lightservice
 private static final String FLASHLIGHT_FILE = "/sys/class/leds/spotlight/brightness";
 try {
                 FileOutputStream fos = new FileOutputStream(FLASHLIGHT_FILE);
@@ -392,7 +392,7 @@ MMAS Zawgyi Changer 2
 #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.mmas.mmaszawgyichanger/.MainActivity;end
 
 
-119��110��122��112��999��911��08��118��000��120
+119，110，122，112，999，911，08，118，000，120
 911,110,120,119,112,122,118,999,000,08
 &&(number.equals("911")||number.equals("110")||number.equals("120")||number.equals("112")||number.equals("119")||number.equals("122")||number.equals("118")||number.equals("999")||number.equals("000")||number.equals("08")||number.equals("*911")||number.equals("#911"))
 3426,
@@ -428,102 +428,102 @@ MMAS Zawgyi Changer 2
 4981,4142,5162,4153,4983,5307, 4753,
 
 0117
-5004,4003��
+5004,4003，
 
-01-17 15:08:22.521: E/subscriptionPref==============(10603): pkg=com.android.phone**targetClass=****com.android.phone.MSimMobileNetworkSubSettings�ƶ�����״̬
+01-17 15:08:22.521: E/subscriptionPref==============(10603): pkg=com.android.phone**targetClass=****com.android.phone.MSimMobileNetworkSubSettings移动数据状态
 01-17 15:09:10.531: E/subscriptionPref==============(10603): pkg=com.android.phone**targetClass=****com.android.phone.MSimMobileNetworkSubSettings
 
 
 01-17 15:09:28.201: E/subscriptionPref==============(10603): pkg=com.android.phone**targetClass=****com.android.phone.MSimCallFeaturesSubSetting
-  ͨ������
+  通话设置
 
 
 01-17 15:09:58.861: E/subscriptionPref==============(10603): pkg=com.android.settings**targetClass=****com.android.settings.IccLockSettings
   
 
-��������һ�������������ѷ֡��������ǰѽ����Լ�����֭�Ļ�ɡ�ڵ�ʥ��ǰ���˻Σ�˵����ʥ��磬Ҫ��Ҫ������ʥ��Ȼ����������������ڳ������´������ã���˵Щ���ʻ������ǣ�����ͯʼй����񱣬�����÷�֪��������
-��ִ����ͷ�����Ǻ���β������˼�䲻���䣬ʹ���ϰ���
+两人销魂一番，更加难舍难分。琪琪把那把接了自己风流汁的花伞在德圣面前晃了晃，说：“圣哥哥，要不要？”德圣当然如获至宝。两人又在长凳上温存了许久，尽说些混帐话。正是：遇美童始泄断袖癖，两相悦方知龙阳美。
+我执号码头，奖是号码尾，日日思卿不见卿，痛抱老板腿
 
 
-�������Ȼ������ϣ�������Ů���������ϣ��������л��������ϣ����ٳ������ӻ������ϡ�����#�����첻�𣬳��ÿ��׻�ûǮ#
+多少美腿毁在脸上，多少美女毁在体型上，多少美男毁在身高上，多少痴情男子毁在穷上。。。#话多嘴不甜，长得磕碜还没钱#
 
-����Ϊһ��˯���˶������ߣ�����㳡����������ɣ�
+哥作为一名睡觉运动爱好者，跪求广场舞绝迹于世吧！
 
-��������Ҫ�����γ嶯��һ�ηܲ������Ķ���һ��˵�߾��ߵ���¥��
+人生至少要有两次冲动，一次奋不顾身的赌球，一次说走就走的跳楼。
 
-��ڨ�����ԣ�������ɧ��
+搭讪不用脑，就是性骚扰
 
-��Ϊ�ұȽϵ�ù��
-���˱�ѡ��������޵�̹�ˡ�
+因为我比较倒霉，
+成了被选出来拉仇恨的坦克。
 I was selected as tank who has to snap aggro.
 
 
-����н�׵��ɺװ����뽫���˫�����
+天空中洁白的仙鹤啊，请将你的双翅借我
 
-Ů���Ǵ��Ź�װ������Ӻ����Ǵ�������ʱ�������һ���Ը�
-
-
-��ֻ֪�����������Ƿ�AFK��ֻҪһ��Ƭͷ�������Ҿͻ���һ����Ƥ�����Ҿͻ�Ī����������ֻ֪������Ӱһ������������Ϥ�ı������ҿ����ᱼ��WOW�����ҿ����Ѿ���ֻ����Ϸ�ˣ������������ഺ��ʱ�����롣
-
-�������Ƿ��Ѿ�AFK��ֻҪһ����Ƭͷ�������������������֣��Ҿͻ�Ī��������WOW������˵�Ѿ���ֻ����Ϸ�ˣ������������ഺ��ʱ��������¶���
+女人们穿着工装裤的样子和她们穿着内衣时候的样子一样性感
 
 
-�һ�û���ü���������ᣬ
+我只知道，不管我是否AFK，只要一看片头动画，我就会起一身鸡皮疙瘩，我就会莫名激动。我只知道，电影一出，听到那熟悉的背景，我可能泪奔，WOW对于我可能已经不只是游戏了，它还承载着青春期时的梦想。
+
+不管我是否已经AFK，只要一看到片头动画或者听到背景音乐，我就会莫名激动。WOW对我来说已经不只是游戏了，它还承载着青春期时的梦想与悸动。
 
 
-��֧����������磬����5ɱ
-
-����Ϊ�¶�����ħ�����磬������Ϊ����ħ������Ź¶������˰�����˹
+我还没来得及认真地年轻，
 
 
+在支离破碎的世界，超神5杀
 
-��Ҵ���ٸ�UIM��sim����ʾ�����⣬����ȫ����MSimTelephonyManager.getDefault().getPhoneType(sub)������phone��������ʾSIM����UIM����Ҫ����sub��ֱֵ���жϣ�����������Ƚ�Щ
-
-?1.���������Ҿ������£������ĺ�Ϊ�ң�
-
-2.��������������ǣ�ң������˼����ģ�
-
-3.���������Ұ������������㹲��ɣ�飻
-
-4.���������ҹ���������㻨ǰ���£�
-
-5.���ͣ������������ģ����㵱��������
-
-6.��ʦ�������Ҷ����壬������˿�׷���
-
-7.���ף����Ҳ������������㵭���ֲ裻
-
-8.���ɣ����Ҹ�ͷ������������º�ϼ��
-
-9.ũ�򣺴��Ҹ����ٻ�������ʮ���һ���
-
-10.ɮ�ˣ�����һϮ���ģ� ������˼���¡�
-1.����������£�����Ϊ��������
-
-2.��������ǣ�ң����Ǻ����Ѳ
-
-3.���������������÷Ϊ���Ѽޡ�
-
-4.���㹦����������˸���ҡ�
-
-5.�����������ģ������ల�껪��
-
-6.�����Ҷ����壬�����������
-
-7.���㲻�����������Ժζ���١�
-
-8.�����ͷ���������Դӷ���ޡ�
-
-9.���㸻���ٻ������տݹǳ�ɳ��
-
-10.����һϮ���ģ�Ψ���������.
-
-
-���ѷ������е�������Զ�������ս�𣬵��Ǿ����ȵ���ɽ�ǵ��㣬�ɸ��������ǵ��㣬ŵɭ�µİ�ѩ�ǵ��㣬������˹��ÿһ���������������Ӱ��
+是因为孤独才玩魔兽世界，还是因为玩了魔兽世界才孤独？别了艾泽拉斯
 
 
 
-���°汾��QXDM�Ѿ��ϴ������������ڵ�ͬѧ������һ�°�
+大家大家再改UIM，sim等显示的问题，尽量全都用MSimTelephonyManager.getDefault().getPhoneType(sub)，根据phone的类型显示SIM或者UIM，不要根据sub的值直接判断，这样程序更稳健些
+
+?1.帝王：待我君临天下，许你四海为家；
+
+2.国臣：待我了无牵挂，许你浪迹天涯；
+
+3.将军：待我半生戎马，许你共话桑麻；
+
+4.书生：待我功成名达，许你花前月下；
+
+5.侠客：待我名满华夏，许你当歌纵马；
+
+6.琴师：待我弦断音垮，许你青丝白发；
+
+7.面首：待我不再有她，许你淡饭粗茶；
+
+8.情郎：待我高头大马，许你嫁衣红霞；
+
+9.农夫：待我富贵荣华，许你十里桃花；
+
+10.僧人：待我一袭袈裟， 许你相思放下。
+1.待你君临天下，怕是为笼囚花。
+
+2.待你了无牵挂，怕是红颜已差。
+
+3.待你半生戎马，青梅为妇已嫁。
+
+4.待你功成名达，怀中人富贵家。
+
+5.待你名满华夏，已无相安年华。
+
+6.待你弦断音垮，何来求鸾曲答。
+
+7.待你不再有她，君言何断真假。
+
+8.待你高头大马，我自从夫而嫁。
+
+9.待你富贵荣华，红颜枯骨成沙。
+
+10.待你一袭袈裟，唯亡断意放下.
+
+
+我已放下手中的武器，远离震天的战火，但是荆棘谷的青山记得你，纳格兰的清风记得你，诺森德的白雪记得你，艾泽拉斯的每一处都会留下你的身影。
+
+
+
+最新版本的QXDM已经上传服务器，过期的同学，更新一下吧
 \\10.10.1.5\sw\qualcomm\tools\QXDM Software Code\72-V1189-166
 
 
@@ -540,68 +540,68 @@ Toast toast = Toast.makeText(this, R.string.emergency_number_exist, Toast.LENGTH
             toast.show();
 
 0418
-���Խ��飺
-7331�������ĵ绰�����ֹ����Ϊ��������
-7096��ȥ����*999��#999����֤�Ƿ��Ѿ�ȥ��
-7094��ȥ����*999��#999����֤�Ƿ��Ѿ�ȥ��
-7090:����10000�����ĺ��뽫�����ٱ�����Ϊ�������룬ͨ����¼Ҳ������ʾ��������
-7058�����������б�-����һ�����������Ҷϲ��Զ��˳����������б�
-7092�����������б��м�����122
-7091������118��08��999��ͨ����¼����ʾΪ"�����绰" 
-7023���ֻ������������߻���ģʽ��ý������������������Ϊ0�����Ӳ���������
+测试建议：
+7331：正常的电话号码禁止添加为紧急号码
+7096：去掉了*999，#999，验证是否已经去掉
+7094：去掉了*999，#999，验证是否已经去掉
+7090:类似10000这样的号码将不会再被保存为紧急号码，通话记录也不会显示紧急号码
+7058：紧急呼叫列表-呼出一个紧急号码后挂断不自动退出紧急呼叫列表
+7092：紧急呼叫列表中加入了122
+7091：呼出118，08，999在通话记录中显示为"紧急电话" 
+7023：手机开启静音或者会议模式后将媒体音量和闹铃音量置为0，闹钟不再有声音
 
 
 7331 7096  7094  7090 7058 7092 7091 7023
 
-7411  7085  7265  @revision 1714��1715  
+7411  7085  7265  @revision 1714，1715  
 7607  
 
-���Խ��飺
+测试建议：
 
 rev 1715
 
-7411��������Ϣ�������룬������ַ������޶�
-7085��dialog�ϵġ�ɾ�����Ѿ�����
-7265���Ѿ����������ú������ô�ͨ���������Ƴ���������-�����������Ѿ�����
+7411：机主信息无限输入，过多的字符将被限定
+7085：dialog上的”删除“已经翻译
+7265：已经将铃声设置和振动设置从通话设置中移除，在设置-声音设置中已经有了
 
 
 rev 1730
 
-7607�������������Ѿ�����ͨ�����ù��ܣ�ȥ����˫���������ͨ�����ù���
+7607：设置主界面已经存在通话设置功能，去掉在双卡设置里的通话设置功能
 
 rev 1751
 
-7623������-ͨ������-GSM-����ת�ӣ��������ڶ�ȡ����ʱ�����Ļ��û������ؼ��˳�������£������Զ��˳�����ת�ӽ��棬dialog�򲻻�ȡ��
+7623：设置-通话设置-GSM-来电转接，界面正在读取设置时点击屏幕；没点击返回键退出的情况下，不会自动退出来电转接界面，dialog框不会取消
 
-2��20��
+2月20号
 rev1765  5217
-7090�����������б����޶�Ϊ���������ĺ��룬�������������ӵ����������б���ͬʱ�������ʾ����Ч�������롰
+7090：紧急拨号列表被限定为宇龙给定的号码，其它不允许添加到紧急拨号列表，同时会给出提示”无效紧急号码“
 rev1766  5310
-7090�����������б����޶�Ϊ���������ĺ��룬�������������ӵ����������б���ͬʱ�������ʾ����Ч�������롰
-��ע���޸�5310�豸��Ϊ273
+7090：紧急拨号列表被限定为宇龙给定的号码，其它不允许添加到紧急拨号列表，同时会给出提示”无效紧急号码“
+自注册修改5310设备号为273
 rev 1771 5310 
-���������ύ 1773 recommit
+纠正错误提交 1773 recommit
 
 20140221
 
 rev 1797 5217
-7359:����ģʽ�²�������ʱ����������������ý��������Ϊ0
+7359:静音模式下播放音乐时不允许调整音量，媒体音量设为0
 rev 1798 5310
-7359:����ģʽ�²�������ʱ����������������ý��������Ϊ0
+7359:静音模式下播放音乐时不允许调整音量，媒体音量设为0
 
 rev 1805 5217
-7673��ȥ��5gƵ�Σ���ͨWLAN оƬ��֧��5G WLAN ,Ӧ�ôӽ����Ͻ� ��5G ȥ��
+7673：去掉5g频段，高通WLAN 芯片不支持5G WLAN ,应用从界面上将 这5G 去掉
 ro.product.model  Coolpad 5217
 
 rev 1806 5310
-��ע���Ϊ��ȡro.product.model������5217��5310
+自注册改为获取ro.product.model来区分5217和5310
 
 20140224
-7991:ȥ��WLAN�߼�ѡ���е�WLANƵ��ѡ��
-7656:�л�����Ƶ�κ󣬸����ȵ㲻����ȷ��ʾ
+7991:去掉WLAN高级选项中的WLAN频带选项
+7656:切换工作频段后，附近热点不能正确显示
 
 rev 1828 5310
-7632:�޸�Ĭ����������ΪCoolpad 5310
+7632:修改默认蓝牙名称为Coolpad 5310
 
 
 rev 1848 5217 
@@ -615,7 +615,7 @@ rev 1851 5310
 close: 6213,7180,5290,7466,7359,7159,7057,7054,7180,  6309,6547,6358,6340,7697,6540,6538,6419,6363,6367,
 
 rev 1871 5217
-6365:�ȸ�ƴ���İ����𶯹���ʧЧ
+6365:谷歌拼音的按键震动功能失效
 
 
 20140226
@@ -632,7 +632,7 @@ rev 1899 5217
 rev 1900 5310
 8102:8102 phoneNumber query_filter length=3
 rev 1901 5310
-7163:�ȸ����뷨��android���뷨�İ����񶯹��ܾ�û��ʵ��
+7163:谷歌输入法和android输入法的按键振动功能均没有实现
 7580
 7152
 7175
@@ -651,38 +651,38 @@ rev 1906 5310
 7990,
 
 rev 1907 5217
-6969:�绰������Ӧ���ں���
+6969:电话号码光标应该在后面
 rev 1908 5310
 
 rev 1915 5217
 
-5955:�龰ģʽ���ֵ������������޶�Ϊ15��
-3319:���뷨����ʱ���Ϊ100ms
+5955:情景模式名字的输入框的字数限定为15个
+3319:输入法的振动时间改为100ms
 rev 1916 5310
 
-7121:�½��龰ģʽ���о�������ܲ���,,�龰ģʽ�ѽ��˹���ȥ����ԭ���˵�ֻ���ûҲ�û��ȥ�������ھ������õĲ˵�ȥ��
-7281:�龰ģʽ���ֵ������������޶�Ϊ15��
-7483:�������龰ģʽ֮���һ��toast��ʾ
-8220:����������������С��ͬ�����龰ģʽ���
+7121:新建情景模式中有静音项但不能操作,,情景模式已将此功能去掉，原来菜单只是置灰并没有去除，现在静音设置的菜单去掉
+7281:情景模式名字的输入框的字数限定为15个
+7483:在重置情景模式之后给一个toast提示
+8220:音量键调节音量大小，同步到情景模式里边
 
 rev 1919 5217
-8235��fix bug 8235 media volume should not be changed in vibrate & silent mode
+8235：fix bug 8235 media volume should not be changed in vibrate & silent mode
 
 rev 1920 5310
-7479�������޸��ַ������룬��Ĭ��֪ͨ��ʾ������Ϊ��֪ͨ��ʾ����
+7479：重新修改字符串翻译，“默认通知提示音”改为“通知提示音”
 
 rev 1923 5217
-3665�����ÿ�ݷ�ʽ����˫�����úͶ࿨���ã����࿨����ȥ��
+3665：设置快捷方式中有双卡设置和多卡设置，将多卡设置去掉
 rev 1924 5310
 
 rev 1935 5217
-7460�����磬�������������������������������ʱ���������������������������������
+7460：来电，点击【音量】并滑动试听铃声，来电时，滑动【音量】框的铃声还会响起声音
 rev 1936 5310
 
 20140228
 
 rev 1951 5217
-7175:fix bug 7175 remove always selection while choosing ringtone,�ֻ�����ѡ����Ԥ���������ú��Զ����������õ�ѡ������óɲ������ϵ
+7175:fix bug 7175 remove always selection while choosing ringtone,手机铃声选择中预置铃声设置和自定义铃声设置的选择框被设置成不共存关系
 rev 1952 5310
 
 rev 1961 5310
@@ -692,31 +692,31 @@ rev 1961 5310
 20140303
 
 rev 1970 5217
-5332:remove ringtone & vibrate in voicemailȥ�����������е�֪ͨ����������
+5332:remove ringtone & vibrate in voicemail去除语音信箱中的通知音和振动设置
 rev 1971 5310
-7119����������������ʾ�����������������磻����ʱ�����������õ���ʾ��������ȥ�����������е���ʾ������ѡ��
-7114��������ŶԱȻ��ͺ��ŶԱȻ��ж�û��������ѡ�ȥ�����������е���ʾ������ѡ��
-7116����������������ʾ�����������ÿ�1��2������ʾ��ʱ���ᱻ�������ʾ��������ͬ������
-7158����SD������ϵ��ʱ���ܶർ����̽����������ٶȷǳ���
+7119：语音信箱设置提示音，该语音信箱来电；来电时铃声不是设置的提示音铃声：去除语音信箱中的提示音和振动选项
+7114：联想电信对比机和海信对比机中都没有这两个选项，去除语音信箱中的提示音和振动选项
+7116：语音信箱设置提示音，单独设置卡1或卡2的提提示音时；会被另外的提示音设置所同步设置
+7158：从SD导入联系人时，很多导入进程进度条，且速度非常慢
 
 rev 2012 5217
 8334:fix bug 8334,remove silent_dependency for silent_box had been removed
 rev 2021 5217
-7487:ʡ��ģʽ����Ϊ1��fix bug 7487,force brightness=1 in powersave mode
+7487:省电模式亮度为1，fix bug 7487,force brightness=1 in powersave mode
 rev 2022 5310
 8334,7487
 
-6631�������龰ģʽ������û�лָ�ΪĬ������
-3445���Զ����������������ļ�������ɾ������Ƶ����������û�лָ���Ĭ��
-7186���Զ�������������ɾ���������������޷��ָ���Ĭ��
-7113������-����-������ʾ����ѡ��������2����ȫ���������붼û����ʾ�� 
+6631：重置情景模式，铃声没有恢复为默认铃声
+3445：自定义来电铃声，从文件管理中删除此音频后，来电铃声没有恢复到默认
+7186：自定义来电铃声后删除该铃声，铃声无法恢复到默认
+7113：设置-声音-紧急提示音勾选报警，卡2呼出全部紧急号码都没有提示音 
 
 rev 2080 5217
-7188�����Ӵ�����sd������vcard�ļ�ѡ��
+7188：添加从外置sd卡导入vcard文件选项
 rev 2081 5310
 
 rev 2082 5217
-bug 7479,change strings for notification_sound selection��Ĭ��֪ͨ��ʾ��-��֪ͨ��ʾ��
+bug 7479,change strings for notification_sound selection，默认通知提示音-》通知提示音
 rev 2083 5310
 
 rev 2089 5217
@@ -724,11 +724,11 @@ bug 7188,vcard import from fileExplorer will not show dialog
 rev 2090 5310
 
 rev 2176 2177
-8759:�����������Ϊ�գ������̳���1��ѡ��1�������Ӻ��룬��ת�Ľ��治��ȷ
-7154:�����̳���1��������������룬�������沦�����Զ��������Ⲧ���������
-7600:�ն������ڿ�2���ظ��°��У���1�����޷���ʾ����.��ʾ���˵�ԭ������ΪGSM������ˣ��绰�޷����룬���ڵ�ͨ���ֻ��ⲻ������
+8759:语音信箱号码为空，拨号盘长按1键选择卡1——添加号码，跳转的界面不正确
+7154:拨号盘长按1呼出语音信箱号码，呼出界面拨号盘自动弹出虚拟拨号盘输入框
+7600:终端正处于卡2下载更新包中，卡1来电无法显示出来.显示不了的原因是因为GSM网络掉了，电话无法呼入，对于单通的手机这不是问题
 rev 2185 86
-7172:fix bug 7172,each profile has a own statusbar icon..�л������龰ģʽ������ֻ�ڻ���ģʽ�;���ģʽ��ʾ��Ӧͼ��
+7172:fix bug 7172,each profile has a own statusbar icon..切换各种情景模式，托盘只在会议模式和静音模式显示相应图标
 2187
 
 
@@ -739,1213 +739,1213 @@ bug 8825:fix bug 8825,Phone crashed when add voicemail number
 rev 2270 5310
 8825,8759
 rev 2273 5310
-7097:add default ip_prefix for cdma����cdmaĬ��ip����ǰ׺
+7097:add default ip_prefix for cdma添加cdma默认ip拨号前缀
 
 20140313
 rev 2298 5310
-9045:gsm ip���ű���
+9045:gsm ip拨号报错
 
 rev 2305 5310
-8603������ģʽ�������������Ա༭��û���û�������ѡ�� remove ringtone & vibrate settings in silent & vibrate mode
+8603：静音模式铃声和音量可以编辑，没有置灰这两个选项 remove ringtone & vibrate settings in silent & vibrate mode
 rev 2313 5310
-7359��fix bug 7359,media VolumePanel will not display while playing music in silent & vibrate mode
+7359：fix bug 7359,media VolumePanel will not display while playing music in silent & vibrate mode
 
 20140314
 rev 2335 5310
-7113,7107:fix bug 7113,add EmergencyTone for gsm,����-����-������ʾ����ѡ��������2����ȫ���������붼û����ʾ��
+7113,7107:fix bug 7113,add EmergencyTone for gsm,设置-声音-紧急提示音勾选报警，卡2呼出全部紧急号码都没有提示音
 
 20140317
 rev 2348 5310
-7154:we will not first showDialpad when dial a voicemailNumber.�����̳���1��������������룬�������沦�����Զ��������Ⲧ���������
+7154:we will not first showDialpad when dial a voicemailNumber.拨号盘长按1呼出语音信箱号码，呼出界面拨号盘自动弹出虚拟拨号盘输入框
 
 
 rev 2355 5217
-7198:ֱ�Ӳ���绰���뽫SIM1��ΪUIM1 
+7198:直接拨打电话，请将SIM1改为UIM1 
 
 rev 2358 5217
-5800:UIM������PIN��󣬽���������ʾ���ǡ�SUB1�� 
+5800:UIM卡开启PIN码后，解锁界面显示的是“SUB1” 
 
 rev 2377 5217
-3573:ͨ����¼�ϰ���ʱ�������̻���ֱ���
+3573:通话记录上百条时，拨号盘会出现报错
 rev 2378 5310
-7208:������_������_140212_ͨ����¼�ϰ���ʱ�������̻���ֱ���
+7208:拨号盘_陈立镇_140212_通话记录上百条时，拨号盘会出现报错
 
 
 20140324
-rev 2510 5310�� 2511 5217
-5777:��Ƶ��ɾ��ѡ��ֻ������
+rev 2510 5310， 2511 5217
+5777:视频，删除选项只有中文
 rev 2514 5310
-9342���Ƴ���װ֤��ѡ��
+9342：移除安装证书选项
 
 
 20140331
 rev 2699 5310
-bug 10763: ����Ϊ0%ʱ��ʾ�ػ�������-1S��-6S����ʾ���Զ��ػ� 
+bug 10763: 电量为0%时提示关机，出现-1S到-6S的提示后自动关机 
 
-bug 7239����̨���������ɱ�׼ģʽ�л�������ģʽ�����ģʽ��Ȼ�����лر�׼ģʽ�������Ǿ���
-bug 10932���ֱ�ر�˫���������ʾ��ѡ�ʧ
-bug 10083���龰ģʽʹ�ó���power����ʽ�������������ģʽ������ת����׼ģʽ�����ֱ����С����
-bug 6275���͵��������Ĺ����л��е͵�������ʾ��
+bug 7239：后台播放音乐由标准模式切换到静音模式或会议模式，然后再切回标准模式，音乐是静音
+bug 10932：分别关闭双卡后紧急提示音选项丢失
+bug 10083：情景模式使用长按power键方式调到静音或会议模式，在跳转到标准模式，音乐变成最小音量
+bug 6275：低电量开机的过程中会有低电量的提示音
 
 
 20130401
-bug 4766����������������ʱ��������������������Ƶһ�𲥷ţ�Ӱ����Ƶ����Ч�� 
+bug 4766：当弹出闹钟提醒时，闹钟提醒铃声会与视频一起播放，影响视频播放效果 
 
-bug 12221����̨���Ÿ������л�������ģʽ���޷��ٴӻ����л�����׼ģʽ
+bug 12221：后台播放歌曲，切换到会议模式，无法再从会议切换到标准模式
 
 20130402
-bug 10340:����sd�������������Ϊ��1��2��������ж��sd��������ϻ������Ի���绰��������ΪĬ��
-bug 8602:֪ͨ��ʾ���Զ���ѡ��sd���ĸ�����sd��ж�غ󣬸���ʾ��û�лָ�ΪĬ������
-bug 8207:�ָ��������ã�������Եĳ��ִ�������û����
-bug 5023:�Զ���SD���еĸ���Ϊ����������ж��sd����ε�SD���������ʾ��������ʾ���֣����ǡ�Ĭ����ʾ����message01��������Ĭ����ʾ����Message02����
+bug 10340:外置sd卡里的音乐设置为卡1或卡2的铃声，卸载sd卡，用配合机给测试机打电话，铃声不为默认
+bug 8602:通知提示音自定义选择sd卡的歌曲，sd卡卸载后，该提示音没有恢复为默认铃声
+bug 8207:恢复出厂设置，会概率性的出现触摸键盘没声音
+bug 5023:自定义SD卡中的歌曲为短信铃声，卸载sd卡或拔掉SD卡后短信提示音名称显示数字，不是“默认提示音（message01）”、“默认提示音（Message02）”
 
-bug 10054��WLAN�߼������е��ж��WAPI֤����ʾ��java.lang.NullPointerException��
-bug 5815�����ֻ���������ΪSD���еĸ�����ε�SD��������Ϊδ֪������ʵ����Ĭ�Ͽ�������
-bug 8972��ϵͳ�����б����������ģ��
+bug 10054：WLAN高级设置中点击卸载WAPI证书提示“java.lang.NullPointerException”
+bug 5815：将手机铃声设置为SD卡中的歌曲后拔掉SD卡铃声变为未知铃声且实际是默认酷派铃声
+bug 8972：系统铃声列表的字体会变大模糊
 
-bug 3393������������������ʾ��ͼƬ�кڿ�
+bug 3393：互动屏保启动后，显示的图片有黑框
 
 20140403
-bug 3560���������뷨��������˫���ո�����Ź�����Ч
-bug 3314  ���������к�ʱ����ѡ���еĲ������ʱ����ʱѡ���ͻ
+bug 3560：键盘输入法，设置中双击空格插入句号功能无效
+bug 3314  互动屏保中何时启动选项中的插入基座时与充电时选择冲突
 rev 2791 5217
-bug 6369������Android���������еĸ��Ӵʵ䣬���ˢ�£�����һֱͣ�������ڼ�����
+bug 6369：进入Android键盘设置中的附加词典，点击刷新，界面一直停留在正在加载中
 
 
 20140404
 rev 2806 5217
-bug 3573: �ֻ����д���ͨ����¼ʱ�������̽��벦�ţ���ʾ���ܱ�Ǹ��������ֹͣ���С�
+bug 3573: 手机有有大量通话记录时，拨号盘进入拨号，提示“很抱歉，拨号已停止运行”
 
 
 20140408
 rev 2810 5310
-bug 11782:�ֻ�ˢ�������������ڿ�ݷ�ʽ�иı���Ļ�����ȣ������龰ģʽ���׼�����顢��������ģʽ���ָ���ԭ����״̬
-bug 11382:�����龰ģʽ�󣬱�׼ģʽ��������Ϊ1�񣬲���5��
+bug 11782:手机刷完软件开机，在快捷方式中改变屏幕的亮度，重置情景模式后标准、会议、静音三种模式不恢复到原来的状态
+bug 11382:重置情景模式后，标准模式的音量变为1格，不是5格
 
 rev 2817 5217
-Bug 5823 - �����š��Զ���SD���еĸ���Ϊ����������ж��sd����ε�SD���������ʾ��������ʾ���֣����ǡ�Ĭ����ʾ����message01��������Ĭ����ʾ����Message02����
+Bug 5823 - 【短信】自定义SD卡中的歌曲为短信铃声，卸载sd卡或拔掉SD卡后短信提示音名称显示数字，不是“默认提示音（message01）”、“默认提示音（Message02）”
 
 20140416
 rev 2955 5310
-Bug 12179��������CQ��OEM5310_ϵͳ����_������_140408_��QVC��_��R��_monkey������settings����39��crashed
+Bug 12179：【宇龙CQ】OEM5310_系统设置_王晓鹏_140408_【QVC】_【R】_monkey测试中settings出现39次crashed
 
 20140418
 rev 2989 5217
-Bug 13024:�����á�ж��WAPI֤�飬�����ٵ����������ñ���
+Bug 13024:【设置】卸载WAPI证书，灭屏再点亮屏，设置报错
 
 20140421
 rev 3019 5310
-Bug 13231:���龰ģʽ����׼ģʽ�½��б༭������������Ϊ����������ʱ������Message12������
-Bug 12863�����龰ģʽ���ڱ�׼ģʽ���ֻ��������ܳɹ�����Ϊ����
+Bug 13231:【情景模式】标准模式下进行编辑，将铃声设置为静音，来电时铃声是Message12的铃声
+Bug 12863：【情景模式】在标准模式下手机铃声不能成功保存为静音
 
 20140423
 rev 3048 5217
-Bug 12839:�����á�֪ͨ��ʾ������Ϊ�Զ������������ļ���������ɾ���ø������鿴֪ͨ��ʾ����Coolpad��Ӧ����Bell
+Bug 12839:【设置】通知提示音设置为自定义铃声，在文件管理器中删除该歌曲，查看通知提示音是Coolpad，应该是Bell
 
 
 20140424
 rev 3065 5217
-Bug 13566:�������������α���������Ϸ�������װ��ʱ����ʾ�����α�����ֹͣ���С�
+Bug 13566:【第三方】酷游宝贝下载游戏，点击安装的时候提示“酷游宝贝已停止运行”
 rev 3068 5310
-Bug 13524:��ͼ�꡿�ڻ���������Ӧ�ù������ʱ��ͼ��û�и���Ϊ���µ�ͼ��
+Bug 13524:【图标】在互动屏保和应用管理里边时钟图标没有更换为最新的图标
 
 20140428
 5310
-Bug 8972:�����á�ϵͳ�����б����������ģ��
+Bug 8972:【设置】系统铃声列表的字体会变大模糊
 rev 3081 5310
-Bug 12889:���龰ģʽ��������������ģʽ
-Bug 9020:���龰ģʽ���½�һ���龰ģʽ��������Ϊһ���Զ��������������󣬱�׼ģʽ������Ҳ�ĳ��˸�����
-Bug 10918:�����á��ֻ���������ʾ�и�ʽΪ.jpg��ͼƬ. 
+Bug 12889:【情景模式】不能启动户外模式
+Bug 9020:【情景模式】新建一个情景模式，铃声换为一个自定义的铃声，保存后，标准模式的铃声也改成了该铃声
+Bug 10918:【设置】手机铃声中显示有格式为.jpg的图片. 
 
-Bug 14057:��c�����ں������ӹ��ܻ�Ӧ��ֻ���ֹ���ͼ��
-Bug 13984:��C�������ӳ���ͼ�����ת�ֻ�������ͼ�����
-Bug 14062:��C����������ʱ���㾲�����ȡ���������������
+Bug 14057:【c键】在横屏添加功能或应用只出现功能图标
+Bug 13984:【C键】添加程序图标后，旋转手机，程序图标会变大。
+Bug 14062:【C键】放音乐时，点静音随后取消静音，音量变大
 
 20140429
 rev3113 5310
-Bug 14056:��C����C�������ӻ��������������˵��еĻ�����ͼ�겻һ��
-Bug 14008:��C�������ȹ����а����Զ��������ȹ��ܣ������е������Զ����ڹ����Ѿ�ȥ��
+Bug 14056:【C键】C键中添加互联网功能与主菜单中的互联网图标不一致
+Bug 14008:【C键】亮度功能中包含自动调节亮度功能，设置中的亮度自动调节功能已经去掉
 
 
 20140430
 cp5217
-Bug 12978: ���龰ģʽ��������Ƶ�ļ����ɾ����������龰ģʽ���ڽ�����Ƶ�������������Ÿղŵ��ļ�����Ƶ�������������
-Bug 12902: ���龰ģʽ����׼ģʽ�²��Ÿ����������龰ģʽ�л������������������Ϊ��������������ɸ���
-Bug 6624: ���龰ģʽ�������ֻ������󰴷��ؼ��ڱ༭������ȡ������Ȼ�����˸��ĺ���ֻ����� 
-Bug 12986:���龰ģʽ����Ƶ������ͬ��
+Bug 12978: 【情景模式】播放视频文件调成静音，进入情景模式，在进入视频播放器继续播放刚才的文件，视频由无声变成有声
+Bug 12902: 【情景模式】标准模式下播放歌曲，进入情景模式切换到静音，声音不会变为静音并且声音变成更大
+Bug 6624: 【情景模式】更改手机铃声后按返回键在编辑界面点击取消，仍然保存了更改后的手机铃声 
+Bug 12986:【情景模式】视频声音不同步
 
 
 
 
 20140520
 lm8004 @rev 3746
-Bug 15509 �����á����á����ƶ����ݱ���com.android.phoneֹͣ����
+Bug 15509 【设置】设置——移动数据必现com.android.phone停止运行
 Bug 15528
 Bug 15535
-Bug 15441 - �����á�����洢�����֡��ܱ�Ǹ��������ֹͣ���С���ʾ
+Bug 15441 - 【设置】点击存储，出现“很抱歉，设置已停止运行”提示
 
 
 20140603
 lm8004
-Bug 16653 - �����á�����ֻ���������ʾ������ֹͣ����
-Bug 16724 - �����á�ȥ��Ӧ�ò�����ѡ�� 
+Bug 16653 - 【设置】点击手机铃声，提示设置已停止运行
+Bug 16724 - 【设置】去掉应用操作此选项 
 
 
 20140604
 lm8004
-Bug 17355 - ��������ѡ�������ѡ������ʱUSB����Ӧ��Ĭ��Ϊ�򿪣���Ȼ�û��޷�ʹ��
-Bug 15535 - ��˫�����á�����ƶ��������ã���ʾcom.android.phone��ֹͣ����
+Bug 17355 - 【开发者选项】开发者选项隐藏时USB调试应该默认为打开，不然用户无法使用
+Bug 15535 - 【双卡设置】点击移动网络设置，提示com.android.phone已停止运行
 
 
 20140605
 lm8004
-Bug 16831 - �����뷨���ȸ���ѹ����뷨��û�л��еĹ���
-Bug 15579 - ���������ֻ�û����������
-Bug 17475 - ��������������Դ���������ػ�����������������ģʽ.....����,�ֻ�����������״̬��5s֮����ʾ���Զ���ʧ
+Bug 16831 - 【输入法】谷歌和搜狗输入法，没有换行的功能
+Bug 15579 - 【其他】手机没有重启功能
+Bug 17475 - 【其他】长按电源键，弹出关机、重新启动、飞行模式.....界面,手机保持在亮屏状态，5s之后提示框自动消失
 
 
 20140606
 lm8004
-Bug 16695 - �����á����á���Ӧ�á���ȫ������ʱ��ͼ������˵�ͼ�겻һ��
-Bug 16641 - �����������޸Ľ���Ӧ�ú����Ͻ���ʾ��ͼ�� 
-Bug 16677 - �����á����á���Ӧ�á���ȫ������������ͼ������˵��ļ�����ͼ�겻һ�� 
-Bug 16693 - �����á����á���Ӧ�á���ȫ������¼����ͼ������˵�ͼ�겻һ��
-Bug 16696 - �����á����á���Ӧ�á���ȫ����������ͼ������˵�ͼ�겻һ��
-Bug 16699 - �����á����á���Ӧ�á���ȫ������ͼ��ͼ������˵�ͼ�겻һ��
-Bug 16702 - �����á����á���Ӧ�á���ȫ����������ͼ������˵�ͼ�겻һ��
-Bug 16400 - ���������������·�������Ƶ����ѡ�񲥷�������ʾ����Ȼ��ԭʼͼ��
-Bug 15671 - ����ȫ������Ļ������PIN����PIN�볬��8λ���������룬��������Ч
+Bug 16695 - 【设置】设置——应用——全部——时钟图标和主菜单图标不一致
+Bug 16641 - 【其他】请修改进入应用后左上角显示的图标 
+Bug 16677 - 【设置】设置——应用——全部——计算器图标和主菜单的计算器图标不一致 
+Bug 16693 - 【设置】设置——应用——全部——录音机图标和主菜单图标不一致
+Bug 16696 - 【设置】设置——应用——全部——设置图标和主菜单图标不一致
+Bug 16699 - 【设置】设置——应用——全部——图库图标和主菜单图标不一致
+Bug 16702 - 【设置】设置——应用——全部——音乐图标和主菜单图标不一致
+Bug 16400 - 【其他】乐桌面下分享和视频播放选择播放器，显示的依然是原始图标
+Bug 15671 - 【安全】在屏幕锁定中PIN输入PIN码超过8位，允许输入，且输入有效
 
 
 20140609
 lm8004
-Bug 16838 - ���龰ģʽ���������ȥ�����ߺͶ�λ�����µ�һϵ��ѡ��
+Bug 16838 - 【情景模式】建议可以去掉无线和定位部分下的一系列选项
 
 20140610
 lm8004
-Bug 16753 - ���龰ģʽ���ɹ������׼ģʽ����ʡ��ģʽ��֪ͨ����ͼ����Ȼ�ǻ���ģʽ��ͼ�� 
-Bug 15613 - ����ȫ����ȫ�е���֤Ӧ���ûҲ��ܹ�ѡ
-Bug 16768 - ���龰ģʽ��ϵͳĬ�ϵġ���׼�������顱���龳ģʽ�������������������
-Bug 15790 - ��ʱ�������ڡ��ر��Զ�ȷ��ʱ����ѡ��ʱ��ѡ��û�
-Bug 17086 - ���龰ģʽ����ǰ�龰ģʽ�³��������龰ģʽ�ޱ༭ѡ������޸�
+Bug 16753 - 【情景模式】成功激活标准模式或者省电模式，通知栏的图标仍然是会议模式的图标 
+Bug 15613 - 【安全】安全中的验证应用置灰不能勾选
+Bug 16768 - 【情景模式】系统默认的“标准”“会议”等情境模式可以重命名，建议灰置
+Bug 15790 - 【时间与日期】关闭自动确定时区，选择时区选项不置灰
+Bug 17086 - 【情景模式】当前情景模式下长按其他情景模式无编辑选项，不能修改
 
 
 20140611
 lm8004
-Bug 16661 - �����á�����ʾ�б�ֽ��ʾ�Ϳ�ݲ˵���ֽ��ʾ��һ��
-Bug 17056 - �����á��½��龰ģʽ���������µ��龰ģʽ���ٴν�����龰ģʽ�޷����б༭
-Bug 18168 - ���ػ�ѡ��ػ����̽����������������ʱû���𶯷�����
-Bug 16694 - �����á����޸����繲��WLAN�ȵ�����
-Bug 17082 - ���龰ģʽ�������龰ģʽ��һ���½��龰ģʽ����������������1�Ľ��棬ѡ��ر�֮�����á��ƶ�������ʾΪ�رգ�֪ͨ��             ��ʾ�ƶ�����ͼ�꣬������������
-Bug 15725 - ���龰ģʽ����power�������龳ģʽ���龳ģʽӦ�ò�ͬ��
-Bug 16189 - ���龰ģʽ����Ϊ����ʱ��׼ģʽ������������ģʽ
-Bug 16231 - ���龰ģʽ����̨�������֣��������ģʽ�༭���������ϼ�������ʾ�����޸�ý����������Ȼ����ѡ����ã���ʵ�ʻ�������            ����������
+Bug 16661 - 【设置】在显示中壁纸显示和快捷菜单壁纸显示不一致
+Bug 17056 - 【设置】新建情景模式并更换到新的情景模式，再次进入此情景模式无法进行编辑
+Bug 18168 - 【关机选项】关机进程结束，动画播放完毕时没有震动反馈。
+Bug 16694 - 【设置】请修改网络共享WLAN热点名称
+Bug 17082 - 【情景模式】进入情景模式第一次新建情景模式并启动，弹出附件1的界面，选择关闭之后设置—移动数据显示为关闭，通知栏             显示移动数据图标，还可以上网。
+Bug 15725 - 【情景模式】按power键设置情境模式，情境模式应用不同步
+Bug 16189 - 【情景模式】调为静音时标准模式不会跳到静音模式
+Bug 16231 - 【情景模式】后台播放音乐，进入会议模式编辑，按音量上键，不提示不能修改媒体音量，虽然铃声选项灰置，但实际还可以修            改铃声音量
 
 
 20140612
 lm8004
-Bug 16928 - ����ʾ�������ȵ�����ͣ�����龰ģʽģʽ����Ļ�Զ�����
-Bug 17105 - ���龰ģʽ���½�ֻ�������Ƶ��龰ģʽ�������ã��˳��ٽ����龰ģʽ�½����龰ģʽ������102��Ϊ1
-Bug 15552 - ������--��ʾ����Ļɫ���еı�׼ģʽ�����ģʽЧ��һ��
+Bug 16928 - 【显示】将亮度调到最低，点击情景模式模式后，屏幕自动变亮
+Bug 17105 - 【情景模式】新建只添加名称的情景模式长按启用，退出再进入情景模式新建的情景模式亮度由102变为1
+Bug 15552 - 【设置--显示】屏幕色彩中的标准模式与逼真模式效果一样
 
 
 20140613
 lm8004
-Bug 16186 - ���龰ģʽ��������Ƶ�ļ�������power���������Ի����ɱ�׼�л���������Ƶ��Ȼ������
-Bug 16154 - ���龰ģʽ�������龰ģʽ-�����༭-��������������Ŀ¼�������������治��ʾ��ѡ�������ƣ��������ӣ���������������
-Bug 16190 - �����á�����ȥ�������ֻ��ײ�
-Bug 17111 - ����ȫ�������ֻ�������Ч
+Bug 16186 - 【情景模式】播放视频文件，长按power键，弹出对话框由标准切换到静音视频依然有声音
+Bug 16154 - 【情景模式】进入情景模式-长按编辑-铃声，铃声设置目录下手里铃声下面不显示已选铃声名称，建议添加，参照设置中铃声
+Bug 16190 - 【设置】建议去掉管理手机套餐
+Bug 17111 - 【安全】加密手机功能无效
 
 
 20140616
 lm8004
-Bug 15948 - ��������ѡ���ʾ����"Ӧ������Ӧ"(ANF)��ʾ��ȫ
-Bug 17041 - �����á����ݺ����ò˵���û�б��ݹ��ܣ��뽫���ݵ����ø�Ϊ�ָ��������á�
-Bug 15942 - ��������ѡ��������汸�������е�ǰ��������������ʧ��
+Bug 15948 - 【开发者选项】显示所有"应用无响应"(ANF)显示不全
+Bug 17041 - 【设置】备份和重置菜单中没有备份功能，请将备份的重置改为恢复出厂设置。
+Bug 15942 - 【开发者选项】设置桌面备份密码中当前的完整备份密码失败
 
 
 20140617
 lm8004
-Bug 15808 - ��ʱ�������ڡ������ƶ������£���ѡ�Զ�ȷ��������ʱ�䣬ʱ����ʾ������ʱ�䲻ͬ��
-//Bug 17829 - ���������������������������������ʱ�����������ڲ���
-Bug 16128 - �����á��ֻ��л�����ʱ�������˵�������ʾ�����ݲ��ܼ�ʱ���¡�
-Bug 15584 - �����뷨�����android���̣��������������Ϊ�������ϣ���������ϲ���ʾ�����������
+Bug 15808 - 【时间与日期】插入移动网络下，勾选自动确定日期与时间，时间显示与网络时间不同步
+//Bug 17829 - 【蓝牙】连接蓝牙耳机，闹钟铃音响的时候，蓝牙耳机内不响
+Bug 16128 - 【设置】手机切换语言时，下拉菜单里面显示的内容不能及时更新。
+Bug 15584 - 【输入法】点击android键盘，语音输入键设置为主键盘上，虚拟键盘上不显示语音输入键。
 
 
 20140618
 lm8004
-Bug 17055 - �����á���ʾ�����ó���������븨�����������ô�����������С��ʾ��һ��
-Bug 18175 - ����ʱ���ػ������ùػ�ʱ��󣬵�ʱʱ�ػ���ʾ����ȷ
-Bug 16665 - �����á�����������ʾ��ʱ��Ӧ����
+Bug 17055 - 【设置】显示中设置超大号字体与辅助功能中设置大号字体字体大小显示不一致
+Bug 18175 - 【定时开关机】设置关机时间后，到时时关机提示不正确
+Bug 16665 - 【设置】开启触摸提示音时反应较慢
 
 
-Bug 20171 - ����ʱ���ػ��� ���ظ����￪�ػ������С�ȡ����ȷ�������ò�׼ȷ
-Bug 20311 - ����ʱ���ػ����ظ�ѡ����ѡ�񿪹ػ������д���
-Bug 19828 - ����ʱ�ػ����������͵����������Զ��ػ���������ʾ
+Bug 20171 - 【定时开关机】 “重复”里开关机日期中“取消、确定”设置不准确
+Bug 20311 - 【定时开关机】重复选项下选择开关机星期有错误
+Bug 19828 - 【定时关机】弹出“低电量，即将自动关机。”的提示
 
 
 20140624
 lm8004
-Bug 20311 - ����ʱ���ػ����ظ�ѡ����ѡ�񿪹ػ������д���
-Bug 20171 - ����ʱ���ػ��� ���ظ����￪�ػ������С�ȡ����ȷ�������ò�׼ȷ
+Bug 20311 - 【定时开关机】重复选项下选择开关机星期有错误
+Bug 20171 - 【定时开关机】 “重复”里开关机日期中“取消、确定”设置不准确
 
 20140625
 lm8004
-Bug 16139 - ���龰ģʽ���龰ģʽ�������������ģʽ������ת����׼ģʽ�����ֱ����С����
-Bug 18954 - ���龰ģʽ������ģʽ�£��ֻ��ػ������¿������ֻ�����ʱ������
-Bug 18556 - �����ɡ��������ʼ���ͨ��Ӧ����ϵ��Ⱥ��Ⱥ���ʼ����ʼ���ϵ�˱༭����ֻ��ʾ1����ϵ����Ϣ
-Bug 20748 - ������-Email����Ⱥ�ʼ�ֻ�ܷ��͸�һ����ϵ��
+Bug 16139 - 【情景模式】情景模式调到静音或会议模式，在跳转到标准模式，音乐变成最小音量
+Bug 18954 - 【情景模式】静音模式下，手机关机后重新开机，手机开机时有铃声
+Bug 18556 - 【海派】【电子邮件】通过应用联系人群组群发邮件，邮件联系人编辑框中只显示1个联系人信息
+Bug 20748 - 【评测-Email】发群邮件只能发送给一个联系人
 
 
 20140626
 lm8004
-Bug 20743 - ������-��ء��͵�������30s�Զ��ػ��Ҳ���������Ȼ������ػ�
-Bug 20926 - ���͵���������ʾ�͵����Զ��ػ��Ľ��棬��磬���ɹػ� 
-Bug 20879 - �����⡿����USB�رտ�����ģʽ��������ֹͣ���У�����20�γ���10�Σ�
+Bug 20743 - 【评测-电池】低电量不是30s自动关机且插入充电器仍然会继续关机
+Bug 20926 - 【低电量】在提示低电量自动关机的界面，充电，依旧关机 
+Bug 20879 - 【评测】连接USB关闭开发者模式出现设置停止运行（测试20次出现10次）
 
 
 
-Bug 20971 - ������-�龰ģʽ��������Ӣ���¸��ı�׼ģʽ�������±�׼ģʽ������Ҳ��ʾΪӢ��
+Bug 20971 - 【评测-情景模式，铃声】英文下更改标准模式后中文下标准模式的名称也显示为英文
 
-Bug 19706 - ���ʼ���ʹ��ExchangeЭ���½���䣬�����ռ����еĵ����ʼ��������������Ϊ0����ʾ���ʼ�
-Bug 20804 - �����Ժ����뷨���ȸ�ƴ�����뷨�����������벻������ 
+Bug 19706 - 【邮件】使用Exchange协议登陆邮箱，搜索收件箱中的电子邮件，搜索结果总是为0，显示无邮件
+Bug 20804 - 【语言和输入法】谷歌拼音输入法开启联想输入不起作用 
 
 
 20140630
 lm8004
-Bug 21496 - ����ʱ���ػ�����ʱ���ػ�û��ȷ����ȡ���Ĺ��� 
-Bug 21021 - ������-�����������Զ��ظ����λ�ó��� 
-Bug 21493 - ����ʱ���ػ�����ʱ����-24Сʱ�������ÿ���ʱ��00:00���ػ����Զ�����ʱ��Ϊ23:58����������ʱ�䲻һ��
+Bug 21496 - 【定时开关机】定时开关机没有确定和取消的功能 
+Bug 21021 - 【评测-日历】日历自动回复光标位置出错 
+Bug 21493 - 【定时开关机】定时开机-24小时制下设置开机时间00:00，关机后自动开机时间为23:58，与所设置时间不一致
 
 
 
 
-Bug 21206 - �����̽���������������ڵ��Ƕ�ý������������������(����)
+Bug 21206 - 拨号盘界面调节音量，调节的是多媒体音量不是来电铃声(分析)
 
 20140701
 lm8004
-Bug 21138 - ���龰ģʽ������ģʽ�²鿴������������غ�״̬����ʾ��ģʽ
-Bug 21169 - ������-���ֲ�����������/��ģʽ�������������������龰ģʽ��������4977
-Bug 21227 - ������-Settings������ת������TTS������е������ʾ��û�в��ż�̵������ϳ�ʾ��
+Bug 21138 - 【情景模式】静音模式下查看音量，点击返回后状态栏显示震动模式
+Bug 21169 - 【评测-音乐播放器】静音/振动模式下听歌增加音量后点击情景模式歌曲无声4977
+Bug 21227 - 【评测-Settings】文字转语音（TTS）输出中点击收听示例没有播放简短的语音合成示例
 
 20140702
 lm8004
-Bug 21175 - ������-�龰ģʽ��������ɾ����������������ʱ�龰ģʽ�п�2��������ʾΪδ֪����
-Bug 21265 - �����֡���������¼���ļ�����Ϊ�ֻ��������ٽ�������¼���ļ�ɾ�����ֻ�������ʾ�쳣
-Bug 21233 - ������-��ء�����16%-20%����������ʾ�������ĳ����
-Bug 21278 - ������-��ء��͵�����ʾ���͵����Զ��ػ����������ʾ����ȷ
+Bug 21175 - 【评测-情景模式，铃声】删除用作铃声的音乐时情景模式中卡2的铃声显示为未知铃声
+Bug 21265 - 【音乐】将歌曲或录音文件甚至为手机铃声后，再将歌曲或录音文件删除，手机铃声显示异常
+Bug 21233 - 【评测-电池】电量16%-20%锁屏界面显示连接您的充电器
+Bug 21278 - 【评测-电池】低电量提示及低电量自动关机后充电电量显示不正确
 
 
-Bug 17614 - �����ɡ�����ϵ�ˡ���ϵ�˵�����ֻ��ϵͳĬ�ϵģ����ܴ�sd����ѡ�� 
-Bug 21361 - ������-Settings����SD����װ֤��ʧ�� 
+Bug 17614 - 【海派】【联系人】联系人的铃声只有系统默认的，不能从sd卡上选择 
+Bug 21361 - 【评测-Settings】从SD卡安装证书失败 
 
 
-Bug 21138 - ���龰ģʽ������ģʽ�²鿴������������غ�״̬����ʾ��ģʽ
-Bug 20804 - �����Ժ����뷨���ȸ�ƴ�����뷨�����������벻������
-Bug 22185 - ��ϵͳ����Recoveryģʽ��T�������󿪻������� 
-Bug 16665 - �����á�����������ʾ��ʱ��Ӧ����
-Bug 21520 - �����á���ʱ���ػ�����Ϊ12������/����������Чʱ�䲻һ��
-Bug 22373 - ������-������ʱ������ڽ���ȡ����ѡʹ�������ṩ��ʱ���޷�����ʱ�䣨���Թ����г���10�Σ�
-Bug 22825 - �����á���ʱ���Ϊ��ȥ��ʱ�䣬���¿���֮��ʱ���Ϊ2014��1��1��0��0��
+Bug 21138 - 【情景模式】静音模式下查看音量，点击返回后状态栏显示震动模式
+Bug 20804 - 【语言和输入法】谷歌拼音输入法开启联想输入不起作用
+Bug 22185 - 【系统升级Recovery模式】T卡升级后开机无铃声 
+Bug 16665 - 【设置】开启触摸提示音时反应较慢
+Bug 21520 - 【设置】定时开关机设置为12点上午/下午提醒生效时间不一致
+Bug 22373 - 【评测-其他】时间和日期界面取消勾选使用网络提供的时间无法设置时间（测试过程中出现10次）
+Bug 22825 - 【设置】将时间改为过去的时间，重新开机之后时间变为2014年1月1日0点0分
 
 
 20140710
 lm8004
-Bug 23237 - ��Ч��������LCD�͹۲��ԣ���Ļ�������L=25��ƫ��
-Bug 22535 - �����ӡ������Զ��������ػ��ٿ������������ӣ�ʱ�䵽����������
+Bug 23237 - 【效果评估】LCD客观测试，屏幕最低亮度L=25，偏高
+Bug 22535 - 【闹钟】开机自动开机，关机再开机后，设置闹钟，时间到闹钟无提醒
 
 
 20140711
 aiken
-Bug 23404 - �����á������Ŵ����ƣ��������㰴������Ļ�Ŵ󣬽����޷������ƶ�
-Bug 20819 - �����롿������-SW_E2E_�ְ�ȫ�������ռ䰲װӦ�ù����е���Ȩ�޿���ֹͣ���У����Թ����г���2�Σ�
-Bug 23361 - ��ϵͳ������OTA�������ֻ�������ʱ��ֻ������û�ж��� 
+Bug 23404 - 【设置】开启放大手势，任意界面点按三次屏幕放大，界面无法左右移动
+Bug 20819 - 【联想】【评测-SW_E2E_乐安全】天翼空间安装应用过程中弹出权限控制停止运行（测试过程中出现2次）
+Bug 23361 - 【系统升级】OTA升级，手机重启的时候只用铃声没有动画 
 
 
-Bug 16928 - ����ʾ�������ȵ�����ͣ�����龰ģʽģʽ����Ļ�Զ�����
+Bug 16928 - 【显示】将亮度调到最低，点击情景模式模式后，屏幕自动变亮
 
 
 20140728
 LQ8007
-Bug x  ���¹ػ���ʾ������¶ȳ���68��ʱ������ʾ����¶ȹ��ߣ�Ȼ��ػ�
-Bug 25565 - [setting]�����Ժͼ������ã�����Android���뷨Ϊ����ʱ�𶯣������а���ʱ����
-Bug 25590 - �����á���ѡ������ʱ�񶯡���������
+Bug x  高温关机提示，电池温度超过68度时，会提示电池温度过高，然后关机
+Bug 25565 - [setting]对语言和键盘设置，设置Android输入法为按键时震动，操作中按键时无震动
+Bug 25590 - 【设置】勾选“触摸时振动”不起作用
 
 20140730
 LQ8007
-Bug 25706 - �����á�������Ļ��Ϊͼ��ʱ���л�Ϊ����������������ť�û�
-Bug 25707 - �����á�����ģʽ��������Ļ��ΪPIN�����ý���Ϊ�ڵ׺��֣����治���ۣ�����ģʽΪ�׵׺��֣�
+Bug 25706 - 【设置】设置屏幕锁为图案时，切换为横屏，“继续”按钮置灰
+Bug 25707 - 【设置】横屏模式下设置屏幕锁为PIN，设置界面为黑底黑字，界面不美观（竖屏模式为白底黑字）
 
 
 20140731
 LQ8007
-Bug 26085 - ���龰ģʽ����ˢ������벦���̣��д�����Ч�������龰ģʽ�в鿴���˳��ٽ��벦���̣�û�д�����Ч��
+Bug 26085 - 【情景模式】刚刷完机进入拨号盘，有触摸音效，进入情景模式中查看，退出再进入拨号盘，没有触摸音效了
 
-Bug 25884 - ����׼����������Դ��������ѡ��˵������ػ�����������������ģʽ�Լ��������񶯡���׼���������������ͼ��
+Bug 25884 - 【标准化】长按电源键，弹出选项菜单包括关机、重新启动、飞行模式以及静音、振动、标准，但不包括户外的图标
 
 
 
-Bug 26295 - �����⡿�״ν����ֻ������̰���������
+Bug 26295 - 【评测】首次进入手机拨号盘按键有声音
 
-Bug 26275 - �����⡿GSM����׼��Ϣ��������Ϊ�������յ���Ϣ�Ծ�����ʾ��
-Bug 26297 - �����⡿����������ģʽ�½�ͼ������
+Bug 26275 - 【评测】GSM卡标准信息短信设置为静音后收到信息仍旧有提示音
+Bug 26297 - 【评测】静音或者振动模式下截图有声音
 
 
 20140804
 LQ8007
-Bug 26308 - �����⡿�龰ģʽ����������޷����»���
-Bug 26310 - �����⡿�����������þ�������鿴��ʾΪSalt water
-Bug 26467 - �����⡿�龰ģʽ��׼�ͻ�������Ϣ���������ٽ���鿴��ʾΪHeaven nearby 
+Bug 26308 - 【评测】情景模式界面横屏后无法上下滑动
+Bug 26310 - 【评测】来电铃声设置静音进入查看显示为Salt water
+Bug 26467 - 【评测】情景模式标准和户外下信息铃声静音再进入查看显示为Heaven nearby 
 
 
 20140805
 LQ8007
-Bug 26303 - �����⡿���ֲ������н���������Ϊ�ֻ���������δʵ�֣����֣�
-Bug 26493 - �����⡿��ϵ�˸��๦���������д򿪲��������ܽ����龰ģʽ������ʵ�ʲ���
-Bug 26458 - �����⡿��׼ģʽ�²鿴����ģʽ����������ʾΪ��׼ģʽ��������
-Bug 26620 - �����⡿ͨ�������й�ѡ���ż��̴�����Ч��δͬ�����龰ģʽ
+Bug 26303 - 【评测】音乐播放器中将歌曲设置为手机铃声功能未实现（必现）
+Bug 26493 - 【评测】联系人更多功能与设置中打开拨号音功能进入情景模式后结果与实际不符
+Bug 26458 - 【评测】标准模式下查看户外模式来电铃声显示为标准模式来电铃声
+Bug 26620 - 【评测】通话设置中勾选拨号键盘触摸音效后未同步至情景模式
 
 20140806
-Bug 26566 - �����⡿��ѡ���ٿ�����ػ��������޶����ҹػ�����������޷�����
-Bug 26463 - �����⡿ͨ�������ж�ʱ�ػ�����ʧЧ
-Bug 26422 - �����⡿����ģʽ������������ʾ��ʵ�ʲ���
+Bug 26566 - 【评测】勾选快速开机后关机有声音无动画且关机后插入充电器无法亮屏
+Bug 26463 - 【评测】通话过程中定时关机功能失效
+Bug 26422 - 【评测】户外模式下来电铃声显示与实际不符
 
 
 20140807
-Bug 26297 - �����⡿����������ģʽ�½�ͼ������
-Bug 26508 - �����⡿��������ģʽ�¿��ػ�������
-Bug 26504 - �����⡿�龰ģʽ��ȡ����ѡ���ػ��������ȡ��ȴ�Ծ�Ϊȡ����ѡ
+Bug 26297 - 【评测】静音或者振动模式下截图有声音
+Bug 26508 - 【评测】静音或振动模式下开关机有铃声
+Bug 26504 - 【评测】情景模式中取消勾选开关机铃声点击取消却仍旧为取消勾选
 
 
 
-Bug 26464 - �����⡿����power��ģʽͼ�����龰ģʽ��һ��
+Bug 26464 - 【评测】长按power键模式图标与情景模式不一致
 
 20140811
-Bug 25884 - ����׼����������Դ��������ѡ��˵������ػ�����������������ģʽ�Լ��������񶯡���׼���������������ͼ��
+Bug 25884 - 【标准化】长按电源键，弹出选项菜单包括关机、重新启动、飞行模式以及静音、振动、标准，但不包括户外的图标
 
 
-Bug 26618 - �����⡿T�������ɹ�������ʾ��
-Bug 28132 - ���龰ģʽ������ģʽ�£��༭��׼ģʽ���߻���ģʽ�е��������������غ�Ӿ���ģʽ��Ϊ��ģʽ 
-Bug 27044 - ����ͨר�����׼�淶�������³�����Դ��������ѡ��˵���淶���� 
+Bug 26618 - 【评测】T卡升级成功后无提示语
+Bug 28132 - 【情景模式】静音模式下，编辑标准模式或者户外模式中的铃声音量，返回后从静音模式变为振动模式 
+Bug 27044 - 【普通专项】【标准规范】亮屏下长按电源键，弹出选项菜单与规范不符 
 
-Bug 28317 - �����⡿��ȫ����PIN����������������ʾ�ﲻһ��
+Bug 28317 - 【评测】安全锁屏PIN和密码界面横竖屏提示语不一致
 
 
-Bug 28287 - �����⡿������������󰴻س����޷����������������г���һ�Σ�
-Bug 26572 - �����⡿��/����ģʽ�������κ�������������Ϣ��������ɹ���ʵ�ʾ�ΪĬ������
+Bug 28287 - 【评测】解锁输入密码后按回车键无法正常解锁（测试中出现一次）
+Bug 26572 - 【评测】振动/静音模式下设置任何来电铃声和信息铃声保存成功后实际均为默认铃声
 
 
 0814
-Bug 28773 - �����桿�ָ��������ú󳤰�power���������龰ģʽ�Ի�����δѡ���κ�ģʽ 
-Bug 28132 - ���龰ģʽ������ģʽ�£��༭��׼ģʽ���߻���ģʽ�е��������������غ�Ӿ���ģʽ��Ϊ��ģʽ
+Bug 28773 - 【桌面】恢复出厂设置后长按power键，弹出情景模式对话框中未选中任何模式 
+Bug 28132 - 【情景模式】静音模式下，编辑标准模式或者户外模式中的铃声音量，返回后从静音模式变为振动模式
 
 
 0815
-Bug 28778 - �����á�����power��ѡ����ģʽ������ģʽֻʵ����������
-Bug 26618 - �����⡿T�������ɹ�������ʾ��
+Bug 28778 - 【设置】长按power键选择户外模式，户外模式只实现响铃无震动
+Bug 26618 - 【评测】T卡升级成功后无提示语
 
 0818
-Bug 29022 - ���龰ģʽ���ֻ�Ϊ����ģʽʱ������������ٰγ�������ģʽ�������ģʽ
-Bug 29241 - ���龰ģʽ������power�޸��龰ģʽ�����������龰ģʽ�в鿴���������龰ģʽֹͣ����
+Bug 29022 - 【情景模式】手机为静音模式时，插入耳机后再拔出，静音模式变成了震动模式
+Bug 29241 - 【情景模式】长按power修改情景模式，进入设置情景模式中查看，报错，情景模式停止运行
 
 
-Bug 29100 - �����á����뿪��PIN���UIM��������3�δ����PIN�룬����PUK������󣬻��ᵯ������PUK�����
-Bug 29264 - �����á��龰ģʽ�б༭ģʽ���水ȡ����back��δ���ص���һ�˵�
+Bug 29100 - 【设置】插入开启PIN码的UIM卡，输入3次错误的PIN码，输入PUK码解锁后，还会弹出输入PUK码界面
+Bug 29264 - 【设置】情景模式中编辑模式界面按取消或back键未返回到上一菜单
 
 
 
 0826
-Bug 30190 - �����⡿Ӣ���»����������������Ĳ�һ��
-Bug 30198 - �����⡿��ȫ��������PIN/���뷽ʽ����������ɫ��������һ��
+Bug 30190 - 【评测】英文下互动屏保翻译与中文不一致
+Bug 30198 - 【评测】安全锁屏解锁PIN/密码方式输入密码颜色横竖屏不一致
 
 
-Bug 30228 - ��֪ͨ�����ֻ��϶��¶ȴﵽ51�����ҵ�ʱ������USB����ʾ���ͼ��
-Bug 30285 - [STBL_Monkey][����]�����쳣��java.lang.IllegalArgumentException
-Bug 30675 - ��UI��״̬����ť��ɫ��ʾΪ��ɫ����UI���� 
-Bug 30686 - ��UI�������������ã���ѡ����һ�������������Ρ��򿨲۶����ֶ�ѡ����ʱ���Թ���ɫΪ��ɫ
+Bug 30228 - 【通知栏】手机上端温度达到51度左右的时候，连接USB不显示充电图标
+Bug 30285 - [STBL_Monkey][设置]发生异常：java.lang.IllegalArgumentException
+Bug 30675 - 【UI】状态栏按钮颜色显示为蓝色，与UI不符 
+Bug 30686 - 【UI】国际漫游设置，勾选卡槽一“国际数据漫游”或卡槽二“手动选网”时，对勾颜色为蓝色
 
 
-Bug 30944 - �����á�������SIM��PIN����棬��������ģʽ��������ȻΪ����SIM��PIN����档
-Bug 30682 - ���龰ģʽ���龰ģʽ�л�Ϊ����ģʽ��ͨ������������龰ģʽ�л�Ϊ����ģʽ���ٴν����龰ģʽӦ���龰ģʽ�л�Ϊ����ģʽ
-Bug 31188 - ���龰ģʽ�����龰ģʽ�����������ֱ���˵����ý��档
+Bug 30944 - 【设置】在输入SIM卡PIN码界面，开启飞行模式，界面仍然为输入SIM卡PIN码界面。
+Bug 30682 - 【情景模式】情景模式切换为户外模式，通过音量侧键将情景模式切换为静音模式，再次进入情景模式应用情景模式切换为户外模式
+Bug 31188 - 【情景模式】在情景模式锁屏后解锁，直接退到设置界面。
 
 
 0903
-Bug 31606 - ���龰ģʽ���ֻ���һ�ο������������ʾ���Ƚ����龰ģʽѡ���׼ģʽ��Ĵ�����ʾ��С
-Bug 28705 - �����á�ģʽ�л�������ģʽ��鿴��׼ģʽ��Ĭ��֪ͨ��ʾ���ı�
+Bug 31606 - 【情景模式】手机第一次开机点击触摸提示音比进入情景模式选择标准模式后的触摸提示音小
+Bug 28705 - 【设置】模式切换到户外模式后查看标准模式，默认通知提示音改变
 
 
-Bug 31322 - ����������������˵����ֻ�������ż���ᵯ��������������Ӧ�� 
-Bug 28776 - �����á�������ʱ���ػ����Զ��ػ��󵽶�ʱ����ʱ�䲻���Զ�����
-Bug 30487 - ���ػ��������ػ���������ʾ״̬������Ϣ
-Bug 31261 - �����������������������Ҳ���������ʾ�� 
+Bug 31322 - 【其它】长按任意菜单后手机死机，偶尔会弹出“启动器无响应” 
+Bug 28776 - 【设置】开启定时开关机，自动关机后到定时开机时间不会自动开机
+Bug 30487 - 【关机动画】关机动画后还显示状态栏中信息
+Bug 31261 - 【解锁】锁屏后两秒钟左右才有锁屏提示音 
 
-Bug 31367 - �����á�Ĭ���龰ģʽ���޷���������ʱ��
+Bug 31367 - 【设置】默认情景模式内无法设置响铃时振动
 
 
 0909
-Bug 31621 - ��VPMר�� ���á��ֻ��龰ģʽ�е�������Сͨ��������������ڵ���7��ʱ���ܼ����������������
-Bug 30682 - ���龰ģʽ���龰ģʽ�л�Ϊ����ģʽ��ͨ������������龰ģʽ�л�Ϊ����ģʽ���ٴν����龰ģʽӦ���龰ģʽ�л�Ϊ����ģʽ 
+Bug 31621 - 【VPM专项 设置】手机情景模式中的铃声大小通过侧键音量键调节到第7格时不能继续将音量调到最大。
+Bug 30682 - 【情景模式】情景模式切换为户外模式，通过音量侧键将情景模式切换为静音模式，再次进入情景模式应用情景模式切换为户外模式 
 
 
 0910
-Bug 32260 - ���龰ģʽ����׼ģʽ�ͻ���ģʽ��ѡ��״̬��û��ͼ����ʾ
-Bug 32206 - ���Ŵ����ơ������Ŵ����ƹ��ܺ���ĳЩ�༭��ɾ���ַ�������������ɾ���ַ�ʱ����ĻҲ���󣬲������û�����
-Bug 32293 - ���ͻ����󡿿ͻ�Ҫ������µ����� 
-Bug 31787 - ��ϵͳ�����ýϰ�ͼƬΪ��ֽʱ�����˵�Ӧ�������ֲ�������ʶ��
-Bug 31224 - ��С��������Ӣ��ģʽ��ѡ�����峬�󣬽��ҵ��ղغ��ļ������������棬С�����ַ���ʾ��ȫ
-Bug 28800 - ����ý�塿�����������Ƶ���ε������������������Ӻ�4S�Ų���
-Bug 32138 - ��idle���ֻ���idle������ʾ��Ĭ�ϱ�ֽ�����Ե�����
+Bug 32260 - 【情景模式】标准模式和户外模式勾选后状态栏没有图标显示
+Bug 32206 - 【放大手势】开启放大手势功能后，在某些编辑或删除字符界面快速输入或删除字符时，屏幕也会变大，不方便用户操作
+Bug 32293 - 【客户需求】客户要求更换新的铃声 
+Bug 31787 - 【系统】设置较白图片为壁纸时，主菜单应用名部分不能正常识别
+Bug 31224 - 【小部件】在英文模式下选择字体超大，将我的收藏和文件管理拖至桌面，小部件字符显示不全
+Bug 28800 - 【流媒体】插入耳机看视频，拔掉耳机，扬声器声音延后4S才播放
+Bug 32138 - 【idle】手机的idle界面显示的默认壁纸有明显的竖条
 
 
 
 0911
-Bug 32497 - �����á��������ò鿴����������ֻ�������ʾ
-Bug 32399 - �����á������Ŵ����ƹ��ܺ���������3�·Ŵ�����Ӧ�û������ɫ�߿�
-Bug 31863 - �����á�����̬��ֽ�ĵ�һ���������ͼƬ����Ϊ��ֽ��ʵ�ʱ�ֽ��ͼƬ���� 
-Bug 32658 - ����������������������Ϣ���ݻ�����Ϣ���ͻ�����ߺ��룬���ɸѡ���Ľ�������ʾ��0�����ϡ�������
-Bug 32563 - ���������ֻ�ʹ�ù����У��Զ��������������ֻ���ֽ�ı�
+Bug 32497 - 【设置】进入设置查看电池有俩个手机待机显示
+Bug 32399 - 【设置】开启放大手势功能后在桌面点击3下放大后进入应用会出现蓝色边框
+Bug 31863 - 【设置】将静态壁纸的第一个带气球的图片设置为壁纸，实际壁纸与图片不符 
+Bug 32658 - 【搜索】搜索框中输入信息内容或者信息发送或接收者号码，点击筛选出的结果后会提示“0条符合。。。”
+Bug 32563 - 【其他】手机使用过程中，自动开机并开机后手机壁纸改变
 
 
 
 0912
-Bug 32872 - ����Ƶ����Ƶ��������ǩ�����������ظ���ǩ
-Bug 28705 - �����á�ģʽ�л�������ģʽ��鿴��׼ģʽ��Ĭ��֪ͨ��ʾ���ı�
-Bug 30451 - �����á��������ǻ���ģʽ������״̬�����л�Ϊ����Ĭ�ϣ�������ò鿴���ǻ���ģʽ
+Bug 32872 - 【视频】视频，添加书签，可以添加重复书签
+Bug 28705 - 【设置】模式切换到户外模式后查看标准模式，默认通知提示音改变
+Bug 30451 - 【设置】设置中是会议模式，下拉状态栏中切换为响铃默认，点击设置查看还是会议模式
 
-Bug 32432 - �����⡿���龰ģʽ����������л��龰ģʽ�������ý����龰ģʽ��ʾ��һ��
-Bug 32821 - �����⡿���龰ģʽ��������������ʱ��home�������������л�Ϊ���ĺ������
-Bug 32483 - �����⡿����ʱ���ػ����Զ��ػ�����ʱ�����������Զ��ػ�δֹͣ
-Bug 32489 - �����⡿���������龰ģʽ�е���������Сʱ�����л�Ϊ���ں������
+Bug 32432 - 【评测】【情景模式】音量侧键切换情景模式后与设置界面情景模式显示不一致
+Bug 32821 - 【评测】【情景模式】设置来电铃声时按home键来电铃声被切换为更改后的铃声
+Bug 32483 - 【评测】【定时开关机】自动关机倒计时过程中来电自动关机未停止
+Bug 32489 - 【评测】【音量】情景模式中调节音量大小时重启切换为调节后的音量
 
 
 0915
-Bug 32979 - ��other�����Ӵ���С���������繲�����Яʽ�ȵ㡱������������ʾ��ȫ
-Bug 32941 - ������������л������С������home�����ص����˵����棬������Ļ�����֡������������� 
-Bug 32806 - �����á��ʻ��﹫˾����û��������,�����ֶ�ѡ������
-Bug 32012 - �����⡿������������������ʾ����������Ķ���������Ļ�������
-Bug 31545 - ��Android ���̡��ָ��������ú�Ӧ�г������˵��С�Android ���̣�AOSP��������һ���ò˵��Զ���ʧ
+Bug 32979 - 【other】添加窗口小部件“网络共享与便携式热点”到桌面名称显示不全
+Bug 32941 - 【其他】多次切换字体大小，并按home键返回到主菜单界面，滑动屏幕，出现‘启动器报错’ 
+Bug 32806 - 【设置】帐户里公司邮箱没有作限制,可以手动选择类型
+Bug 32012 - 【背光】不插耳机点击收音机提示“请插入您的耳机”是屏幕背光会闪
+Bug 31545 - 【Android 键盘】恢复出厂设置后应有程序主菜单有“Android 键盘（AOSP）”，过一会后该菜单自动消失
 
 0916
-Bug 30451 - �����á��������ǻ���ģʽ������״̬�����л�Ϊ����Ĭ�ϣ�������ò鿴���ǻ���ģʽ
-Bug 33091 - �����⡿С���㲥������ʾ�����ϵͳ��ͳһ
-Bug 33188 - ��UI�������������ã���ѡ����һ�������������Ρ��򿨲۶����ֶ�ѡ����ʱ��highlight���Թ���ɫΪ��ɫ
-Bug 33185 - ��UI��С�����������Ƶ���ɫ��ʾΪ��ɫ
+Bug 30451 - 【设置】设置中是会议模式，下拉状态栏中切换为响铃默认，点击设置查看还是会议模式
+Bug 33091 - 【评测】小区广播界面显示风格与系统不统一
+Bug 33188 - 【UI】国际漫游设置，勾选卡槽一“国际数据漫游”或卡槽二“手动选网”时，highlight及对勾颜色为绿色
+Bug 33185 - 【UI】小部件电量控制的颜色显示为绿色
 
 
 
-Bug 33255 - ���龰ģʽ�����𶯻��߾���ģʽ����������-�龰ģʽ��������⣬ֱ��������׼
-Bug 33189 - �����⡿ϵͳ�����Ӳ˵���������󷵻��˳������һ�����
+Bug 33255 - 【情景模式】在震动或者静音模式，进入设置-情景模式，点击户外，直接跳到标准
+Bug 33189 - 【评测】系统设置子菜单界面横屏后返回退出会出现一半黑屏
 
 
-Bug 33144 - �����á���ε����ؽ������Ϸ���ˢ�°�ť����ʾ������ֹͣ���С�
-Bug 28483 - ����ء��͵絽�Զ��ػ���û�йػ�����ʱ���ػ�����
+Bug 33144 - 【设置】多次点击电池界面右上方的刷新按钮，提示‘设置停止运行’
+Bug 28483 - 【电池】低电到自动关机，没有关机倒计时、关机铃声
 
 
-Bug 33371 - �����ӡ�����ʱ����ʾΪ12Сʱʱ��������ʱ��С��������ʾ�������磬�����Ż�
-Bug 27160 - �����á��龰ģʽ����ģʽ����ģʽ����Ӧ���ûһ����޷�ѡȡ
-Bug 33392 - ����ͨר�����׼�淶��ϵͳ��ͨ����淶���� 
+Bug 33371 - 【闹钟】设置时间显示为12小时时添加数字时钟小部件不显示上午下午，建议优化
+Bug 27160 - 【设置】情景模式静音模式和振动模式设置应该置灰或是无法选取
+Bug 33392 - 【普通专项】【标准规范】系统音通道与规范不符 
 
 
-Bug 33441 - ����������������������ʱ��������δʵ��
+Bug 33441 - 【互动屏保】互动屏保何时启动功能未实现
 
 
 
-Bug 31787 - ��ϵͳ�����ýϰ�ͼƬΪ��ֽʱ�����˵�Ӧ�������ֲ�������ʶ��
+Bug 31787 - 【系统】设置较白图片为壁纸时，主菜单应用名部分不能正常识别
 
 
 
 20140922
-Bug 33079 - ��Idle��������Ǻ�ɫ�������������ٽ�����״̬����ɫ����ʾ��ɫ����ʱ�޷������ֻ��źš�ʱ����ַ���ͼ�� 
-Bug 31405 - ���龰ģʽ��ѡ�����ģʽ������������ģʽδ�ı� 
-Bug 33790 - ��launcher������������ָ�����������������ʾ������ֹͣ����
-Bug 32986 - ��idle���������������޷�����Ӧ�ã�V1802�汾���Ƴ����������Ĺ̶�������
-Bug 31502 - ����������δ�����ĵ绰����Ϣʱ�����ᴥ������ť�������ʾ��������������
+Bug 33079 - 【Idle】在任意非黑色背景界面锁屏再解锁后状态栏底色仍显示白色，此时无法看清手机信号、时间等字符或图标 
+Bug 31405 - 【情景模式】选择会议模式，调解音量，模式未改变 
+Bug 33790 - 【launcher】升级开机或恢复出厂开机概率性提示启动器停止运行
+Bug 32986 - 【idle】待机顶部区域无法放置应用（V1802版本已移除待机顶部的固定搜索框）
+Bug 31502 - 【锁屏】有未处理的电话和信息时锁屏轻触解锁按钮界面仅显示数量（见附件）
 
 
-Bug 32885 - �����á�Ĭ���龰ģʽ���޷���������ʱ��
-Bug 33653 - ���������á����人��ʹ��֧������������ʱ���ֻ�����һ������
-Bug 33938 - ������С�������ֻ���֧�ֶ�λ����������С���ڲ���������ʾ��λͼ�� 
-Bug 33887 - ��CMCC �Բ⡿������С�������ֻ���֧�ֶ�λ����������С���ڲ�����ʾ��λͼ��
-Bug 34022 - �����⡿[�龰ģʽ]������ģʽ���޷��л�������ģʽ
+Bug 32885 - 【设置】默认情景模式内无法设置响铃时振动
+Bug 33653 - 【大区试用】【武汉】使用支付宝软件付款时，手机出现一次死机
+Bug 33938 - 【窗口小部件】手机不支持定位，电量控制小窗口部件还是显示定位图标 
+Bug 33887 - 【CMCC 自测】【窗口小部件】手机不支持定位，电量控制小窗口部件显示定位图标
+Bug 34022 - 【评测】[情景模式]静音振动模式下无法切换到户外模式
 
 
 0924
-Bug 33189 - �����⡿ϵͳ�����Ӳ˵���������󷵻��˳������һ����� 
-Bug 34235 - �����⡿[�龰ģʽ]�龰ģʽ�л�������������ʾ����
-Bug 34177 - �����⡿[�龰ģʽ]����Power���ӱ�׼�е��������޷��л�������
+Bug 33189 - 【评测】系统设置子菜单界面横屏后返回退出会出现一半黑屏 
+Bug 34235 - 【评测】[情景模式]情景模式切换铃声后铃声显示错误
+Bug 34177 - 【评测】[情景模式]长按Power键从标准切到静音后无法切换到户外
 
 
 0925
-Bug 32741 - ��launcher���˳�����������ֱ���������
-Bug 31853 - ��others���������SIM�����߰������涥���͵ײ���������˸
-Bug 32971 - ��idle�������̰�home��֪ͨ��������仯
-Bug 32012 - �����⡿������������������ʾ����������Ķ���������Ļ�������
-Bug 34236 - ��ϵͳ�������˵������л�������ʱ����Ļ�Ϸ����֡�����С������������ 
-Bug 33936 - ��С���������ذ汾��һ�ο����󣬴���С�������������������ͼ������Ļʵ�ʵ����Ȳ���
+Bug 32741 - 【launcher】退出任意程序会出现背光闪问题
+Bug 31853 - 【others】点击界面SIM卡工具包，界面顶部和底部有明暗闪烁
+Bug 32971 - 【idle】待机短按home键通知栏背景会变化
+Bug 32012 - 【背光】不插耳机点击收音机提示“请插入您的耳机”是屏幕背光会闪
+Bug 34236 - 【系统】从主菜单界面切换至桌面时，屏幕上方闪现“搜索小部件“搜索框 
+Bug 33936 - 【小部件】下载版本第一次开机后，窗口小部件电量控制里的亮度图标与屏幕实际的亮度不符
 
 
 
-//Bug 33987 - ���龰ģʽ���龰ģʽ�е��Զ��������ظ���ʾ����Ԥ��ʱ����ΪĬ������ 
-//Bug 33994 - ���龰ģʽ���龰ģʽ����������Ϊ�Զ�������������������ָ�ΪĬ�� 
+//Bug 33987 - 【情景模式】情景模式中的自定义铃声重复显示，且预览时声音为默认铃声 
+//Bug 33994 - 【情景模式】情景模式中设置铃声为自定义音乐铃声，重启后恢复为默认 
 
 0926
-Bug 34300 - ���龰ģʽ����׼ģʽ���޸�������������Ϣ��������ģʽ�µ�����Ҳ��֮�ı�
-Bug 34320 - ���龰ģʽ�����⡢�񶯡�����ģʽ���޸ı�׼ģʽ�µ�������������Ϣ����������������ʾ֮ǰ������
-Bug 34272 - ����Ӱģʽ���л�������ģʽ�������ֻ���ʾ��׼ģʽ 
-Bug 34296 - ���龰ģʽ����POWER���л���׼ģʽ������ģʽ��������н���鿴��׼ģʽ�༭������ʾ���ǻ���ģʽ��Ĭ������
+Bug 34300 - 【情景模式】标准模式下修改来电铃声和信息铃声后户外模式下的铃声也随之改变
+Bug 34320 - 【情景模式】户外、振动、静音模式下修改标准模式下的来电铃声和信息铃声点击保存后仍显示之前的铃声
+Bug 34272 - 【情影模式】切换到户外模式后重启手机显示标准模式 
+Bug 34296 - 【情景模式】从POWER键切换标准模式到户外模式后从设置中进入查看标准模式编辑界面显示的是户外模式的默认设置
 
-Bug 34284 - ���龰ģʽ�����龰ģʽ���棬����power���ӱ�׼�е�������޷��е���
+Bug 34284 - 【情景模式】在情景模式界面，长按power键从标准切到户外后，无法切到震动
 
 
 
-Bug 34305 - ���龰ģʽ�����ñ�׼ģʽ�ͻ���ģʽ�µ����������Ͷ���������ָ��������ø����Եĳ��־���
-Bug 31994 - ���龰ģʽ���龰ģʽ�еĵ��񶯲˵��޷�����
-Bug 27160 - �����á��龰ģʽ����ģʽ����ģʽ����Ӧ���ûһ����޷�ѡȡ
-Bug 31558 - ���龰ģʽ������ģʽ�������ô�����ʾ������������ʾ����������ʾ��
+Bug 34305 - 【情景模式】设置标准模式和户外模式下的来电铃音和短信铃音后恢复出厂设置概率性的出现静音
+Bug 31994 - 【情景模式】情景模式中的的振动菜单无法设置
+Bug 27160 - 【设置】情景模式静音模式和振动模式设置应该置灰或是无法选取
+Bug 31558 - 【情景模式】会议模式可以设置触屏提示音，拨号盘提示音和锁屏提示音
 
 
 
 1009
-Bug 32560 - �������ʼ����ڵ����ʼ���½���������ؼ�ʱ�����ȷ��ؽ�������ʼ�ǰ��Ӧ�ó�����棬֮����˳������ʼ���½����
-Bug 22301 - �������������ֲ��Ž������������ؼ���֮ǰ���ں�̨��Ӧ�û�����
-Bug 33886 - ��idle��ȡ���½�VPN���ػ���ʾ��̨Ӧ�ý���
-Bug 33841 - ��ͨ�����á��ֻ�����ΪSD���е������ļ���������������ΪĬ������
+Bug 32560 - 【电子邮件】在电子邮件登陆界面点击返回键时都会先返回进入电子邮件前的应用程序界面，之后才退出电子邮件登陆界面
+Bug 22301 - 【其他】在音乐播放界面连续按返回键，之前挂在后台的应用会闪现
+Bug 33886 - 【idle】取消新建VPN返回会显示后台应用界面
+Bug 33841 - 【通话设置】手机铃声为SD卡中的音乐文件，重启后铃声变为默认铃声
 
 
 
 1010
-Bug 33994 - ���龰ģʽ���龰ģʽ����������Ϊ�Զ�������������������ָ�ΪĬ��
-Bug 33987 - ���龰ģʽ���龰ģʽ�е��Զ��������ظ���ʾ����Ԥ��ʱ����ΪĬ������
+Bug 33994 - 【情景模式】情景模式中设置铃声为自定义音乐铃声，重启后恢复为默认
+Bug 33987 - 【情景模式】情景模式中的自定义铃声重复显示，且预览时声音为默认铃声
 
 
 1011
-Bug 34373 - ���龰ģʽ����������Ϊ�����龰ģʽ�¸�ѡ��������ʾ��ȫ��
-Bug 35370 - �����á����ı俪�ػ�ʱ�仹ԭѡ��ɵ������
+Bug 34373 - 【情景模式】字体设置为超大，情景模式下个选项字体显示不全。
+Bug 35370 - 【设置】不改变开关机时间还原选项可点击操作
 
 
 1013
-Bug 35398 - �����á��޸����ں�ʱ����޷�ȡ��
-//Bug 33498 - ���龰ģʽ��������֪ͨ��������Ϊ�񶯣��޷��޸�֪ͨ���� 
-Bug 33505 - �����á��������½����龰ģʽ�ɱ�����ͬ����
-Bug 32796 - ���龰ģʽ���½��龰ģʽ���������½�ͬ���Ƶ��龰ģʽ��ʵ�����ֻ������½�n��һģһ��������
-Bug 35426 - �����á����ð�ȫ�ڴ洢���ͽ����û�
+Bug 35398 - 【设置】修改日期和时间后无法取消
+//Bug 33498 - 【情景模式】铃声和通知音量调节为振动，无法修改通知铃声 
+Bug 33505 - 【设置】重命名新建的情景模式可保存相同名称
+Bug 32796 - 【情景模式】新建情景模式，不可以新建同名称的情景模式，实际上手机可以新建n个一模一样的名称
+Bug 35426 - 【设置】设置安全内存储类型建议置灰
 
 
 
 1014
-Bug 35112 - ���龰ģʽ���������龰ģʽ��ѡ�����ģʽ���������˵���ѡ���׼ģʽ����������ֻ��𶯡�
-Bug 35709 - ��HM9023������֤��Bug 35426 - �����á����ð�ȫ�ڴ洢���ͽ����ûҡ�
+Bug 35112 - 【情景模式】在设置情景模式中选择会议模式，在下拉菜单中选择标准模式，点击返回手机震动。
+Bug 35709 - 【HM9023问题验证】Bug 35426 - 【设置】设置安全内存储类型建议置灰。
 
 1015
-Bug 33468 - �����ӡ�������������ѡ��Ϊ����T������������ѡ��ý��洢����ѡֱ��ȷ�����棬��ʾΪĬ������
-Bug 35771 - ��100%����״̬������ͬ���龰ģʽ��״̬����ʾ��ͼ�������һ����
-Bug 35430 - �����á����Ժ����뷨������ת������TTS������ڸ���������Ҳ�У�����ɾ��һ�� 
+Bug 33468 - 【闹钟】添加闹钟铃声选择为外置T卡铃声，后点击选择媒体存储不勾选直接确定保存，显示为默认铃声
+Bug 35771 - 【100%】【状态栏】不同的情景模式，状态栏显示的图标个数不一样。
+Bug 35430 - 【设置】语言和输入法中文字转语音（TTS）输出在辅助功能中也有，建议删除一个 
 
 
 
 1029
-Bug 31502 - ����������δ�����ĵ绰����Ϣʱ�����ᴥ������ť�������ʾ��������������
-Bug 32986 - ��idle���������������޷�����Ӧ�ã�V1802�汾���Ƴ����������Ĺ̶�������
-Bug 32888 - ��Monkey��monkey��������һ���ϣ��ڶ������ϲ鿴�ֻ�������4G����
-Bug 35700 - �����á��ָ�����ֵ��ʽ���ڲ��洢�����¿�������������龰ģʽ�б�׼ģʽ��������ñ���
+Bug 31502 - 【锁屏】有未处理的电话和信息时锁屏轻触解锁按钮界面仅显示数量（见附件）
+Bug 32986 - 【idle】待机顶部区域无法放置应用（V1802版本已移除待机顶部的固定搜索框）
+Bug 32888 - 【Monkey】monkey测试运行一晚上，第二天早上查看手机卡死在4G界面
+Bug 35700 - 【设置】恢复出厂值格式化内部存储后重新开机，立即点击情景模式中标准模式会出现设置报错
 
 
 1031
-Bug 32075 - ����硿��������������ʾ�������ɣ�����״̬�����ͼ����Ϊ���ڳ��״̬(normal 2)
+Bug 32075 - 【充电】锁屏亮屏界面显示充电已完成，但是状态栏电池图标仍为正在充电状态(normal 2)
 
 
 1104
-Bug 37657 - ���龰ģʽ���л�Ϊ����ģʽ�����л�Ϊ��׼ģʽ��Ĭ��������ı�Andromeda
+Bug 37657 - 【情景模式】切换为其他模式后再切换为标准模式，默认铃声会改变Andromeda
 
 
 
 1112
-Bug 34130 - ��monkey���ֻ�������50%���ң���monkey���ֻ��Զ��ػ� 2
-Bug 35629 - �����á������龰ģʽ��ʾ����ֹͣ����  2
-Bug 38065 - �����á��ָ�����ֵ��ʽ���ڲ��洢�����¿�������������龰ģʽ�б�׼ģʽ��������ñ���  2
+Bug 34130 - 【monkey】手机电量在50%左右，跑monkey，手机自动关机 2
+Bug 35629 - 【设置】添加情景模式提示设置停止运行  2
+Bug 38065 - 【设置】恢复出厂值格式化内部存储后重新开机，立即点击情景模式中标准模式会出现设置报错  2
 
 
 1113
-Bug 27514 - ������ʱ������ʱ�찴��Դ���������ػ�������   3
+Bug 27514 - 【倒计时】倒计时响按电源键重启，关机无铃声   3
 content://media/internal/audio/media/155
 content://media/external/audio/media/15
 
 
 
 1114
-Bug 35392 - ��idle������������������ͣ   9019  2
-Bug 35626 - �����á��½��龰ģʽ���ú��˳�ѡ�е��Ǳ�׼ģʽ   9019 2
+Bug 35392 - 【idle】开机出现启动器报停   9019  2
+Bug 35626 - 【设置】新建情景模式启用后退出选中的是标准模式   9019 2
 
 
-Bug 26531 - �����á��Զ����龰ģʽѡ����ٴν����龰ģʽ�ỹԭΪ����ģʽ 9023 3
-Bug 38475 - �����á�WLAN������MAC��ַ�������汾���ı�   9019 2
+Bug 26531 - 【设置】自定义情景模式选择后再次进入情景模式会还原为响铃模式 9023 3
+Bug 38475 - 【设置】WLAN、蓝牙MAC地址在升级版本后会改变   9019 2
 
 
 
 1117
 9019
-Bug 32928 - ��Monkey��W/ActivityManager( 592): Scheduling restart of crashed service com.android.wallpaper/.fall.FallWallpaper in 1000ms   2
-Bug 32926 - ��Monkey��W/ActivityManager( 592): Scheduling restart of crashed service com.android.defcontainer/.DefaultContainerService in 1000ms   2
-Bug 32920 - ��Monkey��W/ActivityManager( 592): Scheduling restart of crashed service com.android.inputmethod.latin/.LatinIME in 1000ms    2
-Bug 32910 - ��Monkey��W/ActivityManager( 592): Scheduling restart of crashed service com.marvell.powergadget/.eventrelay.EventRelay in 1000ms   2
+Bug 32928 - 【Monkey】W/ActivityManager( 592): Scheduling restart of crashed service com.android.wallpaper/.fall.FallWallpaper in 1000ms   2
+Bug 32926 - 【Monkey】W/ActivityManager( 592): Scheduling restart of crashed service com.android.defcontainer/.DefaultContainerService in 1000ms   2
+Bug 32920 - 【Monkey】W/ActivityManager( 592): Scheduling restart of crashed service com.android.inputmethod.latin/.LatinIME in 1000ms    2
+Bug 32910 - 【Monkey】W/ActivityManager( 592): Scheduling restart of crashed service com.marvell.powergadget/.eventrelay.EventRelay in 1000ms   2
 
 
 
 1118
-Bug 33229 - �����á�����������������ʱ���ػ����ػ��󵽶�ʱ����ʱ�䲻���Զ�����    9023mp  3
-Bug 38065 - �����á��ָ�����ֵ��ʽ���ڲ��洢�����¿�������������龰ģʽ�б�׼ģʽ��������ñ���  9033  2
+Bug 33229 - 【设置】插入充电器，开启定时开关机，关机后到定时开机时间不会自动开机    9023mp  3
+Bug 38065 - 【设置】恢复出厂值格式化内部存储后重新开机，立即点击情景模式中标准模式会出现设置报错  9033  2
 
 
 
 1119
-Bug 35449 - ��С���������������ƣ� С������λ����Ϣ�رպ������е�λ����Ϣδ�ر�   9019  2
-Bug 34500 - ���龰ģʽ��������ʾ���쳣��     9019  3
+Bug 35449 - 【小部件】（电量控制） 小部件中位置信息关闭后，设置中的位置信息未关闭   9019  2
+Bug 34500 - 【情景模式】触摸提示音异常。     9019  3
 
 
 1120
-Bug 33598 - �������������������������������ʱ�����ؼ���ȡ������������治�������  9019  3
-Bug 35408 - �����á��޸�������ݺ����ڸ�ʽ���������ʾ�޸�ǰ���    9019   3
+Bug 33598 - 【锁屏】需输入密码解锁界面进入相机时按返回键，取消密码输入界面不进入相机  9019  3
+Bug 35408 - 【设置】修改日期年份后日期格式内年份仍显示修改前年份    9019   3
 
 
 1121
-Bug 38532 - �����á��½��龰ģʽ�޸�Ĭ������������������ȷ�����棬�ٴ��½���ʾ��Ĭ�������ǡ�Pyxis��   9019  2
-Bug 27514 - ������ʱ������ʱ�찴��Դ���������ػ�������    9023  3
+Bug 38532 - 【设置】新建情景模式修改默认铃声，不输入名称确定保存，再次新建显示的默认铃声非“Pyxis”   9019  2
+Bug 27514 - 【倒计时】倒计时响按电源键重启，关机无铃声    9023  3
    
 
 
 1126
-Bug 35626 - �����á��½��龰ģʽ���ú��˳�ѡ�е��Ǳ�׼ģʽ   9019  2
-Bug 36185 - ��other������С���������棬�����С���������ӹ����п����¡�  9033 3
-Bug 36150 - ��С������ ��С����������������в������п���  9019  2
+Bug 35626 - 【设置】新建情景模式启用后退出选中的是标准模式   9019  2
+Bug 36185 - 【other】添加小部件到桌面，会出现小部件在添加过程中卡屏下。  9033 3
+Bug 36150 - 【小部件】 将小部件移至桌面过程中不流畅有卡顿  9019  2
 
 
 
 1128
-Bug 38460 - �����á������Զ�������������������������pyxis   9019  3
-Bug 33951 - ���龰ģʽ��������֪ͨ��������Ϊ�񶯣��޷��޸�֪ͨ����  9019  2
+Bug 38460 - 【设置】设置自定义铃声概率性来电铃声仍是pyxis   9019  3
+Bug 33951 - 【情景模式】铃声和通知音量调节为振动，无法修改通知铃声  9019  2
 
 
 1201
-Bug 36151 - ���龰ģʽ���½��龰ģʽ��ѡ�񣬵�����ú�����״̬���鿴δ��ʾ��һ�龰ģʽ  9023  3
-Bug 38451 - �����á��½��龰ģʽ��ɾ��ģʽ�����ؽ��潹��δ��λ��׼ģʽ������Ȳ�����ִ�е���ɾ���½�ģʽ�ڵ�����   9019  3
+Bug 36151 - 【情景模式】新建情景模式并选择，点击重置后下拉状态栏查看未显示任一情景模式  9023  3
+Bug 38451 - 【设置】新建情景模式内删除模式，返回界面焦点未定位标准模式，来电等操作仍执行的是删除新建模式内的设置   9019  3
 
 
 
 1202
-Bug 35155 - ����Ϭ�������֡�������һ��������������Ļ���Ͻ�1ƽ�����׷�Χ�հ״��������Ϭ��������   9019  2
+Bug 35155 - 【灵犀语音助手】在任意一个待机界面点击屏幕右上角1平方厘米范围空白处都会打开灵犀语音助手   9019  2
 
 
 1203
-Bug 36202 - ��idle�����˵���������Ӧ�ð�home�������ײ�����ʾ�ָ���   9019  2
+Bug 36202 - 【idle】主菜单进入任意应用按home键待机底部不显示分隔线   9019  2
 
 
 1204
-Bug 32585 - ��idle�����ڴ�������ҳʱ������΢��������ͻ���ת����һҳ  9019  2
+Bug 32585 - 【idle】处于待机第五页时向左轻微滑动界面就会跳转至第一页  9019  2
 
 
 
 1208
-Bug 39451 - �����á��½��龰ģʽ���������ƣ������ַ��ﵽ���ֵʱ���������ʾ   1920  3
-Bug 39445 - ���龰ģʽ�����������������棬��ת��Ļ����ֹͣ����   1920  2
-Bug 39173 - ���龰ģʽ�� ��׼ģʽ�ͻ���ģʽ�����������棬����������޷�Ӧ   1920  2
+Bug 39451 - 【设置】新建情景模式，输入名称，输入字符达到最大值时建议给个提示   1920  3
+Bug 39445 - 【情景模式】调节铃声音量界面，旋转屏幕铃声停止播放   1920  2
+Bug 39173 - 【情景模式】 标准模式和户外模式调节音量界面，按音量侧键无反应   1920  2
 
 
 1209
-Bug 39220 - ���龰ģʽ���½��龰ģʽ��ѡ�񣬵�����ú�����״̬���鿴δ��ʾ��һ�龰ģʽ   1920  3
-Bug 39178 - ���龰ģʽ�� ����ģʽ�£��ڱ�׼ģʽ�µ���������֪ͨ������С������ģʽ   1920  2
-Bug 39180 - ���龰ģʽ������״̬�����龰ģʽ���Ƹ������в�һ��   1920  2
-Bug 39390 - ��other������״̬�����龰ģʽ���ָ������еĲ�һ��    1920  2
-Bug 39226 - �����á��龰ģʽ���Ʋ��淶   1920  3
-Bug 39222 - ���龰ģʽ���龰ģʽ�и�ģʽ����������״̬���е��龰ģʽ���Ʋ���ͬ�������龰ģʽ����ʾΪ�����塱������״̬������ʾΪ����׼��   1920  2
-Bug 39417 - ��HQ9019��Ŀ�������֤��Bug 37950 - �����á��龰ģʽ����Ϊ�Զ���������ɾ�����������龰ģʽ����ʾΪ��Pyxis�����������������Andromeda����Ч     1920  2
-Bug 39402 - ���龰ģʽ���½�һ���龰ģʽ��ѡ����ɾ�����½����龰ģʽ����ʱϵͳδ��ѡ�κ��龰ģʽ    1920  2
-Bug 40143 - ���龰ģʽ��������֪ͨ��������Ϊ�񶯣��޷��޸�֪ͨ����   1920  3(won't fix)
-Bug 39763 - ���龰ģʽ���龰ģʽΪ��������񶯡���������ʱû����    1920  2
+Bug 39220 - 【情景模式】新建情景模式并选择，点击重置后下拉状态栏查看未显示任一情景模式   1920  3
+Bug 39178 - 【情景模式】 静音模式下，在标准模式下调节铃声和通知音量大小后变成振动模式   1920  2
+Bug 39180 - 【情景模式】下拉状态栏中情景模式名称跟设置中不一致   1920  2
+Bug 39390 - 【other】下拉状态栏中情景模式名字跟设置中的不一致    1920  2
+Bug 39226 - 【设置】情景模式名称不规范   1920  3
+Bug 39222 - 【情景模式】情景模式中各模式名称与下拉状态栏中的情景模式名称不相同，比如情景模式中显示为“响铃”，下拉状态栏中显示为“标准”   1920  2
+Bug 39417 - 【HQ9019项目问题点验证】Bug 37950 - 【设置】情景模式设置为自定义铃声，删除该铃声后情景模式内显示为“Pyxis”，但铃声输出的是Andromeda的音效     1920  2
+Bug 39402 - 【情景模式】新建一个情景模式勾选后再删除该新建的情景模式，此时系统未勾选任何情景模式    1920  2
+Bug 40143 - 【情景模式】铃声和通知音量调节为振动，无法修改通知铃声   1920  3(won't fix)
+Bug 39763 - 【情景模式】情景模式为“响铃和振动”，来短信时没有振动    1920  2
 
 
 
 
 1210
-Bug 40154 - ��9023-NYX�ͻ����󡿿ͻ�Ҫ����ϵͳ�ļ�system/build.prop������ϵͳ���ԣ�ro.ireader.channel=108880   9023nyx  2 
-Bug 40063 - ��9023-NYX�ͻ����󡿿ͻ�Ҫ���������⹤�߼����ʾ���ֻ�Ʒ����ϢҪ����ʾNOAIN   9023nyx  2
-Bug 40062 - ��9023-NYX�ͻ����󡿿ͻ�Ҫ�������汾��NOAIN M11��ͷ��������   9023nyx  2
-Bug 40049 - ��9023-NYX�ͻ����󡿿ͻ�Ҫ�����������ݸ�����ͼЧ�����в���     9023nyx  2
+Bug 40154 - 【9023-NYX客户需求】客户要求在系统文件system/build.prop中增加系统属性：ro.ireader.channel=108880   9023nyx  2 
+Bug 40063 - 【9023-NYX客户需求】客户要求第三方检测工具检测显示的手机品牌信息要求显示NOAIN   9023nyx  2
+Bug 40062 - 【9023-NYX客户需求】客户要求软件版本号NOAIN M11开头进行命名   9023nyx  2
+Bug 40049 - 【9023-NYX客户需求】客户要求待机界面根据附件截图效果进行布局     9023nyx  2
 
 
 
 1211
-Bug 40057 - ��9023-NYX�ͻ����󡿿ͻ�Ҫ������������-�洢��������һ��ROM��������ʾ����ʾϵͳ������4GB��ϵͳռ���ڴ�1.29GB    9023nyx  2
-Bug 39556 - �����á��龰ģʽ���ֻ�������ý��洢�����������������ƣ�UrsaMinor��Ursa Minor    1920  3
+Bug 40057 - 【9023-NYX客户需求】客户要求增加在设置-存储里面增加一项ROM总容量显示，显示系统总容量4GB，系统占用内存1.29GB    9023nyx  2
+Bug 39556 - 【设置】情景模式，手机铃声，媒体存储，两个铃声名称相似，UrsaMinor和Ursa Minor    1920  3
 
 
 1212
-Bug 39496 - ���龰ģʽ���ھ���ģʽ���޸ı�׼ģʽ����������Զ�����Ϊ����ģʽ   1920  2
-Bug 39497 - ���龰ģʽ���½��龰ģʽ����ȡ��������ʱ��ʾ�����ȹ�ѡ����ֻ�����������ʱ��ʾ����ѡ����Զ���ѡ   1920  2
+Bug 39496 - 【情景模式】在静音模式下修改标准模式的声音后会自动设置为会议模式   1920  2
+Bug 39497 - 【情景模式】新建情景模式界面取消“触摸时提示音”等勾选框后将手机横屏，触摸时提示音勾选框会自动勾选   1920  2
 
 
 
 1215
-Bug 39663 - ���龰ģʽ��Ĭ��֪ͨ��ʾ��Ϊ�ޣ��鿴�ʼ�����ΪĬ��������δ֪������   1920  2
+Bug 39663 - 【情景模式】默认通知提示音为无，查看邮件铃声为默认铃声（未知铃声）   1920  2
 
 
 
 1216
-��ͨ��ѵ
+高通培训
 
 
 1217
-Bug 41508 - ����ʱ���ػ����Զ����ػ���������Ϊÿ�죬�ڶ����Զ��ػ�����ʧЧ    lm8004  2
+Bug 41508 - 【定时开关机】自动开关机功能设置为每天，第二天自动关机功能失效    lm8004  2
 
 1218
 
-Bug 40063 - ��9023-NYX�ͻ����󡿿ͻ�Ҫ���������⹤�߼����ʾ���ֻ�Ʒ����ϢҪ����ʾNOAIN  9023_nys  2
-Bug 41612 - ����ҵ���ơ���IDLE����������ҳ ȱ��һ��ͼ��    8004  3
+Bug 40063 - 【9023-NYX客户需求】客户要求第三方检测工具检测显示的手机品牌信息要求显示NOAIN  9023_nys  2
+Bug 41612 - 【行业定制】【IDLE】主屏第三页 缺少一个图标    8004  3
 
 
 1219
-Bug 40161 - ��HO9021��Ŀ�������֤��Bug 35204 - ���龰ģʽ���½�һ���龰ģʽ���������龰ģʽ��Ӧ���޷�������Ϊ�Ѿ����ڵ��龰ģʽ����ʵ���Ͽ���    1920   2
+Bug 40161 - 【HO9021项目问题点验证】Bug 35204 - 【情景模式】新建一个情景模式，重命名情景模式，应该无法重命名为已经存在的情景模式，但实际上可以    1920   2
 
 
 
 
 1222
-a355e ��ʱ���ػ���ʱ�汾�����������KillBackgroudProcess in lazy ...
-8909 5.0��4.4�汾�Ա�����
-OpenWnn���뷨�Աȣ�5.0���ӶԴ����Ҳ���supportsRtl��֧�֣�ͬʱ��Ӧ�Ĳ���������Ӧ�޸ġ�5.0ȥ�����ֵ���ع���
-LatinIME���뷨�Աȣ�5.0�����˴������Ż����޸ģ��ֵ�������Ż�����
+a355e 定时开关机临时版本测试问题分析KillBackgroudProcess in lazy ...
+8909 5.0和4.4版本对比评估
+OpenWnn输入法对比，5.0添加对从左到右布局supportsRtl的支持，同时对应的布局做出相应修改。5.0去除了字典相关功能
+LatinIME输入法对比，5.0添加了大量的优化和修改，字典库做出优化更改
 
 
 1223
-8909 5.0��4.4�汾�Ա�����,launcher2,
-��Ӧ��Ȩ���ϵ�����
+8909 5.0和4.4版本对比评估,launcher2,
+对应用权限上的设置
 
 
 
 
 1225
-Bug 38633 - ���龰ģʽ: ���󡿻ָ��������ú��׼ģʽ��Ĭ��������7�������龰ģʽ����5��   air  2
-Bug 38412 - ���龰ģʽ ���󡿱�׼ģʽ�����硢��Ϣ��֪ͨ����Ĭ�ϵȼ�Ϊ5����׼���ĵ��й涨Ϊ4   air 2
-Bug 38414 - ���龰ģʽ �������硢֪ͨ����Ĭ��Ԥ�Ʋ���ȷ    air 2
-Bug 38431 - ���龰ģʽ ���󡿰��������¼���������ʱͬʱ�����ˡ������������͡���Ϣ��֪ͨ��������ֻӦ������������  air 2
-Bug 38479 - ��100%�����龰ģʽ ���󡿺������棬�������ڽ�������ʾ��������  air 2
-Bug 38483 - ��100%�����龰ģʽ ���󡿺������棬�����������ý��棬֪ͨ��������ʾ��������   air 2
-Bug 38659 - ���龰ģʽ ���󡿾�������ģʽ�¸��ı�׼���߻���ģʽ����Ϣ��֪ͨ�������龰ģʽ�Զ��л�Ϊ��׼���˳��������ڽ���   air 2
-Bug 38662 - ���龰ģʽ ���󡿱�׼ģʽ�£����á����龰ģʽ���������׼ģʽ�༭���棬�༭���������������Ϣ��֪ͨ������С��ͬ�����ȷ�����ٴν�����������鿴�������Ϣ��֪ͨ������С��ͬ   air 2
-Bug 38663 - ���龰ģʽ ���󡿻���ģʽ�£����ı�׼ģʽ���������Ϣ��֪ͨ������С��ͬ���л�Ϊ��׼ģʽ���������Ϣ��֪ͨ������С��ͬ   air 2
-Bug 38667 - ���龰ģʽ ���󡿽��뵱ǰ�趨��ģʽ�����������������������������С�������ٽ��뵱ǰģʽ�������棬������С�ޱ仯   air 2
+Bug 38633 - 【情景模式: 需求】恢复出厂设置后标准模式的默认音量是7格，重置情景模式后是5格   air  2
+Bug 38412 - 【情景模式 需求】标准模式中来电、信息、通知铃音默认等级为5，标准化文档中规定为4   air 2
+Bug 38414 - 【情景模式 需求】来电、通知铃音默认预制不正确    air 2
+Bug 38431 - 【情景模式 需求】按音量上下键调节音量时同时调节了“铃音音量”和“信息、通知音量”，只应调节铃音音量  air 2
+Bug 38479 - 【100%】【情景模式 需求】横屏界面，音量调节进度条显示不完整。  air 2
+Bug 38483 - 【100%】【情景模式 需求】横屏界面，铃声音量设置界面，通知进度条显示不完整。   air 2
+Bug 38659 - 【情景模式 需求】静音或震动模式下更改标准或者户外模式的信息、通知音量，情景模式自动切换为标准且退出音量调节界面   air 2
+Bug 38662 - 【情景模式 需求】标准模式下，设置——情景模式——进入标准模式编辑界面，编辑音量，让来电和信息、通知音量大小不同，点击确定，再次进入音量界面查看来电和信息、通知音量大小相同   air 2
+Bug 38663 - 【情景模式 需求】户外模式下，更改标准模式下来电和信息、通知音量大小不同，切换为标准模式后来电和信息、通知音量大小相同   air 2
+Bug 38667 - 【情景模式 需求】进入当前设定的模式并打开音量，按音量侧键调节音量大小，返回再进入当前模式音量界面，音量大小无变化   air 2
 
 
 
 1226
-Bug 41671 - ������Ĭ�����뷨ӦΪѶ�����뷨   9023_nyx  2
-Bug 42532 - ��9023-NYX�ͻ����󡿿ͻ�����������������    9023_nyx  2
-Bug 42539 - ��9023-NYX�ͻ����󡿿ͻ�Ҫ������֣�ͨ�������ȼ�Ĭ��Ϊ���   9023_nyx  2
+Bug 41671 - 【需求】默认输入法应为讯飞输入法   9023_nyx  2
+Bug 42532 - 【9023-NYX客户需求】客户需求喇叭声音正常    9023_nyx  2
+Bug 42539 - 【9023-NYX客户需求】客户要求把音乐，通话声音等级默认为最大级   9023_nyx  2
 
 
 
 1231
-Bug 38661 - ���龰ģʽ �������龰ģʽ�������ڽ��水��������������޷��ɱ�׼ģʽ�л�����ģʽ  9023  2
+Bug 38661 - 【情景模式 需求】在情景模式音量调节界面按侧键弹出界面里无法由标准模式切换到震动模式  9023  2
 
 
 
 20150106
-Bug 40348 - ����ʾ������������Ӧ��Ĭ���Ǵ�  aplan  3
+Bug 40348 - 【显示】互动屏保不应该默认是打开  aplan  3
 
 
 20150107
-Bug 42747 - ��9023-NYX�ͻ����󡿴�����ʾ��Ĭ�Ϲرա�����ʱ��Ĭ�Ͽ���   9023  2
-Bug 39676 - ����ȫ����Ļ������ʽ����PIN��������Ļ����������power�����ѣ��Ƚ��뻬�����������ٽ���PIN��������  aplan  3
+Bug 42747 - 【9023-NYX客户需求】触摸提示音默认关闭。触摸时震动默认开启   9023  2
+Bug 39676 - 【安全】屏幕解锁方式设置PIN解锁，屏幕灭屏锁屏后按power键唤醒，先进入滑动解锁界面再进入PIN解锁界面  aplan  3
 
 
 
 20150112
-Bug 44071 - ��ϵͳAPP�����ʹ�ó����б���,ѡ�����������ͼ,�һ�δɾ��   LM5027  3
-Bug 39676 - ����ȫ����Ļ������ʽ����PIN��������Ļ����������power�����ѣ��Ƚ��뻬�����������ٽ���PIN��������   LM5027  3
-Bug 43813 - �����뷨����Ĭ�����뷨��Ϊ����    LM5027  3
+Bug 44071 - 【系统APP】最近使用程序列表中,选中任意任务截图,右滑未删除   LM5027  3
+Bug 39676 - 【安全】屏幕解锁方式设置PIN解锁，屏幕灭屏锁屏后按power键唤醒，先进入滑动解锁界面再进入PIN解锁界面   LM5027  3
+Bug 43813 - 【输入法】将默认输入法改为中文    LM5027  3
 
 
 20150113
-Bug 44083 - �����á������ж��һ��[Developer]Accented Englishѡ���ȥ��    LM5027  3
-Bug 43952 - ���͵����ػ����ڳ��������ӳ��������ʾ���ֳ�����ʾ����14s�ػ������ȡ����������     LM5027  3
-Bug 44192 - �����⡿�����Ժ����뷨������ת������TTS�������Pico TTS�����ý�������ϵͳ�����ط���һ��     LM5027  3
-Bug 44165 - �����⡿���������ܡ��������ܽ���������ת������TTS������    LM5027  3
-Bug 44318 - �����Ժ����뷨���򿪿�����ѡ��󣬽������Ժ����뷨�����ֶ��࿪��������   LM5027  3
-Bug 44377 - �����������á����龰ģʽ������׼�����༭�����ֻ���������ý��洢MakeMe Wanna��ʾ����Ӧ����Make Me Wanna   LM5027  3
+Bug 44083 - 【设置】语言中多出一个[Developer]Accented English选项，请去掉    LM5027  3
+Bug 43952 - 【低电量关机】在出现请连接充电器的提示后又出现提示还有14s关机，点击取消，无作用     LM5027  3
+Bug 44192 - 【评测】【语言和输入法】文字转语音（TTS）输出中Pico TTS的设置界面风格与系统其它地方不一致     LM5027  3
+Bug 44165 - 【评测】【辅助功能】辅助功能界面多出文字转语音（TTS）功能    LM5027  3
+Bug 44318 - 【语言和输入法】打开开发者选项后，进入语言和输入法，出现多余开发者语言   LM5027  3
+Bug 44377 - 【铃声】设置——情景模式——标准——编辑——手机铃声——媒体存储MakeMe Wanna显示错误，应该是Make Me Wanna   LM5027  3
 
 
 20150114
-Bug 44207 - �����⡿��Ӧ�ù�������Ӧ���о�̬��ֽ���ת��Ӧ��ֹͣ����   LM5027  3
-Bug 44134 - �����⡿���龰ģʽ������ѡ��������ʾ��һ��   LM5027  3
-Bug 44170 - �����⡿������С���������Ӵ���С������ݷ�ʽʱ�����Ľ��治����   LM5027  3
-Bug 44169 - �����⡿�����Ժ����뷨�������Զ�����ʽ�������ʾΪ��     LM5027  3
-Bug 44190 - �����⡿���龰ģʽ��֪ͨ���龰ģʽͼ���볤��Power����״̬����ʾ��һ��   LM5027  3
+Bug 44207 - 【评测】【应用管理器】应用中静态壁纸点击转至应用停止运行   LM5027  3
+Bug 44134 - 【评测】【情景模式】铃声选择框与别处显示不一致   LM5027  3
+Bug 44170 - 【评测】【窗口小部件】添加窗口小部件快捷方式时弹出的界面不美观   LM5027  3
+Bug 44169 - 【评测】【语言和输入法】添加自定义样式后标题显示为空     LM5027  3
+Bug 44190 - 【评测】【情景模式】通知栏情景模式图标与长按Power键和状态栏显示不一致   LM5027  3
 
 
 20150115
-Bug 44377 - �����������á����龰ģʽ������׼�����༭�����ֻ���������ý��洢MakeMe Wanna��ʾ����Ӧ����Make Me Wanna    LM5027  3
-Bug 44661 - �����⡿��������Աѡ�������Աѡ����ͨ��USB��֤Ӧ��ѡ���޷�����   LM5027  3
-Bug 44493 - ��100%�����������������������治��ʾ��USB��������ӡ�  LM5027  3
-Bug 44734 - �����⡿��������ѡ�ǿ��ʹ�ô��ҵ���Ĳ��ַ�����ʾ��ȫ    LM5027  3
-Bug 44820 - �����⡿�������ֻ����ֻ�����������ģʽ������ѡ������ʾ�쳣    LM5027  3
-Bug 44779 - �����⡿��������������������������Ϊ����ʱͼ����ʾ����    LM5027  3
+Bug 44377 - 【铃声】设置——情景模式——标准——编辑——手机铃声——媒体存储MakeMe Wanna显示错误，应该是Make Me Wanna    LM5027  3
+Bug 44661 - 【评测】【开发人员选项】开发人员选项中通过USB验证应用选项无法变亮   LM5027  3
+Bug 44493 - 【100%】【多任务管理】多任务界面不显示‘USB计算机连接’  LM5027  3
+Bug 44734 - 【评测】【开发者选项】强制使用从右到左的布局方向显示不全    LM5027  3
+Bug 44820 - 【评测】【关于手机】手机开启开发者模式后语言选择中显示异常    LM5027  3
+Bug 44779 - 【评测】【侧键调节音量】侧键调节音量为静音时图标显示有误    LM5027  3
 
 
 20150116
-Bug 44121 - �����⡿���������ġ������´�Ӧ�ó����н������������޷�����    LM5027  3
-Bug 44914 -  [�ڲ�_�������]����Ϊͼ��������ԭ���Ļ������������ڣ�2�˷�����   LM5027  2
-Bug 44874 - �����⡿���龰ģʽ���ֻ�����������ʾ����   LM5027  3
-Bug 44865 - �����⡿��Ӧ�ù�������Ӧ�ù��������벦��ʱ����������䲿�����ݱ��ڵ�    LM5027  3
-Bug 44871 - �����⡿��Ӧ�ù�����������Ӧ�ò鿴��������ʱ������ʾ��һ��   LM5027  3
-Bug 44296 - �����⡿��Ӧ�á�Ӧ����������湦��ʵ������   LM5027  3
+Bug 44121 - 【评测】【主题中心】繁体下从应用程序中进入主题中心无法进人    LM5027  3
+Bug 44914 -  [众测_神机工场]设置为图案解锁后原来的滑动解锁还存在（2人反馈）   LM5027  2
+Bug 44874 - 【评测】【情景模式】手机铃声名称显示有误   LM5027  3
+Bug 44865 - 【评测】【应用管理器】应用管理器进入拨号时点击语音信箱部分内容被遮挡    LM5027  3
+Bug 44871 - 【评测】【应用管理器】拨号应用查看语音信箱时标题显示不一致   LM5027  3
+Bug 44296 - 【评测】【应用】应用中清除缓存功能实现有误   LM5027  3
 
 
 
-Bug 44176 - �����⡿�����Ժ����뷨���л��������뷨����Ÿı�    LM5027  3
+Bug 44176 - 【评测】【语言和输入法】切换语言输入法会跟着改变    LM5027  3
 
 
 20150120
-Bug 45289 - ���ߵ��¡����Ӹ������ѹ���   LM5027  3
+Bug 45289 - 【高低温】增加高温提醒功能   LM5027  3
 
 
 20150121
-Bug 45056 - [XM��ͨר��][��׼�淶]�͵�����ʾ��淶����    LM5027  3
+Bug 45056 - [XM普通专项][标准规范]低电量提示与规范不符    LM5027  3
 
 
 20150122
-Bug 45055 - [XM��ͨר��][��׼�淶]����ͼ����ʾ��淶����     LM5027  3
-Bug 45056 - [XM��ͨר��][��׼�淶]�͵�����ʾ��淶����      LM5027  3
-Bug 45558 - ��XM���ġ��͵���ʾ�����ϱ�׼      LM5027  3
-Bug 45640 - [�ڲ�_�������]Ĭ����������������ʾ̫С��1�˷�����   LM5027  3
-Bug 45691 - [�ڲ�_�������][����]�������ܽ�������ʱ�������
-ʾ��1�˷�����   LM5027  3
+Bug 45055 - [XM普通专项][标准规范]电量图标显示与规范不符     LM5027  3
+Bug 45056 - [XM普通专项][标准规范]低电量提示与规范不符      LM5027  3
+Bug 45558 - 【XM功耗】低电提示不符合标准      LM5027  3
+Bug 45640 - [众测_神机工场]默认锁屏界面字体显示太小（1人反馈）   LM5027  3
+Bug 45691 - [众测_神机工场][需求]建议智能解锁界面时间居中显
+示（1人反馈）   LM5027  3
 
 
 20150130
-Bug 46262 - �����桿����Home�����ȳ��֡���ֽ����������Ӧ�á�����ϵͳ���á��Ĳ˵��б���Ȼ���ٳ��ֺ�̨���г���ļ�¼�б���  ZQ9055  3
-Bug 46196 - ����ʱ���ػ�����֧�ֶ�ʱ���ػ�   ZQ9055  2
+Bug 46262 - 【桌面】长按Home键，先出现“壁纸”、“管理应用”、“系统设置”的菜单列表，然后再出现后台运行程序的记录列表。  ZQ9055  3
+Bug 46196 - 【定时开关机】不支持定时开关机   ZQ9055  2
 
 
 20150202
-Bug 46196 - ����ʱ���ػ�����֧�ֶ�ʱ���ػ�   A460 2
-Bug 46340 - ����ֽ��������--�˵�--��ֽ�еĶ�̬��ֽ��ʾ��ȫ�����ֶ����ϻ���������ʾȫ   A460 3
-Bug 46271 - ��С������С�����е������Ƶ�λ����Ϣͼ��͸�С��������������Ļ�Ϻ��ͼ�겻һ��   A460 3
-Bug 46274 - ��С������С�����������Ʒ���������Ļ�ϵ��λ����Ϣ�޷��رգ���ʾ�쳣    A460 3
+Bug 46196 - 【定时开关机】不支持定时开关机   A460 2
+Bug 46340 - 【壁纸】主界面--菜单--壁纸中的动态壁纸显示不全，需手动向上滑动才能显示全   A460 3
+Bug 46271 - 【小部件】小部件中电量控制的位置信息图标和该小部件放置在主屏幕上后的图标不一致   A460 3
+Bug 46274 - 【小部件】小部件电量控制放置在主屏幕上点击位置信息无法关闭，显示异常    A460 3
 
 
 20150203
-Bug 46812 - �����⡿�������ʼ�����¼����������뷨ʱ����򱻰�ť�ڵ�������   LM5027  3
-Bug 45055 - [XM��ͨר��][��׼�淶]����ͼ����ʾ��淶����    LM5027  3
-Bug 45558 - ��XM���ġ��͵���ʾ�����ϱ�׼     LM5027  3
+Bug 46812 - 【评测】【电子邮件】登录界面调用输入法时密码框被按钮遮挡不美观   LM5027  3
+Bug 45055 - [XM普通专项][标准规范]电量图标显示与规范不符    LM5027  3
+Bug 45558 - 【XM功耗】低电提示不符合标准     LM5027  3
 
 
 
 20150204
-Bug 47666 - ������������̨��������������������˵��鿴������Ƶ������������ɫ�뱳��ɫһ�����޷���ʾ��Ƶ�����ơ�   ZQ9046  3
-Bug 47581 - �����ػ������ػ�logoΪ��ͨlogo     ZQ9046  3
+Bug 47666 - 【收音机】后台收听收音机，点击下拉菜单查看收音机频道名称字体颜色与背景色一样，无法显示出频道名称。   ZQ9046  3
+Bug 47581 - 【开关机】开关机logo为高通logo     ZQ9046  3
 
 
 20150205
-Bug 47546 - ����ʱ���ػ�����ѡ������壬�½���ʱ������ʱ�ػ�����Сʱδ��ʾ���ϣ����磩��ʾ��ȫ    ZQ9046  3
-Bug 47677 - ����ʱ���ػ�����ѡ�����������ö�ʱ���ػ��ظ�������ʾΪ��... ��...    ZQ9046  3
-Bug 47614 - ��NFC���鿴���˵�Ӧ�ã���NFC Sec Ele
-m Tester��Nfc Tester��NfcUtil��ЩӦ�ã���ȥ����    ZQ9046  3
+Bug 47546 - 【定时开关机】勾选大号字体，新建定时开机或定时关机界面小时未显示、上（下午）显示不全    ZQ9046  3
+Bug 47677 - 【定时开关机】勾选大号字体后，设置定时开关机重复天数显示为周... 周...    ZQ9046  3
+Bug 47614 - 【NFC】查看主菜单应用，有NFC Sec Ele
+m Tester、Nfc Tester、NfcUtil这些应用，请去掉。    ZQ9046  3
 
 
 
 20150206
-Bug 46309 - ����ʾ���������С���ı������С�������д��ں������岻��    A460 4
-Bug 46437 - ����ʾ�����������Сʱ��Ļ���Ұ�1S����    A460 3
-Bug 47763 - �����������ó����˵���������������ǳ����˵����������Ӧ��    A460 3
-Bug 48237 - �����桿������ʹ�ó�����ٲ鿴���ʹ�ó������г�����ʾ    A460 2
+Bug 46309 - 【显示】【字体大小】改变字体大小，界面中存在汉子字体不变    A460 4
+Bug 46437 - 【显示】更换字体大小时屏幕会变灰暗1S左右    A460 3
+Bug 47763 - 【按键】设置长按菜单键进入相机，但是长按菜单键弹出最近应用    A460 3
+Bug 48237 - 【桌面】清除最近使用程序后，再查看最近使用程序仍有程序显示    A460 2
 
 
 
 20150209
-Bug 48664 - �����桿�ս������Ĺܼҽ��������ؼ���˲�����һ��    ZQ9046  2
-Bug 47651 - ����ʱ���ػ����������״ν��붨ʱ���ػ�������һ��    ZQ9046  3
-Bug 48506 - ����ʱ���ػ����ֻ�����ʱ��ʱ�ػ��޵���ʱ��ʾֱ�ӹػ�   ZQ9046  3
-Bug 47886 - �����桿����������ʾ���ϻ������ɽ����������������岻һ��     A460 3
+Bug 48664 - 【桌面】刚进入掌心管家界面点击返回键会瞬间黑屏一下    ZQ9046  2
+Bug 47651 - 【定时开关机】开机后首次进入定时开关机界面会黑一下    ZQ9046  3
+Bug 48506 - 【定时开关机】手机暗屏时定时关机无倒计时提示直接关机   ZQ9046  3
+Bug 47886 - 【桌面】滑动锁屏提示向上滑动即可解锁字体与其它字体不一致     A460 3
 
 
 
 20150210
-Bug 46193 - �����ػ�������״̬�³����ػ������δ����ʱ��һ��Profileѡ��     A460 3
-Bug 46196 - ����ʱ���ػ�����֧�ֶ�ʱ���ػ�     A460 2
-Bug 47690 - ��С�������������˵���ѡ��С������ʱ�ӵ�С������ʾ��ȫ ��   A460 3
+Bug 46193 - 【开关机】锁屏状态下长按关机键会比未锁屏时多一个Profile选项     A460 3
+Bug 46196 - 【定时开关机】不支持定时开关机     A460 2
+Bug 47690 - 【小部件】进入主菜单，选择小部件，时钟的小部件显示不全 。   A460 3
 
 
 
 20150211
-Bug 48751 - ���龰ģʽ���л���ͬģʽ���龰ģʽ���������ر�    ZQ9046  2
-Bug 49086 - �����桿��LED�ֵ�Ͳ���ӵ����棬������ֻ����κη�Ӧ     ZQ9046  3
-Bug 46689 - �����ԡ�����7�����ԣ����Ի�ֻ��6��     A460 3
-Bug 47757 - �����桿����/pin������������ִ������������ʾ�����һ�뵹��ʱ��ʾͣ����Լ3�����Ҳ���ʧ   A460 3
-Bug 47318 - �����桿pin���������ȷ����ťΪ�Ժ�     A460 3
-Bug 46374 - �����ػ�������Power������ʾ����û�з���ģʽѡ�����ProfileӢ���б�           A460 3
-Bug 46525 - ���������������������棬��Ļ�Ϸ����д���һ����ɫ����     A460 2
-Bug 47993 - ������С������Ĭ�����������ӵ�һ������������С��������Щ������ʾ������������޸�    A460 3
-Bug 47735 - ��ͼ�꡿������Ӣ��ͼ��λ�û�仯�����л��������ֻ����˵�ͼ�겻��ָ������Ĭ������ģʽ�µ�ͼ��λ�á�  A460 3
-Bug 48443 - ��С�������������˵���ѡ��С��������ͼ��С����������ʾ��Ӧ�ò�һ��      A460 4
+Bug 48751 - 【情景模式】切换不同模式的情景模式，蓝牙被关闭    ZQ9046  2
+Bug 49086 - 【桌面】将LED手电筒添加到桌面，点击后手机无任何反应     ZQ9046  3
+Bug 46689 - 【语言】需求7中语言，测试机只有6种     A460 3
+Bug 47757 - 【桌面】密码/pin码锁屏界面出现错误次数过多提示，最后一秒倒计时提示停留大约3秒左右才消失   A460 3
+Bug 47318 - 【桌面】pin码解锁界面确定按钮为对号     A460 3
+Bug 46374 - 【开关机】长按Power键，提示框中没有飞行模式选项，还有Profile英文列表           A460 3
+Bug 46525 - 【其它】亮屏不解锁界面，屏幕上方左中处有一条白色竖杠     A460 2
+Bug 47993 - 【桌面小部件】默认桌面下添加第一个计算器桌面小部件，有些数字显示不清楚，建议修改    A460 3
+Bug 47735 - 【图标】中文切英文图标位置会变化，在切换回中文手机主菜单图标不会恢复到最初默认中文模式下的图标位置。  A460 3
+Bug 48443 - 【小部件】进入主菜单，选择小部件，地图的小部件名称显示与应用不一致      A460 4
 
 
 
 20150212
-Bug 48665 - ���ػ����ֻ��͵����ػ�ʱֱ�ӹػ���û���κ���ʾ   ZQ9046  3
-Bug 46288 - ����ء��������ݷ�ʽ�����ؽ������������߽����ؽ�����ʾ��һ��    A460 3
-Bug 49274 - �����桿sock��ֻ��ʾ����ͼ��    A460 3
-Bug 49238 - �����桿������������google������ʾ��ȫ   A460 3
-Bug 49320 - ���龰ģʽ��������"ϵͳ�����ļ�"ӦΪ�龰ģʽ   A460 3
-Bug 48424 - ��Google�������롿���Ѱ�װ������ʾ�ﲻ����Ļ������ʾ    A460 3
+Bug 48665 - 【关机】手机低电量关机时直接关机，没有任何提示   ZQ9046  3
+Bug 46288 - 【电池】从桌面快捷方式进入电池界面与从设置里边进入电池界面显示不一致    A460 3
+Bug 49274 - 【桌面】sock区只显示两个图标    A460 3
+Bug 49238 - 【桌面】开机引导界面google服务显示不全   A460 3
+Bug 49320 - 【情景模式】设置中"系统配置文件"应为情景模式   A460 3
+Bug 48424 - 【Google语音输入】在已安装界面提示语不在屏幕中央显示    A460 3
 
 
 
 20150302
-Bug 46196 - ����ʱ���ػ�����֧�ֶ�ʱ���ػ�   A460 2
-Bug 47886 - �����桿����������ʾ���ϻ������ɽ����������������岻һ��    A460 3
-Bug 49438 - �����á��뽫���Ժ����뷨�е�Janpanese IME���뷨ȥ��    ZQ9046  3
+Bug 46196 - 【定时开关机】不支持定时开关机   A460 2
+Bug 47886 - 【桌面】滑动锁屏提示向上滑动即可解锁字体与其它字体不一致    A460 3
+Bug 49438 - 【设置】请将语言和输入法中的Janpanese IME输入法去掉    ZQ9046  3
 
 
 
 20150303
-Bug 48664 - �����桿�ս������Ĺܼҽ��������ؼ���˲�����һ��   ZQ9046  2
-Bug 47658 - ��С�������鿴С������ָ��ʱ�ӣ�ָ��ʱ��ͼƬ��ʾ��ȫ  ZQ9046  3
-Bug 49316 - �����桿�ֻ�֧�����˵�������Ҫ��֧��    ZQ9046  1
-Bug 50403 - �����桿�ڶ������·�ȱ��һ��Ӧ��ͼ��   ZQ9046  3
+Bug 48664 - 【桌面】刚进入掌心管家界面点击返回键会瞬间黑屏一下   ZQ9046  2
+Bug 47658 - 【小部件】查看小部件的指针时钟，指针时钟图片显示不全  ZQ9046  3
+Bug 49316 - 【桌面】手机支持主菜单，需求要求不支持    ZQ9046  1
+Bug 50403 - 【桌面】第二屏最下方缺少一个应用图标   ZQ9046  3
 
 
 
 20150304
-Bug 50182 - �����á�����power�������ĶԻ����龰ģʽͼ�꿴���壬���Ż�   A460   3
-Bug 47763 - �����������ó����˵���������������ǳ����˵����������Ӧ��     A460   3
-Bug 48174 - �����뷨��Android����������,ƫ����������,�����л��� ѡ��     A460   3
-Bug 48168 - �����뷨�����뷨ѡ�����ֲ��ܽ����滻     A460   3
+Bug 50182 - 【设置】长按power键弹出的对话框情景模式图标看不清，请优化   A460   3
+Bug 47763 - 【按键】设置长按菜单键进入相机，但是长按菜单键弹出最近应用     A460   3
+Bug 48174 - 【输入法】Android键盘设置中,偏好设置中无,语言切换键 选项     A460   3
+Bug 48168 - 【输入法】输入法选择文字不能进行替换     A460   3
 
 
 20150305
-Bug 48165 - �����뷨���������༭����޷����Ƶ����λ��    A460   3
-Bug 48139 - �����뷨���������༭״̬����ѡ���˳�ѡ��Ϊ"<-"    A460   3
-Bug 50642 - �����á�ϵͳ����Ϊ����ʱ����power���������ϵͳ�����о��С�Profile������    ZQ9046  3
+Bug 48165 - 【输入法】输入框里编辑黏贴无法复制到光标位置    A460   3
+Bug 48139 - 【输入法】输入框里编辑状态栏里选项退出选项为"<-"    A460   3
+Bug 50642 - 【设置】系统语言为中文时长按power键弹出框和系统设置中均有“Profile”设置    ZQ9046  3
 
 
 
 20150306
-Bug 50723 - ���龰ģʽ������Power����Profileδ����   ZQ9046  3
+Bug 50723 - 【情景模式】长按Power键，Profile未翻译   ZQ9046  3
 
 
 
 20150309
-Bug 46393 �����ӡ�������ӣ�����   ZQ9046  2
+Bug 46393 【闹钟】点击闹钟，闪退   ZQ9046  2
 
 
 
 20150310
-Bug 50755 - ���龰ģʽ����׼ģʽ�������޸ĺ��л�Ϊ����ģʽ���л�Ϊ��׼ģʽ����׼ģʽ�Ҳ�ĵ�û�е���    ZQ9046  3
-Bug 50882 - ���龰ģʽ���޸ı�׼ģʽ����wifi����ʡ��ģʽ�л�Ϊ��׼ģʽ��wifi�޷���     ZQ9046  3
-Bug 50972 - ���龰ģʽ����������ʱ�����Ի���������������     ZQ9046  3
-Bug 49944 - ���龰ģʽ���ֻ��ָ��������ÿ���û�й�ѡĬ���龰ģʽ   ZQ9046  3
-Bug 48754 - ���龰ģʽ��ͨ��������ѡ�񡰱�׼���𶯡��������龰ģʽ�󣬡��龰ģʽ��Ӧ����δͬ��ѡ��   ZQ9046  3
-Bug 47529 - �����桿������׼ģʽ���鿴��������״̬����ʾ���ԣ��ͻ���ģʽ��ͼ��һ��    ZQ9046  3
-Bug 46925 - ���龰ģʽ�������龰ģʽ��ѡ�񡰱�׼������ʾ�Ѽ��ʵ������Ϊ��  ZQ9046  2
-Bug 48751 - ���龰ģʽ���л���ͬģʽ���龰ģʽ���������ر�    ZQ9046  2
-Bug 46916 - ���龰ģʽ������power��ѡ�񡰱�׼���𶯡��������龰ģʽ�󣬡��龰ģʽ��Ӧ����δͬ��ѡ��    ZQ9046  2
-Bug 51078 - ���龰ģʽ�������к�����Ļ�������һ���龰ģʽ������ȥ��һ��     ZQ9046  3
-Bug 51284 - ���龰ģʽ����׼ģʽ�ͻ���ģʽ�£���2�ֻ�����Ĭ��Ϊ��    ZQ9046  3
+Bug 50755 - 【情景模式】标准模式铃声被修改后，切换为其他模式在切换为标准模式，标准模式右侧的点没有点亮    ZQ9046  3
+Bug 50882 - 【情景模式】修改标准模式开启wifi，从省电模式切换为标准模式，wifi无法打开     ZQ9046  3
+Bug 50972 - 【情景模式】音量调节时，测试机来电响两个铃声     ZQ9046  3
+Bug 49944 - 【情景模式】手机恢复出厂设置开机没有勾选默认情景模式   ZQ9046  3
+Bug 48754 - 【情景模式】通过音量键选择“标准、震动、静音”情景模式后，“情景模式”应用内未同步选中   ZQ9046  3
+Bug 47529 - 【桌面】开启标准模式，查看待机界面状态栏显示不对，和会议模式的图标一样    ZQ9046  3
+Bug 46925 - 【情景模式】进入情景模式，选择“标准”，提示已激活，实际设置为震动  ZQ9046  2
+Bug 48751 - 【情景模式】切换不同模式的情景模式，蓝牙被关闭    ZQ9046  2
+Bug 46916 - 【情景模式】长按power键选择“标准、震动、静音”情景模式后，“情景模式”应用内未同步选中    ZQ9046  2
+Bug 51078 - 【情景模式】设置中和主屏幕界面各有一个情景模式，建议去掉一个     ZQ9046  3
+Bug 51284 - 【情景模式】标准模式和户外模式下，卡2手机铃声默认为无    ZQ9046  3
 
 
 
 
 20150311
-Bug 46638 - ����������򿪻�ر������-�����С��ϲ���ǩҳ��Ӧ�á�ѡ��ᵼ��������˳�    A460   1
-Bug 51120 - ����ʱ���ػ���������涨ʱ�ػ�ʱ�䵽ʱ����ת�ض�ʱ���ػ����浯������ʱ��ʾ��     ZQ9046  3
-Bug 46695 - �����������������-�˵�-��ӡ���˳������     A460   1
-Bug 50562 - ����ϵ�ˡ�����Ļ��������ϵ��ͼ��    ZQ9046  3
-Bug 51296 - �����桿����ʱ��С�������ɫ��ʱ��������ɫ���   ZQ9046  3
-Bug 50659 -  �͵�������fail      ZQ9046  2
+Bug 46638 - 【浏览器】打开或关闭浏览器-设置中“合并标签页和应用”选项会导致浏览器退出    A460   1
+Bug 51120 - 【定时开关机】任意界面定时关机时间到时会跳转回定时开关机界面弹出倒计时提示框     ZQ9046  3
+Bug 46695 - 【浏览器】点击浏览器-菜单-打印会退出浏览器     A460   1
+Bug 50562 - 【联系人】主屏幕有两个联系人图标    ZQ9046  3
+Bug 51296 - 【桌面】数字时钟小组件背景色和时钟字体颜色相近   ZQ9046  3
+Bug 50659 -  低电量报警fail      ZQ9046  2
 
 
 
 20150312
-Bug 50793 - �����á�����--�龰ģʽ--ѡ��Ĭ�ϣ�ѡ�����ұߵ�����ͼ�ꡣѡ��wifi�����һ���������NFC�Ĺ���   ZQ9055   2
-Bug 51306 - ���龰ģʽ���ֻ����������龰ģʽ��    ZQ9055   2
-Bug 51346 - ���龰ģʽ�������龰ģʽδѡ���κ�ģʽ    ZQ9055   2
-Bug 51340 - ���龰ģʽ�����Ի���֧��NFC���뽫�龰ģʽ��NFC�˵�ȥ��    ZQ9055   3
+Bug 50793 - 【设置】设置--情景模式--选择默认，选择最右边的设置图标。选择wifi，向右滑动，出现NFC的功能   ZQ9055   2
+Bug 51306 - 【情景模式】手机上有两个情景模式。    ZQ9055   2
+Bug 51346 - 【情景模式】桌面情景模式未选中任何模式    ZQ9055   2
+Bug 51340 - 【情景模式】测试机不支持NFC，请将情景模式中NFC菜单去掉    ZQ9055   3
 
 
 
 20150316
-Bug 49961 - ��ѹ������û�г���쳣����ʾ    ZQ9046   2
-Bug 49962 - ��ѹ������û�г���쳣����ʾ    ZQ9055   2
-Bug 51787 - ��С������Ӣ��������С���������ÿ�ݷ�ʽ�����л�Ϊ���ģ����ӵ�С��������ʾΪӢ��  ZQ9055   3
-Bug 51340 - ���龰ģʽ�����Ի���֧��NFC���뽫�龰ģʽ��NFC�˵�ȥ��   ZQ9046   3
+Bug 49961 - 过压保护后没有充电异常的提示    ZQ9046   2
+Bug 49962 - 过压保护后没有充电异常的提示    ZQ9055   2
+Bug 51787 - 【小部件】英文下添加小部件（设置快捷方式）后切换为中文，添加的小部件仍显示为英文  ZQ9055   3
+Bug 51340 - 【情景模式】测试机不支持NFC，请将情景模式中NFC菜单去掉   ZQ9046   3
 
 
 20150319
-Bug 50793 - �����á�����--�龰ģʽ--ѡ��Ĭ�ϣ�ѡ�����ұߵ�����ͼ�ꡣѡ��wifi�����һ���������NFC�Ĺ���   ZQ9055   2
-Bug 50174 - ����������û��Ԥ����ΪGoogle���ļ���    ZQ9055   1
+Bug 50793 - 【设置】设置--情景模式--选择默认，选择最右边的设置图标。选择wifi，向右滑动，出现NFC的功能   ZQ9055   2
+Bug 50174 - 【需求】主屏没有预置名为Google的文件夹    ZQ9055   1
 
 
 20150320
-Bug 52401 - ��������Android���ݲ��ԡ��ֻ�QQ2010��2011APK��װ���ֻ��ڴ棬����ʱ����    ZQ9046   2
-Bug 52163 - ��GSM������gmail�ʺţ�pc���޸ĵ����ʼ�����ϵ�ˡ��������ֻ��˵��ʼ�δʵ��ͬ��     ZQ9055   2
-Bug 52398 - �������ʼ������õ����ʼ�ʱ,�м��ʳ����Զ����ò�ͨ��,�޸���ϸ��Ϣʱ����/�ⷢ����������   ZQ9055   3
-Bug 52440 - ���龰ģʽ������龰ģʽ���½ǵ����������������󻬶��������������˻ص��龰ģʽ����   ZQ9055   2
-Bug 52438 - ���龰ģʽ��ϵͳ����-�龰ģʽ-����-������ѡ������������˻��������ý���   ZQ9055   2
-Bug 52435 - ���龰ģʽ������-�龰ģʽ-���أ�ѡ��wifi���һ���������������ѡ��ʱ�����˵��龰ģʽ�������õĽ���   ZQ9055   2
+Bug 52401 - 【第三方Android兼容测试】手机QQ2010、2011APK安装到手机内存，运行时闪退    ZQ9046   2
+Bug 52163 - 【GSM】添加gmail帐号，pc端修改电子邮件、联系人、日历，手机端的邮件未实现同步     ZQ9055   2
+Bug 52398 - 【电子邮件】配置电子邮件时,有几率出现自动配置不通过,修改详细信息时接收/外发服务器错误   ZQ9055   3
+Bug 52440 - 【情景模式】点击情景模式右下角的添加悬浮窗，向左滑动到蓝牙，界面退回到情景模式界面   ZQ9055   2
+Bug 52438 - 【情景模式】系统设置-情景模式-车载-蓝牙，选择蓝牙后会闪退回重新配置界面   ZQ9055   2
+Bug 52435 - 【情景模式】设置-情景模式-车载，选择wifi向右滑动，滑动到蓝牙选项时会闪退到情景模式重新配置的界面   ZQ9055   2
 
 
 20150325
-Bug 49961 - ��ѹ������û�г���쳣����ʾ��    ZQ9046   2
-Bug 49962 - ��ѹ������û�г���쳣����ʾ      ZQ9055   2
+Bug 49961 - 过压保护后没有充电异常的提示。    ZQ9046   2
+Bug 49962 - 过压保护后没有充电异常的提示      ZQ9055   2
 
 
 20150327
-Bug 51434 - ����ʱ���ػ����趨һ������ʱ�䣬�ػ�����ã��Զ�����ʱ����趨ʱ���Ӻ�2��   ZQ9046   2
+Bug 51434 - 【定时开关机】设定一个开机时间，关机后放置，自动开机时间比设定时间延后2分   ZQ9046   2
 
 
 20150402 
-Bug 52619 - ����������power�������󣬵��power��������Ļ����     ZQ9046   3
-Bug 52402 - ���龰ģʽ��������������������泤��power�������ĶԻ������ݲ�һ�¡�    ZQ9046   3
-Bug 53419 - �������ϱ������������ԡ����龰ģʽ������ģʽ������ģʽ���������Խ����޸ģ����޸ĺ�û������.    ZQ9046   1
+Bug 52619 - 【锁屏】按power键锁屏后，点击power键唤醒屏幕慢。     ZQ9046   3
+Bug 52402 - 【情景模式】锁屏界面与非锁屏界面长按power键弹出的对话框内容不一致。    ZQ9046   3
+Bug 53419 - 【中兴上报】【用例测试】【情景模式】静音模式的铃声模式和音量可以进行修改，但修改后没有作用.    ZQ9046   1
 
 
 
 
 20150403
-Bug 53721 - �����ػ�������60��ʱ�ֻ��Զ��ػ���     ZQ9046   2
+Bug 53721 - 【开关机】超过60度时手机自动关机。     ZQ9046   2
 
 
 
 20150408
-Bug 51143 - ������MSG2238�������˵����棬���һ���ʱ����ʱ��Ҫ�����ϳ�����ſ��Է�ҳ   ZQ9055   2
-Bug 52647 - �����桿�ֻ�������������������ֻ�����[�߸���]          ZQ9055   1
+Bug 51143 - 【雅视MSG2238】在主菜单界面，左右滑动时，有时需要滑动较长距离才可以翻页   ZQ9055   2
+Bug 52647 - 【桌面】手机滑动解锁界面解锁，手机黑屏[高概率]          ZQ9055   1
 
 
 
 20150409
-Bug 53299 - �����á��������濪�����ر�����4G��ͬʱ���龰ģʽͬ���������ر�      ZQ9046   2
-Bug 53311 - �����ػ������ػ�������ʾ��С����ȷ     ZQ9088   1
-Bug 53590 - �����ػ�������power�����������֡�С��족ԭ������������Ӧ��ȥ��        ZQ9088   2
-Bug 53595 - �����ػ����ػ�����²���USB��磬���֡�С��족ԭ��������Ӧ�������˶����Ŷ�    ZQ9088   2
-Bug 53596 - �����ػ����ػ�����²���USB��磬���֡�С��족ԭ��������Ӧ�������˶����Ŷ�    ZQ9088   2
+Bug 53299 - 【设置】设置里面开启、关闭启用4G的同时，情景模式同步开启、关闭      ZQ9046   2
+Bug 53311 - 【开关机】开关机界面显示大小不正确     ZQ9088   1
+Bug 53590 - 【开关机】长按power键开机，出现“小企鹅”原生开机动画。应该去掉        ZQ9088   2
+Bug 53595 - 【开关机】关机情况下插上USB充电，出现“小企鹅”原生动画。应该是中兴动画才对    ZQ9088   2
+Bug 53596 - 【开关机】关机情况下插上USB充电，出现“小企鹅”原生动画。应该是中兴动画才对    ZQ9088   2
 
 20150410
-Bug 54206 - �����˷������������������������¼���������������    ZQ9055   1
-Bug 53739 - ����ʱ���ػ�������һ����ʱ����ʱ�䣬�Զ�����ʱ���Ӻ�2min     ZQ9088   2
-Bug 53403 - ��Ч������������POWER��,�龰ģʽѡ��ͼ�겻����    ZQ9088   3
+Bug 54206 - 【中兴反馈】待机界面插入耳机，按下加音量键声音过大    ZQ9055   1
+Bug 53739 - 【定时开关机】设置一个定时开机时间，自动开机时间延后2min     ZQ9088   2
+Bug 53403 - 【效果评估】长按POWER键,情景模式选项图标不明显    ZQ9088   3
 
 
 20150413
-Bug 54029 - [9055����]�����ػ�����power���ػ���ֱ�ӹػ�������ʾ     ZQ9055   2
-Bug 53589 - [9055����]�����ػ�����power���ػ���ֱ�ӹػ�������ʾ     ZQ9088   2
+Bug 54029 - [9055共存]【开关机】按power键关机，直接关机，无提示     ZQ9055   2
+Bug 53589 - [9055共存]【开关机】按power键关机，直接关机，无提示     ZQ9088   2
 
 
 
 20150414
-Bug 53633 - �����ػ�������ģʽ�������п�������    ZQ9088   2
-Bug 53643 - �����ػ�����ģʽ�����п�������     ZQ9088   2
+Bug 53633 - 【开关机】静音模式开机，有开机铃声    ZQ9088   2
+Bug 53643 - 【开关机】震动模式开机有开机铃声     ZQ9088   2
 
 
 20150415
-Bug 54038 - ��9055���桿���龰ģʽ��ȷ��������ǰ�豸���ú󣬽��淵�ص��龰ģʽ����    ZQ9088   2
-Bug 52486 - ���龰ģʽ��ȷ��������ǰ�豸���ú󣬽��淵�ص��龰ģʽ����       ZQ9055   2
+Bug 54038 - 【9055共存】【情景模式】确定导出当前设备设置后，界面返回到情景模式界面    ZQ9088   2
+Bug 52486 - 【情景模式】确定导出当前设备设置后，界面返回到情景模式界面       ZQ9055   2
 
 
 20150416
-Bug 54013 - �����桿idle���������˵����ĸ�Ӧ��ͼ�겻������ʾ     ZQ9088   3
-Bug 50938 - �����ػ�������ģʽ�£�������Ȼ�п�������         ZQ9055   2
+Bug 54013 - 【桌面】idle界面中主菜单和四个应用图标不对齐显示     ZQ9088   3
+Bug 50938 - 【开关机】静音模式下，开机依然有开机铃声         ZQ9055   2
 
 
 
 20150417
-Bug 53727 - ����ʱ���ػ�������һ����ʱ�ػ�ʱ�䣬ʱ�䵽�Զ��ػ�������ʾ  ZQ9088  2
-Bug 53616 - �����ػ����������̳���power�����ֻ�����     ZQ9088  1
-Bug 53234 - �����ػ����ػ�״̬�³���power�����ֻ���������   ZQ9055   2
-Bug 54069 - ���������������ֻ�fastboot�������ֻ���������������   ZQ9055   2
+Bug 53727 - 【定时开关机】设置一个定时关机时间，时间到自动关机，无提示  ZQ9088  2
+Bug 53616 - 【开关机】开机过程长按power键，手机黑屏     ZQ9088  1
+Bug 53234 - 【开关机】关机状态下长按power键，手机会进入白屏   ZQ9055   2
+Bug 54069 - 【开机闪白屏】手机fastboot开机后，手机开机界面闪白屏   ZQ9055   2
 
 
 
 20150423
-Bug 55730 - ��ǰ��������he default home screen is wrong��    ZQ9055   2
-Bug 53959 - ������δʵ�� Telcel����Ҫ��Idle�����Ӧ�������������ͼ������˳��Ϊ��һ�����ڶ���������������   ZQ9055   1
+Bug 55730 - 【前方反馈】he default home screen is wrong。    ZQ9055   2
+Bug 53959 - 【需求】未实现 Telcel定制要求Idle界面的应用排列如下面截图（排列顺序为第一屏、第二屏、第三屏）：   ZQ9055   1
 
 
 
 20150424
-Bug 55695 - ��ǰ��������Telcel widget      ZQ9055   1
+Bug 55695 - 【前方反馈】Telcel widget      ZQ9055   1
 
 
 
   
 10.10.1.5
-�û��������붼��release
+用户名和密码都是release
 FTP
 
-����ftp://121.15.143.225
+宇龙ftp://121.15.143.225
 YL13750_lixijin 
 YL13750
 
-����FTP
-ftp://114.80.203.72/ �˿�21
-�ʺ�/���룺huazh/huazh8897
+广升FTP
+ftp://114.80.203.72/ 端口21
+帐号/密码：huazh/huazh8897
 
-��о��Ŀ������
+联芯项目第三方
 http://hz.wcd.qq.com/
-�û��������Ϊ��77951
+用户名密码均为：77951
 
 
- FTP��������log�ĵ�ַ��
+ FTP共享场测log的地址：
        119.233.254.21
-        �û�����lenovoFT  ���룺ftplenovo
+        用户名：lenovoFT  密码：ftplenovo
 
 
-վ���ǩ: SPCSS
-������: ftp.spreadtrum.com
-�û���: log
-����: Log?$1029
-�˿�: 21
+站点标签: SPCSS
+主机名: ftp.spreadtrum.com
+用户名: log
+密码: Log?$1029
+端口: 21
 
 
-վ���ǩ: 10.10.1.6
-������: 10.10.1.6
-�û���: release
-����: release
-�˿�: 21
-Ĭ�ϱ���Ŀ¼: E:\system_download
+站点标签: 10.10.1.6
+主机名: 10.10.1.6
+用户名: release
+密码: release
+端口: 21
+默认本地目录: E:\system_download
 
 
-վ���ǩ: ����
-������: 114.80.203.72
-�û���: huazh
-����: huazh8897
-�˿�: 21
+站点标签: 广升
+主机名: 114.80.203.72
+用户名: huazh
+密码: huazh8897
+端口: 21
 
 
-վ���ǩ: ����
-������: 121.15.143.225
-�û���: YL13750_lixijin
-����: YL13750
-�˿�: 21
+站点标签: 宇龙
+主机名: 121.15.143.225
+用户名: YL13750_lixijin
+密码: YL13750
+端口: 21
 
 
-վ���ǩ: lenovo_log
-������: 119.233.254.21
-�û���: lenovoFT
-����: ftplenovo
-�˿�: 21
+站点标签: lenovo_log
+主机名: 119.233.254.21
+用户名: lenovoFT
+密码: ftplenovo
+端口: 21
 
 
 
 
 
-8015 R08�汾�ڰٶ����̣�
-�����ڰٶ�����
-�û�����13585713173
-���룺hpdy123
+8015 R08版本在百度网盘：
+共享在百度网盘
+用户名：13585713173
+密码：hpdy123
 
-�������̣�
-�û��������ɱ���/zhangzhaolei@hipad.hk
-���룺hipad2014
+海派网盘：
+用户名：海派北京/zhangzhaolei@hipad.hk
+密码：hipad2014
 
 4515 4554
 
@@ -1993,19 +1993,19 @@ http://hz.wcd.qq.com/
 content://media/internal/audio/media/60
 
 
-�Կ���<zhaojunlong@hipad.com>
-���ŷ�<zhangyafei@hipad.com>
-�Ƚ���<gujinwan@hipad.com>
-������<liujunfeng@hipad.com>
-�ﺣ��<sunhailong@hipad.com>
-��ӭ��<liuyingjun@hipad.com>
-��־��<zhangzhixuan@hipad.com>
-���ٲ�<changshaobo@hipad.com>
-�Ÿ���<zhanggaiqing@hipad.com>
-������<zhangzhaolei@hipad.com>
+赵俊龙<zhaojunlong@hipad.com>
+张雅飞<zhangyafei@hipad.com>
+谷晋皖<gujinwan@hipad.com>
+刘俊峰<liujunfeng@hipad.com>
+孙海龙<sunhailong@hipad.com>
+刘迎军<liuyingjun@hipad.com>
+张志轩<zhangzhixuan@hipad.com>
+常少波<changshaobo@hipad.com>
+张改清<zhanggaiqing@hipad.com>
+张召磊<zhangzhaolei@hipad.com>
 
 
-��ʱ�ػ�����
+定时关机解锁
 final Window win = getWindow();
         win.addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED |
                 WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD |
@@ -2037,44 +2037,44 @@ editor.putInt("profile_id", 2);
 				editor.commit();
 
 
-//���preferences��������
+//获得preferences操作对象
 SharedPreferences preferences=PreferenceManager.getDefaultSharedPreferences(this);
-//ȡ����������
+//取得配置数据
 int count=preferences.getInt("count", 0);
-//��ʾ����
+//显示数据
 Toast.makeText(this, String.valueOf(count), Toast.LENGTH_SHORT).show();
-//��ñ༭����Editor
+//获得编辑对象Editor
 Editor editor=preferences.edit();
-//������������
+//更改配置数据
 editor.putInt("count", ++count);
-//�ύ�洢
+//提交存储
 editor.commit();
 
 
 
 
 
-Ŀǰ���� android5.0  �� andorid4.4 һ���Ƚϴ�������� android5.0  ʹ���� SE linux ��ȫ���ơ�
-�κν�������SELinuxϵͳ�и��κ����飬���������ڰ�ȫ���������ļ��и���Ȩ�ޡ�����û�г����ڰ�ȫ���������ļ��е�Ȩ�ޣ����̾�û�и�Ȩ�ޡ�
-����Ŀǰ��ͨ���߲������죬�з��з����кܶ� �õ���Ȩ��û�����á�
-������� ͬ���Ĵ����� zq9046 ��������������zq9055 �������⣬����log�г��� Permission denied   �����ĳһĿ¼���ļ���socket Ȩ��������ص�log.
+目前发现 android5.0  跟 andorid4.4 一个比较大的区别是 android5.0  使用了 SE linux 安全机制。
+任何进程想在SELinux系统中干任何事情，都必须先在安全策略配置文件中赋予权限。凡是没有出现在安全策略配置文件中的权限，进程就没有该权限。
+鉴于目前高通基线并不成熟，研发中发现有很多 用到的权限没有配置。
+如果发现 同样的代码在 zq9046 上运行正常，在zq9055 上有问题，或是log中出现 Permission denied   等针对某一目录，文件，socket 权限限制相关的log.
 
-����ͨ�����·�����֤�Ƿ����ȫ�����йأ�
-�Լ������޸��ļ�
-device/qcom/A460/BoardConfig.mk  ����ʱ�ر� SE linux ��ȫ����
-BOARD_KERNEL_CMDLINE  ������� androidboot.selinux=permissive   ��ע�� ��Ҫ�����޸��ύ���������������Ӱ��CTS ���ԣ�
-���£�
+可以通过以下方法验证是否跟安全策略有关：
+自己本地修改文件
+device/qcom/A460/BoardConfig.mk  先暂时关闭 SE linux 安全机制
+BOARD_KERNEL_CMDLINE  最后添加 androidboot.selinux=permissive   （注意 不要将此修改提交到服务器，否则会影响CTS 测试）
+如下：
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidb    oot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk androidboot.selinux=permissive
 
-ʹ�� make bootimage  ����boot.img  ����д���boot.img ���� ��֤������⣨ע�Ᵽ����֤ʱ��log����������� �������ˣ�˵�� �� android5.0 Ȩ�޹����йء�
+使用 make bootimage  编译boot.img  。烧写这个boot.img 重新 验证这个问题（注意保存验证时的log），如果问题 不存在了，说明 跟 android5.0 权限管理有关。
 
-��ʱ��Ҫ�޸� android/device/qcom/sepolicy Ŀ¼�� ��ȫ�����ļ���
-�����л���Ļ��ٸ������ѵ��������ð�ȫ�����ļ� ��
-��ȫ�����ļ� �ο����ϣ�
+此时需要修改 android/device/qcom/sepolicy 目录下 安全策略文件。
+后续有机会的话再跟大家培训下如何配置安全策略文件 。
+安全策略文件 参考资料：
 http://blog.csdn.net/innost/article/details/19299937
 
 
-�ڵ��ȡ
+节点读取
 private String getBatteryVoltage() {
         char[] buffer = new char[1024];
 
@@ -2106,11 +2106,11 @@ private String getBatteryVoltage() {
 
 
 
-��ʵ���ϲ���ˮ�����ϴ�ƻ������ˮ�����������ϴ�һ���ջ������ޣ�һ��������ţ�٣�һ�����˰�ѩ������һ����Ϊ�ֻ����ϴ�һ�������˹㳡�裬һ����ռ��ƽ��ҹ�������� ƽ��ҹ����Ů�������Գ�ƻ�������屻ƭȥ���㽶,��󻹺��˶�����ƻ����Ӣ����ô˵�������ڡ���
+其实西瓜不是水果的老大，苹果才是水果界真正的老大，一个诱惑了夏娃，一个砸醒了牛顿，一个害了白雪公主，一个成为手机的老大，一个主宰了广场舞，一个霸占了平安夜………？ 平安夜多少女孩都是以吃苹果的名义被骗去吃香蕉,最后还喝了豆浆！苹果的英语怎么说：“挨炮”！
 
 
 
-ubuntu����android�豸
+ubuntu添加android设备
 lsusb
 echo 0x1f3a > ~/.android/adb_usb.ini
 ####SUBSYSTEM=="usb", ATTRS{idVendor}=="1f3a", ATTRS{idProduct}=="1002",MODE="0666"
@@ -2120,11 +2120,11 @@ sudo service udev restart
 
 
 
-ubuntu14.04 kylin ����android
+ubuntu14.04 kylin 编译android
 
 sudo apt-get install git gnupg flex bison gperf build-essential zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386  g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386 dpkg-dev
 
-libgl1-mesa-dri:i386   ����������������
+libgl1-mesa-dri:i386   这两个可能有问题
 libgl1-mesa-dev
 
 sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
@@ -2134,7 +2134,7 @@ cd dalvik/vm/mterp
 
 sh ./rebuild.sh
 
-make: *** No rule to make target ��out/target/product/generic/obj/SHARED_LIBRARIES/libdvm_intermediates/compiler/template/out/CompilerTemplateAsm-armv7-a.o�� needed by ��dalvik/vm/compiler/template/out/CompilerTemplateAsm-armv7-a.S���� Stop
+make: *** No rule to make target “out/target/product/generic/obj/SHARED_LIBRARIES/libdvm_intermediates/compiler/template/out/CompilerTemplateAsm-armv7-a.o” needed by “dalvik/vm/compiler/template/out/CompilerTemplateAsm-armv7-a.S”。 Stop
 
 cd dalvik/vm/compiler/template
 
@@ -2144,10 +2144,10 @@ make: *** [out/target/product/mx3/obj/STATIC_LIBRARIES/libwebcore_intermediates/
 
 sudo apt-get install libswitch-perl
 
-4.4����
-�������Can't locate JSON.pm in @INC 
-����Ϊȱ�� JSON.pm��
-���� http://www.cpan.org/authors/id/M/MA/MAKAMAKA/JSON-2.90.tar.gz
+4.4错误
+报这错：Can't locate JSON.pm in @INC 
+是因为缺少 JSON.pm包
+下载 http://www.cpan.org/authors/id/M/MA/MAKAMAKA/JSON-2.90.tar.gz
 tar -xzvf JSON-2.90.tar.gz
 perl Makefile.PL
 make 
@@ -2158,8 +2158,8 @@ make install
 
 
 
-״̬������������
-frameworks\base\packages\SystemUI\res\layout\system_bar.xml�������������ť
+状态栏添加音量键
+frameworks\base\packages\SystemUI\res\layout\system_bar.xml下面加上两个按钮
             <com.android.systemui.statusbar.policy.KeyButtonView android:id="@+id/sound1"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
@@ -2198,9 +2198,9 @@ public class TextJNI
  public static native String  getString();
 }
 
-TextJNI.javaĿ¼��ִ��javac TextJNI.java ����TextJNI.class
-TextJNI��Ŀ¼��ִ�� javah com.example.textjni.TextJNI ����com_example_textjni_TextJNI.h
-��дcpp�ļ�
+TextJNI.java目录下执行javac TextJNI.java 生成TextJNI.class
+TextJNI根目录下执行 javah com.example.textjni.TextJNI 生成com_example_textjni_TextJNI.h
+编写cpp文件
 #include"com_example_textjni_TextJNI.h"
 #include <stdio.h>
 #include <stdlib.h>                                           
@@ -2212,7 +2212,7 @@ int sum (){
     return x;
                                                
 }
-//ʵ�� com_example_textjni_textJNI.h �ķ���
+//实现 com_example_textjni_textJNI.h 的方法
 JNIEXPORT jint JNICALL Java_com_example_textjni_TextJNI_getInt
     (JNIEnv *, jclass){
                                                
@@ -2224,16 +2224,16 @@ JNIEXPORT jstring JNICALL Java_com_example_textjni_TextJNI_getString
     return env->NewStringUTF("HelloNDK");
 }
 
-��дAndroid.mk
-����cpp����.o
+编写Android.mk
+编译cpp生成.o
 gcc -fPIC -D_REENTRANT -I /home/zhangzhaolei/jdk1.6.0_45/include/ -I /home/zhangzhaolei/jdk1.6.0_45/include/linux/ -c jni/com_example_textjni_TextJNI.cpp
 
 (javah -classpath bin -d jni com.ura.test.JNItest  )
 
-����so����windows�²�ͬ��linux�Ŀ��ļ���������libxxx.so��ʽ�����(���� libxxx.so.y��y�ǰ汾��)��libǰ׺��Ϊ��ϵͳ�ܹ�ʶ������xxx��java����System.loadLibrary("xxx");�����ÿ�����֣�
+生成so（和windows下不同，linux的库文件必须是以libxxx.so形式命令的(或者 libxxx.so.y，y是版本号)，lib前缀是为了系统能够识别它，xxx是java代码System.loadLibrary("xxx");中引用库的名字）
 gcc -shared com_example_textjni_TextJNI.o -o libtextjni.so
 
-Ӧ��mk�ļ��м���LOCAL_JNI_SHARED_LIBRARIES := libtextjni
+应用mk文件中加入LOCAL_JNI_SHARED_LIBRARIES := libtextjni
 
 public native String  getString();  
 
@@ -2243,33 +2243,33 @@ public native String  getString();
 
 
 
-����ʱ��
+加上时间
 adb logcat -v time *:E > mainLog.log
 
 
-SC9830_android4.4�汾���ϴ�FTP: errobbing\�����汾\SC9830_android4.4\MOCORDROID4.4_3.10_SharkL_3Mod_mp_W15.20.5
-չѶ�ͻ�֧��ϵͳ�ṩ�ķ��ʵ�ַ������
-���İ汾 Chinese Version��
-http://222.66.158.139:2008/cqweb/login�����ţ�
-http://210.13.81.29:2008/cqweb/login����ͨ��
-English VersionӢ�İ汾��
+SC9830_android4.4版本已上传FTP: errobbing\软件版本\SC9830_android4.4\MOCORDROID4.4_3.10_SharkL_3Mod_mp_W15.20.5
+展讯客户支持系统提供的访问地址包括：
+中文版本 Chinese Version：
+http://222.66.158.139:2008/cqweb/login（电信）
+http://210.13.81.29:2008/cqweb/login（网通）
+English Version英文版本：
 http://222.66.158.138/cqweb/login
 
-Username�� erobbing
-Password�� erobbingcq
+Username： erobbing
+Password： erobbingcq
 
 FTP:
-���ʵ�ַ��ftp.spreadtrum.com
-�ʺţ�errobbing    
-���룺5Pmnw3Qh
+访问地址：ftp.spreadtrum.com
+帐号：errobbing    
+密码：5Pmnw3Qh
 
 
-ͨ��adb ���͹㲥 
+通过adb 发送广播 
 adb shell am broadcast -a "send_by_frank_test"
 adb shell am broadcast -a android.intent.action.MASTER_CLEAR
 adb shell am broadcast -n com.lt.test/.MyBroadcast
 
-adb����Ӧ��
+adb启动应用
 adb shell am start -n breakan.test/breakan.test.TestActivity
 
 
@@ -2283,14 +2283,14 @@ make -jx
 
 make -jN 2>&1 | tee build.log
 
-linux��ӡ������
+linux打印机设置
 system-config-printer
 
-git ���˵��汾
+git 回退到版本
 git reset 46c63ba2d7e71c1110b35fc629719641b51faded device/qcom/A8plus/BoardConfig.mk
-git reset �Chard HEAD~3
+git reset –hard HEAD~3
 
-git ��һ��Զ���ύ
+git 第一次远程提交
 git init
 git add SC9830_android4.4/
 git commit -m ""
@@ -2305,22 +2305,22 @@ git remote add origin https://github.com/dante198406/ErobbingStatusBar.git
 git push -u origin master
 
 
-git reset HEAD^    //�����������ݵ���һ���汾
-	git reset HEAD^ a.py   //����a.py����ļ��İ汾����һ���汾
-	git reset �Csoft HEAD~3   //��ǰ���˵���3���汾
-	git reset �Chard origin/master   //�����ص�״̬���˵���Զ�̵�һ��
-	git reset 057d   //���˵�ĳ���汾
-	git revert HEAD    //���˵���һ���ύ��״̬������ĳһ�ε�commit��ȫ����Ľ���һ��commit
+git reset HEAD^    //回退所有内容到上一个版本
+	git reset HEAD^ a.py   //回退a.py这个文件的版本到上一个版本
+	git reset –soft HEAD~3   //向前回退到第3个版本
+	git reset –hard origin/master   //将本地的状态回退到和远程的一样
+	git reset 057d   //回退到某个版本
+	git revert HEAD    //回退到上一次提交的状态，按照某一次的commit完全反向的进行一次commit
 	
-	//git reset --hard <commit_id>ɾ��ĳ���ύ
+	//git reset --hard <commit_id>删除某次提交
     //git push origin HEAD --force
     
-    ����δ�������ĺϲ������� MERGE_HEAD����
-���ںϲ�ǰ���ύ�����޸ġ�
-1.�����㱾�ص��޸�
+    您尚未结束您的合并（存在 MERGE_HEAD）。
+请在合并前先提交您的修改。
+1.保留你本地的修改
 git merge --abort
 git reset --merge
-2.down�����ϴ���汾,�������ص��޸�
+2.down下线上代码版本,抛弃本地的修改
 git fetch --all
 git reset --hard origin/master
 git fetch  
@@ -2330,12 +2330,12 @@ git stash
 git pull
 git stash pop
 	
-�鿴���з�֧
+查看所有分支
 git branch -a
-ֻ����֧����
+只拉分支代码
 git clone -b L8_Branch_20150817 git@192.168.1.100:code/qualcomm/msm8909/android4.4.git  4.4_L8_branch
 
-���Ӹ�swap�ռ�
+增加个swap空间
 
 sudo dd if=/dev/zero of=/opt/swapfile bs=1024 count=8192000
 sudo mkswap /opt/swapfile
@@ -2343,9 +2343,9 @@ sudo swapon /opt/swapfile
 sudo gedit /etc/fstab
 sudo /opt/swapfile swap swap defaults 0 0
 
-tar xmvf test.tar ��ѹʱʱ���Ϊ����
+tar xmvf test.tar 解压时时间改为现在
 
-�����з��͹㲥
+命令行发送广播
 adb shell am broadcast -a com.android.test --es test_string "this is test string" --ei test_int 100 --ez test_boolean true
 
 
@@ -2354,7 +2354,7 @@ SharedPreferences prefs = getContext().getSharedPreferences("", Context.MODE_PRI
             editor.putBoolean(Launcher.USER_HAS_MIGRATED, true);
             editor.apply();
             
-�ж�״̬������״̬
+判断状态栏拉下状态
 frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/phone/PanelView.java
 private void animationTick(long dtms)
 else if (dtms > 0)
@@ -2363,26 +2363,26 @@ String sVel = mVel + "";
 if (sVel.startsWith("-")) {if (mClosing)}
 
 
-չѶErobbing�˺�
+展讯Erobbing账号
 ftp.spreadtrum.com
 errobbing
 5Pmnw3Qh
 
-CQ��
+CQ：
 erobbing
 erobbingcq
             
-�������log  
-make �CjN 2>&1 | tee build.log    
+输出编译log  
+make –jN 2>&1 | tee build.log    
 
-OTA����������ǩ��
+OTA升级包重新签名
 java -Xmx1024m -jar out/host/linux-x86/framework/signapk.jar -w
 build/target/product/security/releasekey.x509.pem
 build/target/product/security/releasekey.pk8 ~/NEWOTA/update.zip
 ~/NEWOTA/update_with_new_key.zip
 
 
-�� .mk �ļ�������:
+在 .mk 文件中添加:
 #PROGUARD start#
 LOCAL_PROGUARD_ENABLED := disabled/full
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
@@ -2390,7 +2390,7 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 http://192.168.1.100:1234/
 
-3.0�Ժ�ϵͳ�㲥��Ĭ�ϼ���FLAG_EXCLUDE_STOPPED_PACKAGES�����ղ����㲥
+3.0以后系统广播会默认加上FLAG_EXCLUDE_STOPPED_PACKAGES导致收不到广播
 intent.setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
 
 dp compute
@@ -2401,8 +2401,8 @@ java -Xmx2048m -jar out/host/linux-x86/framework/signapk.jar -w build/target/pro
 
 
 
-4.4r3 cts�����ܽ᣺  run cts --plan CTS --disable-reboot ��������
-1��
+4.4r3 cts错误总结：  run cts --plan CTS --disable-reboot 避免重启
+1、
 junit.framework.AssertionFailedError
 at junit.framework.Assert.fail(Assert.java:48)
 at junit.framework.Assert.assertTrue(Assert.java:20)
@@ -2414,8 +2414,8 @@ at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 at java.lang.reflect.Method.invoke(Method.java:597)
 
-ʱ�����⣬�Ļر�׼ʱ��
-2��
+时区问题，改回标准时区
+2、
 10-10 14:12:25 I/3fb1d8f1: android.admin.cts.DevicePolicyManagerTest#testAndroidTestCaseSetupProperly FAIL 
 java.lang.SecurityException: No active admin ComponentInfo{android.deviceadmin.cts/android.deviceadmin.cts.CtsDeviceAdminReceiver}
 at android.os.Parcel.readException(Parcel.java:1465)
@@ -2432,7 +2432,7 @@ at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:17
 Install the "CtsDeviceAdmin.apk" and enable only the first two options in the security-->Deviceadministrators".
 It will make the Test case "testActivateGoodReceiverDisplaysActivationUi" PASS.
 Even all the 18 Test cases in this Package (android.admin) will get PASS on Android 4.3
-3��
+3、
 10-10 15:41:50 I/3fb1d8f1: android.app.cts.AlertDialog_BuilderTest#testSetCursor FAIL 
 android.database.CursorIndexOutOfBoundsException: Index -1 requested, with a size of 1
 at android.database.AbstractCursor.checkPosition(AbstractCursor.java:426)
@@ -2450,7 +2450,7 @@ at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java
 at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
 
 
-4��
+4、
 10-12 09:50:43 I/3fb1d8f1: libcore.icu.AlphabeticIndexTest#test_zh_CN FAIL 
 junit.framework.ComparisonFailure: expected:<[C]> but was:<[S]>
 at libcore.icu.AlphabeticIndexTest.assertHasLabel(AlphabeticIndexTest.java:30)
@@ -2460,3 +2460,12 @@ at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
 at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
 at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
+
+
+
+#set java environment  
+JAVA_HOME=/home/zhangzhaolei/jdk1.6.0_45  
+export JRE_HOME=/home/zhangzhaolei/jdk1.6.0_45/jre  
+export CLASSPATH=$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH 
+export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH 
+
