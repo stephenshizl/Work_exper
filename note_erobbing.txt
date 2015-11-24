@@ -2469,3 +2469,6 @@ export JRE_HOME=/home/zhangzhaolei/jdk1.6.0_45/jre
 export CLASSPATH=$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH 
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH 
 
+单元测试命令
+adb shell am instrument -w com.taobao.taobao.test/android.test.InstrumentationTestRunner
+adb shell am instrument -e class com.android.email.tests.ThrottleTest -w com.android.email.tests/android.test.InstrumentationTestRunner
