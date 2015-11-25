@@ -2476,4 +2476,4 @@ adb shell am instrument -e class com.android.email.tests.ThrottleTest -w com.and
 mac 编译android5.1 网址
 http://www.bubuko.com/infodetail-471094.html
 http://stackoverflow.com/questions/19608799/how-to-downgrade-perl-on-mac-os-x-mavericks#
-
+http://stackoverflow.com/questions/19608799/how-to-downgrade-perl-on-mac-os-x-mavericks
