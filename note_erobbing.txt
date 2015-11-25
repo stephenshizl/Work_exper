@@ -2472,3 +2472,6 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 单元测试命令
 adb shell am instrument -w com.taobao.taobao.test/android.test.InstrumentationTestRunner
 adb shell am instrument -e class com.android.email.tests.ThrottleTest -w com.android.email.tests/android.test.InstrumentationTestRunner
+
+mac 编译android5.1 网址
+http://www.bubuko.com/infodetail-471094.html
