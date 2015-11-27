@@ -2334,6 +2334,15 @@ git stash pop
 git branch -a
 只拉分支代码
 git clone -b L8_Branch_20150817 git@192.168.1.100:code/qualcomm/msm8909/android4.4.git  4.4_L8_branch
+git clone git@192.168.1.100:code/spreatrum/sc9830.git
+git clone git@192.168.1.100:code/qualcomm/msm8909/5.1/android.git
+第一次提交//未验证
+git init
+git config --global core.autocrlf false //LF will be replaced by CRLF（禁止回车换行替代换行）
+git add -f .
+git commit -m "first commit"
+git remote add origin https://git.oschina.net/sunzmit/test11.git
+git push -u origin master
 
 增加个swap空间
 
