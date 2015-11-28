@@ -2486,3 +2486,29 @@ mac 编译android5.1 网址
 http://www.bubuko.com/infodetail-471094.html
 http://stackoverflow.com/questions/19608799/how-to-downgrade-perl-on-mac-os-x-mavericks#
 http://stackoverflow.com/questions/19608799/how-to-downgrade-perl-on-mac-os-x-mavericks
+
+
+
+erobbing账号等
+展讯客户支持系统提供的访问地址包括：
+中文版本 Chinese Version：
+http://222.66.158.139:2008/cqweb/login（电信）
+http://210.13.81.29:2008/cqweb/login（网通）
+English Version英文版本：
+http://222.66.158.138/cqweb/login
+
+Username： erobbing
+Password： erobbingcq
+
+FTP:
+访问地址：ftp.spreadtrum.com
+帐号：errobbing    
+密码：5Pmnw3Qh
+
+Isupport网站：
+Username： erobbing
+Password： Erobbing123
+
+http://cs.spreadtrum.com.cn 
+User：erobbing 
+Password：mjcqjd
