@@ -2513,5 +2513,23 @@ http://cs.spreadtrum.com.cn
 User：erobbing 
 Password：mjcqjd
 
+//update
+展讯问题库，我们需要的问题和请求都需要在下面的网站提交：
+http://222.66.158.139:2008/cqweb/login
+Username： erobbing
+Password： erobbingcq
+
+展讯发布的版本和比较大的文件会通过下面的FTP发布：
+FTP:
+访问地址：ftp.spreadtrum.com
+帐号：errobbing    
+密码：5Pmnw3Qh
+
+下面的网站为展讯的资料网站，上面有展讯的文档和一些整理的一些常见问题和回答。
+Isupport网站：
+https://isupport.spreadtrum.com
+Username： erobbing
+Password： Haiyundongfang1805
+
 
 which java显示当前java路径
