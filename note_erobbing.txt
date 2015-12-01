@@ -2512,3 +2512,6 @@ Password： Erobbing123
 http://cs.spreadtrum.com.cn 
 User：erobbing 
 Password：mjcqjd
+
+
+which java显示当前java路径
