@@ -2344,6 +2344,8 @@ git commit -m "first commit"
 git remote add origin https://git.oschina.net/sunzmit/test11.git
 git push -u origin master
 
+有库之后正常clone，最后git push -u origin master
+
 增加个swap空间
 
 sudo dd if=/dev/zero of=/opt/swapfile bs=1024 count=8192000
@@ -2531,5 +2533,7 @@ https://isupport.spreadtrum.com
 Username： erobbing
 Password： Haiyundongfang1805
 
+上海zoom展讯CQ：http://222.66.158.139:2008/cqweb/login?/cqweb/main?command=GenerateMainFrame
+zoom_sh  zoom_sh  SPRDCSS  SPCSS:SPRD CSSDB
 
 which java显示当前java路径
