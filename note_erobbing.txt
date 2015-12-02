@@ -2533,6 +2533,10 @@ https://isupport.spreadtrum.com
 Username： erobbing
 Password： Haiyundongfang1805
 
+192.168.1.2
+用户名：erobbing.com\administrator
+密码：Admin123
+
 上海zoom展讯CQ：http://222.66.158.139:2008/cqweb/login?/cqweb/main?command=GenerateMainFrame
 zoom_sh  zoom_sh  SPRDCSS  SPCSS:SPRD CSSDB
 
