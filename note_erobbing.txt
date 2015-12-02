@@ -2537,3 +2537,27 @@ Password： Haiyundongfang1805
 zoom_sh  zoom_sh  SPRDCSS  SPCSS:SPRD CSSDB
 
 which java显示当前java路径
+
+查询数据库
+public static final String PROFILE_TABLE = "profiles";
+    public static final String AUTHORITY = "com.thunderst.audioprofile.provider";
+    public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY
+            + "/" + PROFILE_TABLE); 
+Cursor c = getContext().getContentResolver().query(CONTENT_URI, new String[] {"name","displayName","isSelected"}, null, null,null);
+
+try {
+            while (c.moveToNext()) {
+              // String name_a = c.getString(1);
+Log.e("ssssssssss","===========");
+Log.e("ssssssssss","===========00000"+c.getString(2)+"**"+c.getString(1));
+            }
+        } 
+catch(Exception e)
+{
+	e.printStackTrace();
+}
+finally {
+            c.close();
+        }
+        
+        
