@@ -2541,6 +2541,8 @@ erobbing svn
 https://192.168.1.2/svn/Projects（项目文档等）
 https://192.168.1.2/svn/Common/ProductManagement（产品出入库单）
 https://192.168.1.2/svn/Software（应用源码，培训文档等）
+https://192.168.1.2:443（svn）
+https://192.168.1.4:1234（git）
 
 上海zoom展讯CQ：http://222.66.158.139:2008/cqweb/login?/cqweb/main?command=GenerateMainFrame
 zoom_sh  zoom_sh  SPRDCSS  SPCSS:SPRD CSSDB
