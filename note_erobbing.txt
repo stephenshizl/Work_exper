@@ -2551,6 +2551,8 @@ which java显示当前java路径
 
 AndroidStudio社区
 http://www.android-studio.org/index.php/download/hisversion
+官方
+http://tools.android.com/download/studio/
 
 查询数据库
 public static final String PROFILE_TABLE = "profiles";
