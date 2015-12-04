@@ -2553,6 +2553,21 @@ AndroidStudio社区
 http://www.android-studio.org/index.php/download/hisversion
 官方
 http://tools.android.com/download/studio/
+下载地址：1.4
+IDE sdk https://dl.google.com/dl/android/studio/install/1.4.1.0/android-studio-bundle-141.2343393-windows.exe
+
+IDE https://dl.google.com/dl/android/studio/install/1.4.1.0/android-studio-ide-141.2343393-windows.exe
+
+plainzip https://dl.google.com/dl/android/studio/ide-zips/1.4.1.0/android-studio-ide-141.2343393-windows.zip
+
+https://dl.google.com/dl/android/studio/install/1.4.1.0/android-studio-ide-141.2343393-mac.dmg
+
+plainzip
+https://dl.google.com/dl/android/studio/ide-zips/1.4.1.0/android-studio-ide-141.2343393-mac.zip
+
+plainzip
+https://dl.google.com/dl/android/studio/ide-zips/1.4.1.0/android-studio-ide-141.2343393-linux.zip
+
 
 查询数据库
 public static final String PROFILE_TABLE = "profiles";
