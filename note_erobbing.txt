@@ -2568,6 +2568,11 @@ https://dl.google.com/dl/android/studio/ide-zips/1.4.1.0/android-studio-ide-141.
 plainzip
 https://dl.google.com/dl/android/studio/ide-zips/1.4.1.0/android-studio-ide-141.2343393-linux.zip
 
+1.5
+https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-mac.zip
+https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip
+https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip
+
 
 查询数据库
 public static final String PROFILE_TABLE = "profiles";
