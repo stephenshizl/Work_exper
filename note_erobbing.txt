@@ -2549,6 +2549,9 @@ zoom_sh  zoom_sh  SPRDCSS  SPCSS:SPRD CSSDB
 
 which java显示当前java路径
 
+AndroidStudio社区
+http://www.android-studio.org/index.php/download/hisversion
+
 查询数据库
 public static final String PROFILE_TABLE = "profiles";
     public static final String AUTHORITY = "com.thunderst.audioprofile.provider";
