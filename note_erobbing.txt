@@ -2570,8 +2570,17 @@ https://dl.google.com/dl/android/studio/ide-zips/1.4.1.0/android-studio-ide-141.
 
 1.5
 https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-mac.zip
+https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-windows.zip 
 https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip
-https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip
+
+
+Windows: https://dl.google.com/dl/android/studio/ide-zips/2.0.0.1/android-studio-ide-143.2461418-windows.zip (320 MB)
+Mac: https://dl.google.com/dl/android/studio/ide-zips/2.0.0.1/android-studio-ide-143.2461418-mac.zip (319 MB)
+Linux: https://dl.google.com/dl/android/studio/ide-zips/2.0.0.1/android-studio-ide-143.2461418-linux.zip (318 MB)
+SHA-1 Checksums:
+247d9dd85da8cf1c6e286b1d6014e2f1251b4d13 android-studio-ide-143.2461418-windows.zip
+407030e6bf82a724e5ad6e7086a84c94aa01eb0e android-studio-ide-143.2461418-mac.zip
+f32338e04099d97be254ae0a7d810ab59487c2e9 android-studio-ide-143.2461418-linux.zip
 
 
 查询数据库
