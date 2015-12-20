@@ -2558,6 +2558,10 @@ zoom_sh  zoom_sh  SPRDCSS  SPCSS:SPRD CSSDB
 
 which java显示当前java路径
 
+adb shell 获取分辨率
+ adb shell dumpsys window windows
+ adb shell dumpsys window displays
+
 AndroidStudio社区
 http://www.android-studio.org/index.php/download/hisversion
 官方
