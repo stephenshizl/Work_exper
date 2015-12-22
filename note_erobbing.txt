@@ -2543,7 +2543,7 @@ FTP:
 Isupport网站：
 https://isupport.spreadtrum.com
 Username： erobbing
-Password： Haiyundongfang1805
+Password： Haiyundongfang1804
 
 192.168.1.2
 用户名：erobbing.com\administrator
