@@ -2346,6 +2346,18 @@ git push -u origin master
 
 有库之后正常clone，最后git push -u origin master
 
+展讯5.1代码地址
+git clone git@192.168.1.100:code/spreatrum/5.1/sc9830/sc9830.git
+git clone git@192.168.1.100:code/spreatrum/5.1/sc9830/kernel.git
+git clone git@192.168.1.100:code/spreatrum/5.1/sc9830/u-boot64.git
+
+192.168.1.6
+zhouchangsheng
+Abcd1234
+192.168.1.7
+zhangzhaolei
+zhangzhaolei
+
 增加个swap空间
 
 sudo dd if=/dev/zero of=/opt/swapfile bs=1024 count=8192000
