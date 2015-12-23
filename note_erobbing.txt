@@ -2612,6 +2612,37 @@ SHA-1 Checksums:
 f32338e04099d97be254ae0a7d810ab59487c2e9 android-studio-ide-143.2461418-linux.zip
 
 
+Android.mk添加v7包
+GOTO frameworks/support/v7/appcompat and build it first
+This code works for me, and I hope it can help! Copy the jar files in the libs of appcompat_v7 project to the libs directory of your project.
+
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_STATIC_JAVA_LIBRARIES := \
+        android-support-v4 \
+        android-support-v7-appcompat \
+        android-support-design
+        <more jar could be added here>
+
+LOCAL_SRC_FILES := $(call all-subdir-java-files)
+LOCAL_PACKAGE_NAME := <The name of your App project>
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
+LOCAL_RESOURCE_DIR += <The absolute path to your appcompat_v7 project>/res
+
+LOCAL_CERTIFICATE := platform
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_AAPT_FLAGS := --auto-add-overlay
+LOCAL_AAPT_FLAGS += --extra-packages   android.support.v4:android.support.v7.appcompat <replace the _ with . for your all jar files>
+
+include $(BUILD_PACKAGE)
+include $(CLEAR_VARS)
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := android-support-design:libs/android-support-design.jar
+include $(BUILD_MULTI_PREBUILT)
+include $(call all-makefiles-under, $(LOCAL_PATH))
+
+
+
 查询数据库
 public static final String PROFILE_TABLE = "profiles";
     public static final String AUTHORITY = "com.thunderst.audioprofile.provider";
