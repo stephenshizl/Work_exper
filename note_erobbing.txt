@@ -2576,7 +2576,9 @@ adb shell 获取分辨率
  
 展讯平台fastboot下载system的命令fastboot flash -S100M system system.img 
 
-
+sdk等国内地址镜像
+http://mirrors.neusoft.edu.cn/android/repository/
+http://www.cnblogs.com/bjzhanghao/archive/2012/11/14/android-platform-sdk-download-mirror.html
 
 AndroidStudio社区
 http://www.android-studio.org/index.php/download/hisversion
