@@ -2667,4 +2667,6 @@ finally {
             c.close();
         }
         
-        
+调整手机分辨率命令      
+adb root
+adb shell wm size 480x800
