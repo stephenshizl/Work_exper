@@ -2674,3 +2674,6 @@ adb shell wm size 480x800
 高德map key
 com.amap.navi.demo
 	686f743a5dfd9f90224c2b8f639b63fa 	Android平台SDK 	配 置
+
+后视镜论坛
+http://www.gpshk.cc/forum.php
