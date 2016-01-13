@@ -2677,3 +2677,6 @@ com.amap.navi.demo
 
 后视镜论坛
 http://www.gpshk.cc/forum.php
+
+CM下载地址
+http://download.cyanogenmod.org/
