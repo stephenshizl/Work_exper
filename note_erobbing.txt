@@ -2684,3 +2684,6 @@ http://download.cyanogenmod.org/
 erobbing cq
 https://support.cdmatech.com/ 
 zhangzhaolei@erobbin.com   Rambo1984069
+
+git diff 去除^m 
+git config --global core.whitespace cr-at-eol
