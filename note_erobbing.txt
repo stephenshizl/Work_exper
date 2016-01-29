@@ -2691,3 +2691,14 @@ git config --global core.whitespace cr-at-eol
 erobbing OA系统
 http://192.168.1.5:8088/oa/oa.jsp?mainTitle=&mainPage=
 账号zhangzhaolei    密码Abcd1234
+
+
+JDK6的bin文件中有许多可执行命令，根据需要，可以选择安装至/usr/bin目录下，比如，我安装了java/javac/javaws/jar四个命令。具体执行如下命令：
+    update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.6.0_33/bin/javac 1
+    update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.6.0_33/bin/java 1
+    update-alternatives --install /usr/bin/javaws javaws /usr/lib/jvm/jdk1.6.0_33/bin/javaws 1
+    update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk1.6.0_33/bin/jar 1
+    update-alternatives --config javac
+    update-alternatives --config java
+    update-alternatives --config javaws
+    update-alternatives --config jar
