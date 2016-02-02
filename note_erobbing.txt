@@ -367,6 +367,7 @@ Password: FFOS*build@zte
 
 
 文件写值lightservice
+///////1
 private static final String FLASHLIGHT_FILE = "/sys/class/leds/spotlight/brightness";
 try {
                 FileOutputStream fos = new FileOutputStream(FLASHLIGHT_FILE);
@@ -378,6 +379,78 @@ try {
             } catch (Exception e) {
                 // fail silently
             }
+///////2
+private static final String EXT_PA_SPEAKER_FILE = "/sys/class/backlight/sprd_backlight/brightness";
+final byte[] ON = { '2', '5', '5' };
+final byte[] OFF = { '1' };
+FileOutputStream fos = new FileOutputStream(EXT_PA_SPEAKER_FILE);
+                fos.write(checked ? ON : OFF);
+                fos.close();
+
+///////3
+String exe_path = "/sys/class/rfkill/rfkill0/state";
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+
+        mRefresh = (Button)findViewById(R.id.refresh);
+        mRefresh.setOnClickListener(mClickListener);
+
+        mMountText = (TextView)findViewById(R.id.mountText);
+        mMount = (Button)findViewById(R.id.mountBtn1);
+        mMount.setOnClickListener(mClickListener);
+
+        try
+        {
+            BufferedWriter bufWriter = new BufferedWriter(new FileWriter(exe_path));
+            bufWriter.write("1");  // 这儿进行的写操作
+            bufWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            /*
+            exe_file = new File(exe_path);  
+            exe_file.setExecutable(true, true); 
+            */
+            Runtime runtime = Runtime.getRuntime();            
+            Process process = runtime.exec("cat /sys/class/rfkill/rfkill0/state"); // 这儿进行的度操作
+            InputStream is = process.getInputStream();
+            InputStreamReader isr = new InputStreamReader(is);
+            BufferedReader br = new BufferedReader(isr);
+            String line = null;
+            while (null != (line = br.readLine())) {
+                Log.e("########", line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        
+ ////////4
+ File awakeTimeFile = new File("proc/tp_debug/debug_switch");
+          FileWriter fr;
+          try
+        {
+              fr = new FileWriter(awakeTimeFile);
+              fr.write("0"); 
+              fr.close();
+          } catch (IOException e) {
+e.printStackTrace();
+          }
+          
+ /////////5
+ File awakeTimeFile = new File("proc/tp_debug/debug_switch");
+          FileWriter fr;
+          try {
+              fr = new FileWriter(awakeTimeFile);
+              fr.write("1"); 
+              fr.close();
+          }
+          catch (IOException e) {
+                e.printStackTrace();
+          }
 
 
 '// 	at android.app.FragmentManagerImpl.checkStateLoss(FragmentManager.java:1318)
