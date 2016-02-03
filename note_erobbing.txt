@@ -366,7 +366,7 @@ Username: ztebuild
 Password: FFOS*build@zte 
 
 
-文件写值lightservice
+文件节点写值lightservice
 ///////1
 private static final String FLASHLIGHT_FILE = "/sys/class/leds/spotlight/brightness";
 try {
@@ -451,6 +451,9 @@ e.printStackTrace();
           catch (IOException e) {
                 e.printStackTrace();
           }
+///////////6
+c中方式
+system("echo on  > /sys/class/sprd_ext_pa/enable");
 
 
 '// 	at android.app.FragmentManagerImpl.checkStateLoss(FragmentManager.java:1318)
