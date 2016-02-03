@@ -2272,7 +2272,7 @@ public class TextJNI
 }
 
 TextJNI.java目录下执行javac TextJNI.java 生成TextJNI.class
-TextJNI根目录下执行 javah com.example.textjni.TextJNI 生成com_example_textjni_TextJNI.h
+TextJNI根目录src下执行 javah -jni com.example.textjni.TextJNI 生成com_example_textjni_TextJNI.h
 编写cpp文件
 #include"com_example_textjni_TextJNI.h"
 #include <stdio.h>
