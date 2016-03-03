@@ -2778,3 +2778,20 @@ JDK6的bin文件中有许多可执行命令，根据需要，可以选择安装�
     update-alternatives --config java
     update-alternatives --config javaws
     update-alternatives --config jar
+
+修改马达强度电压
+kernel/arch/arm/boot/dts/qcom/msm8909-qrd.dtsi
+qcom,vib-vtg-level-mV = <3100>;   3100 -> 2600
+
+5.1 framework修改
+frameworks/base/core/res/res/values/configs.xml
+<integer-array name="config_keyboardTapVibePattern">
+    <item>200</item>
+</integer-array>
+而不是下面的（Launcher3的allapps button键会起作用）
+<integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+</integer-array>
