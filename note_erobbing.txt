@@ -2797,3 +2797,6 @@ frameworks/base/core/res/res/values/configs.xml
         <item>20</item>
         <item>30</item>
 </integer-array>
+
+淘宝店铺免费模板
+http://www.yymoban.com/a/jichuban/
