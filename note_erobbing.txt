@@ -2275,6 +2275,8 @@ public class TextJNI
 }
 
 TextJNI.java目录下执行javac TextJNI.java 生成TextJNI.class
+若javac找不到类似于Bitmap等，执行下面
+javac -cp /usr/code_tmp/AndroidStudio/Android/Sdk/platforms/android-22/android.jar TextJNI.java
 TextJNI根目录src下执行 javah -jni com.example.textjni.TextJNI 生成com_example_textjni_TextJNI.h
 编写cpp文件
 #include"com_example_textjni_TextJNI.h"
