@@ -2800,3 +2800,7 @@ frameworks/base/core/res/res/values/configs.xml
 
 淘宝店铺免费模板
 http://www.yymoban.com/a/jichuban/
+
+
+设置中list等选中焦点颜色修改
+<color name="ripple_material_light">#ff000000</color>
