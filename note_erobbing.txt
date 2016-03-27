@@ -2806,3 +2806,10 @@ http://www.yymoban.com/a/jichuban/
 
 设置中list等选中焦点颜色修改
 <color name="ripple_material_light">#ff000000</color>
+
+ripple相关 默认colorControlHighlight
+android:shape=["rectangle" | "oval" | "line" | "ring"]
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight" >
+    <item android:drawable="@color/system_secondary_color"/>
+</ripple>
