@@ -2813,3 +2813,29 @@ android:shape=["rectangle" | "oval" | "line" | "ring"]
     android:color="?android:attr/colorControlHighlight" >
     <item android:drawable="@color/system_secondary_color"/>
 </ripple>
+
+
+android 模拟按键事件
+new Thread () { 
+                    public void run () { 
+                        try { 
+                                 Instrumentation inst=new Instrumentation();
+                    inst.sendKeyDownUpSync(int  键码);
+                        } catch(Exception e) { 
+                                Log.e("Exception when sendPointerSync", e.toString()); 
+                        } 
+                    } 
+                }.start();
+
+通过Runtime实现
+try  
+{  
+    String keyCommand = "input keyevent " + KeyEvent.KEYCODE_MENU;  
+    Runtime runtime = Runtime.getRuntime();  
+    Process proc = runtime.exec(keyCommand);  
+}  
+catch (IOException e)  
+{  
+    // TODO Auto-generated catch block  
+    e.printStackTrace();  
+}
