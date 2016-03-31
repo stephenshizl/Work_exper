@@ -2814,6 +2814,23 @@ android:shape=["rectangle" | "oval" | "line" | "ring"]
     <item android:drawable="@color/system_secondary_color"/>
 </ripple>
 
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FF0000" >
+    <item>
+        <selector>
+            <item
+                android:drawable="@drawable/icon_folder_i"
+                android:state_pressed="true">
+            </item>
+            <item
+                android:drawable="@drawable/icon_folder_r"
+                android:state_pressed="false">
+            </item>
+        </selector>
+    </item>
+</ripple>
+
 
 android 模拟按键事件
 import android.app.Instrumentation;
