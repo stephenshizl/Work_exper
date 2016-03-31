@@ -2816,6 +2816,7 @@ android:shape=["rectangle" | "oval" | "line" | "ring"]
 
 
 android 模拟按键事件
+import android.app.Instrumentation;
 new Thread () { 
                     public void run () { 
                         try { 
