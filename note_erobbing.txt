@@ -2891,3 +2891,6 @@ http://cn.download.nvidia.com/XFree86/Linux-x86-ARM/319.49/NVIDIA-Linux-armv7l-g
 
 dubbo
 http://shiyanjun.cn/archives/325.html
+
+android5.1来电全屏
+https://isupport.spreadtrum.com/iSupport/apply/faq_list?faq_id=12953
