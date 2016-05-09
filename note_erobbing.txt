@@ -2897,3 +2897,6 @@ https://isupport.spreadtrum.com/iSupport/apply/faq_list?faq_id=12953
 
 展讯NMEALOG，gpslog抓取
 在拨号盘输入*#*#2266#*#*->NMEALOG 
+
+cyanogenmod
+http://review.cyanogenmod.org/#/q/status:open
