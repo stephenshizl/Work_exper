@@ -2548,7 +2548,7 @@ dp compute
 dp = px * ( 160/ dpi )
 
 
-java -Xmx2048m -jar out/host/linux-x86/framework/signapk.jar -w build/target/product/security/testkey.x509.pem build/target/product/security/testkey.pk8 /tmp/tmpH32Uea out/target/product/msm8909/msm8909-ota-eng.zhangzhaolei.zip
+java -Xmx2048m -jar out/host/linux-x86/framework/signapk.jar -w build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8 out/target/product/msm8909/msm8909-ota-eng.zhangzhaolei.zip
 
 
 
