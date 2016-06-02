@@ -2551,8 +2551,8 @@ dp = px * ( 160/ dpi )
 java -Xmx2048m -jar out/host/linux-x86/framework/signapk.jar -w build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8 out/target/product/msm8909/msm8909-ota-eng.zhangzhaolei.zip
 
 //fota签名，rar打开之后删除meta-inf文件夹
-java -jar out/host/linux-x86/framework/signapk.jar build/target/product/security/testkey.x509.pem build/target/product/security/testkey.pk8 SystemFota.apk SystemFota_userdebug.apk
-java -jar out/host/linux-x86/framework/signapk.jar build/target/product/security/release/releasekey.x509.pem build/target/product/security/release/releasekey.pk8 SystemFota.apk SystemFota_user.apk
+java -jar out/host/linux-x86/framework/signapk.jar build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8 SystemFota.apk SystemFota_userdebug.apk
+java -jar out/host/linux-x86/framework/signapk.jar build/target/product/security/release/platform.x509.pem build/target/product/security/release/platform.pk8 SystemFota.apk SystemFota_user.apk
 
 
 
