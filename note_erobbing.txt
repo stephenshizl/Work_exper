@@ -2550,6 +2550,10 @@ dp = px * ( 160/ dpi )
 
 java -Xmx2048m -jar out/host/linux-x86/framework/signapk.jar -w build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8 out/target/product/msm8909/msm8909-ota-eng.zhangzhaolei.zip
 
+//fota签名，rar打开之后删除meta-inf文件夹
+java -jar out/host/linux-x86/framework/signapk.jar build/target/product/security/platform.x509.pem build/target/product/security/release/platform.pk8 nosigned.apk signed.apk
+java -jar out/host/linux-x86/framework/signapk.jar build/target/product/security/platform.x509.pem build/target/product/security/release/platform.pk8 nosigned.apk signed.apk
+
 
 
 4.4r3 cts错误总结：  run cts --plan CTS --disable-reboot 避免重启
