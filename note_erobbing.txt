@@ -2963,4 +2963,6 @@ if(KEY_VOLUMEUP == key)
 
 u-boot64/common/cmd_cboot.c文件中get_mode_from_keypad这个函数确认有如下这个case ，没有就加上 
 case CMD_FACTORYTEST_MODE: 
-                          return CMD_FACTORYTEST_MODE;
+return CMD_FACTORYTEST_MODE;
+
+mount -o rw,remount /system
