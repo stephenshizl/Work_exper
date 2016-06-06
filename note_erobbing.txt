@@ -2951,3 +2951,16 @@ https://isupport.spreadtrum.com/iSupport/apply/faq_list?faq_id=12953
 
 cyanogenmod
 http://review.cyanogenmod.org/#/q/status:open
+
+展讯不开机工检测
+电源键+音量上键进入工厂模式，这个模式走的是recovery流程，不会启动上层服务。 
+代码位置在：/vendor/sprd/open-source/apps/factorytest/ 
+如果按键无法进去，那么需要修改如下 
+在u-boot64\board\spreadtrum\XXX\sprd_kp.c（XXX为对应的工程） 
+     unsigned int check_key_boot(unsigned char key)函数 
+if(KEY_VOLUMEUP == key) 
+        return CMD_FACTORYTEST_MODE; //修改为这个 
+
+u-boot64/common/cmd_cboot.c文件中get_mode_from_keypad这个函数确认有如下这个case ，没有就加上 
+case CMD_FACTORYTEST_MODE: 
+                          return CMD_FACTORYTEST_MODE;
