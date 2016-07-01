@@ -2979,3 +2979,6 @@ mText = builder.toString();
 mText = "xxx" , xxx表示你想要加为水印的字符串
 3) 重新编译生成services.jar文件并push到手机的system/framework下, reboot手
 机
+
+小米工程模式
+*#*#6484#*#*
