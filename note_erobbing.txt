@@ -2989,3 +2989,8 @@ SC9830_android5.1/frameworks/base/core/res/res/values/config.xml
 +    <integer name="config_ntpPollingIntervalShorter">20000</integer>
 -    <integer name="config_ntpRetry">3</integer>
 +    <integer name="config_ntpRetry">30</integer>
+
+
+MTK暗码
+*#123890#
+*#*#4636#*#*
