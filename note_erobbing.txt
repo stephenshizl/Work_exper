@@ -2982,3 +2982,10 @@ mText = "xxx" , xxx表示你想要加为水印的字符串
 
 小米工程模式
 *#*#6484#*#*
+
+开机时间自动更新的频率时间间隔等，加快时间同步
+SC9830_android5.1/frameworks/base/core/res/res/values/config.xml
+-    <integer name="config_ntpPollingIntervalShorter">60000</integer>
++    <integer name="config_ntpPollingIntervalShorter">20000</integer>
+-    <integer name="config_ntpRetry">3</integer>
++    <integer name="config_ntpRetry">30</integer>
