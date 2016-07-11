@@ -2994,3 +2994,8 @@ SC9830_android5.1/frameworks/base/core/res/res/values/config.xml
 MTK暗码
 *#123890#
 *#*#4636#*#*
+
+
+数联时代服务器密码
+LUOBIN   luobin2015
+http://portal.digitimetech.com/signin
