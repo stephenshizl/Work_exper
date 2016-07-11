@@ -2999,3 +2999,8 @@ MTK暗码
 数联时代服务器密码
 LUOBIN   luobin2015
 http://portal.digitimetech.com/signin
+
+
+git创建分支
+git checkout -b newBrach origin/master
+git push origin newBrach
