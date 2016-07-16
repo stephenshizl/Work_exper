@@ -3011,3 +3011,7 @@ http://www.cnblogs.com/tangchenglin/archive/2011/12/14/2287673.html
 
 为Android中PackageManagerService添加方法
 http://blog.csdn.net/zqz19891031/article/details/43306045
+
+
+在Android系统外部和内部读取Android应用的签名
+http://www.blogjava.net/TiGERTiAN/archive/2012/05/27/379322.html
