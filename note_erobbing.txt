@@ -3004,3 +3004,10 @@ http://portal.digitimetech.com/signin
 git创建分支
 git checkout -b newBrach origin/master
 git push origin newBrach
+
+
+Handler应用: Activity 之间通过 Handler 通信
+http://www.cnblogs.com/tangchenglin/archive/2011/12/14/2287673.html
+
+为Android中PackageManagerService添加方法
+http://blog.csdn.net/zqz19891031/article/details/43306045
