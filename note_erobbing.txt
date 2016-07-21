@@ -3015,3 +3015,8 @@ http://blog.csdn.net/zqz19891031/article/details/43306045
 
 在Android系统外部和内部读取Android应用的签名
 http://www.blogjava.net/TiGERTiAN/archive/2012/05/27/379322.html
+
+
+android studio导入源码
+mmm development/tools/idegen/
+development/tools/idegen/idegen.sh
