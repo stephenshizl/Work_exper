@@ -3020,3 +3020,13 @@ http://www.blogjava.net/TiGERTiAN/archive/2012/05/27/379322.html
 android studio导入源码
 mmm development/tools/idegen/
 development/tools/idegen/idegen.sh
+
+
+jni编译include vector报错解决stl "gnustl_static"
+ndk {
+	moduleName "tuzhi_edog"
+	stl "gnustl_static"
+	//cppFlags.add("-Werror")
+	//ldLibs.addAll(["log", "GLESv2"])
+	//stl = "gnustl_shared"
+}
