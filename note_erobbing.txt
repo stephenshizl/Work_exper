@@ -3030,3 +3030,60 @@ ndk {
 	//ldLibs.addAll(["log", "GLESv2"])
 	//stl = "gnustl_shared"
 }
+
+
+高通msm89095.1 camera差值修改：
+hardware/qcom/camera/QCamera2/HAL/QCameraParameters.cpp
+ALOGE("%s: scaled supported pic sizes: %s", __func__, scaledPictureSizeValues.string());
+查看硬件支持分辨率，
+
+packages/apps/Gallery2/res/values/arrays.xml
+packages/apps/SnapdragonCamera/res/values/arrays.xml
+添加数组
+<string-array name="pref_camera_picturesize_entryvalues" translatable="false">
+
+frameworks/base/core/java/android/hardware/Camera.java
+添加public List<Size> getSupportedPictureSizes() {
+             String str = get(KEY_PICTURE_SIZE + SUPPORTED_VALUES_SUFFIX);
++            /* zhangzhaolei add 13mp for L503 20160810 start */
++            String scaledStr = get("scaled-picture-sizes");
++            if(scaledStr != null)
++                str = str+","+scaledStr;
++            Log.d(TAG, "scaledStr= " + str);
++            /* zhangzhaolei add 13mp for L503 20160810 end */
+             return splitSize(str);
+         }
+
+vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/sensor_libs/ov8858_l503/ov8858_l503_lib.c
+@@ -765,6 +765,20 @@ static struct sensor_lib_chromatix_array ov8858_l503_lib_chromatix_array = {
+   .sensor_lib_chromatix = ov8858_l503_chromatix,
+   .size = ARRAY_SIZE(ov8858_l503_chromatix),
+ };
++/* zhangzhaolei add 13mp for L503 20160810 start */
++static msm_sensor_dimension_t ov8858_l503_lib_scale_size_tbl[] = {
++  {4160, 3120},
++};
++static int32_t ov8858_l503_lib_get_scale_tbl(msm_sensor_dimension_t * tbl) {
++  int i;
++  if(sensor_lib_ptr.scale_tbl_cnt == 0)
++    return -1;
++  for(i = 0; i < sensor_lib_ptr.scale_tbl_cnt; i++){
++    tbl[i] = ov8858_l503_lib_scale_size_tbl[i];
++  }
++  return 0;
++}
++/* zhangzhaolei add 13mp for L503 20160810 end */
+ 
+ /*===========================================================================
+  * FUNCTION    - ov8858_l503_real_to_register_gain -
+@@ -964,6 +978,10 @@ static sensor_lib_t sensor_lib_ptr = {
+   .chromatix_array = &ov8858_l503_lib_chromatix_array,
+   /* sensor pipeline immediate delay */
+   .sensor_max_immediate_frame_delay = 2,
++  /* zhangzhaolei add 13mp for L503 20160810 start */
++  .scale_tbl_cnt = ARRAY_SIZE(ov8858_l503_lib_scale_size_tbl),
++  .get_scale_tbl = ov8858_l503_lib_get_scale_tbl,
++  /* zhangzhaolei add 13mp for L503 20160810 end */
+ };
+ 
+ /*===========================================================================
