@@ -3091,3 +3091,57 @@ vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/se
 
 erobbing svn 账号密码
 zhangzhaolei     zzl
+
+获取正在运行，后台运行的应用
+public static boolean getCurrentRunningTasks(Context context, String pkg) {
+            ActivityManager am = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+            List<ActivityManager.RunningTaskInfo> list = am.getRunningTasks(100);
+            List<ActivityManager.RunningServiceInfo> myList = am.getRunningServices(100);
+            Log.e("====", "=============list=" + list);
+            for (ActivityManager.RunningTaskInfo info : list) {
+                if (info.topActivity.getPackageName().equals(pkg) && info.baseActivity.getPackageName().equals(pkg)) {
+                    Log.e("====","==================getCurrentTasks=true");
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static boolean isBackgroundRunning(Context context, String pkg) {
+            ActivityManager activityManager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+            //KeyguardManager keyguardManager = (KeyguardManager) getSystemService(KEYGUARD_SERVICE);
+            if (activityManager == null) return false;
+            List<ActivityManager.RunningAppProcessInfo> processList = activityManager.getRunningAppProcesses();
+            for (ActivityManager.RunningAppProcessInfo process : processList) {
+                if (process.processName.startsWith(pkg)) {
+                    boolean isBackground = process.importance != IMPORTANCE_FOREGROUND && process.importance != IMPORTANCE_VISIBLE;
+                    //boolean isLockedState = keyguardManager.inKeyguardRestrictedInputMode();
+                    if (isBackground) {// || isLockedState)
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+            }
+            return false;
+        }
+
+        /*public static boolean isLauncherRunnig(Context context) {
+            boolean result = false;
+            List<String> names = getAllTheLauncher(context);
+            Log.e("====","==============names="+names);
+            ActivityManager mActivityManager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+            List<ActivityManager.RunningAppProcessInfo> appList = mActivityManager.getRunningAppProcesses();
+            for (RunningAppProcessInfo running : appList) {
+                if (running.importance == RunningAppProcessInfo.IMPORTANCE_FOREGROUND) {
+                    for (int i = 0; i < names.size(); i++) {
+                        if (names.get(i).equals(running.processName)) {
+                            result = true;
+                            Log.e("====","==============running.processName="+running.processName);
+                            break;
+                        }
+                    }
+                }
+            }
+            return result;
+        }*/
