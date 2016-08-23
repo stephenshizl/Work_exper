@@ -3093,6 +3093,11 @@ erobbing svn 账号密码
 zhangzhaolei     zzl
 
 获取正在运行，后台运行的应用
+import android.app.ActivityManager;
+import java.util.List;
+import static android.app.ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND;
+import static android.app.ActivityManager.RunningAppProcessInfo.IMPORTANCE_VISIBLE;
+
 public static boolean getCurrentRunningTasks(Context context, String pkg) {
             ActivityManager am = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
             List<ActivityManager.RunningTaskInfo> list = am.getRunningTasks(100);
