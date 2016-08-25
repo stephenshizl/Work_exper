@@ -3150,3 +3150,97 @@ public static boolean getCurrentRunningTasks(Context context, String pkg) {
             }
             return result;
         }*/
+
+
+
+Android 6.0 双卡拨号
+相关 api
+getCallCapablePhoneAccounts
+Added in API level 23
+
+Android 5.0 之前的版本
+Call from second sim
+
+获取 sim 卡数量
+public static boolean isMultiSim(Context context){
+    boolean result = false;
+    TelecomManager telecomManager = (TelecomManager) context.getSystemService(Context.TELECOM_SERVICE);
+    if(telecomManager != null){
+        List<PhoneAccountHandle> phoneAccountHandleList = telecomManager.getCallCapablePhoneAccounts();
+        result = phoneAccountHandleList.size() >= 2;
+    }
+    return result;
+}
+用指定 sim 卡拨号
+public static void call(Context context, int id, String telNum){
+    TelecomManager telecomManager = (TelecomManager) context.getSystemService(Context.TELECOM_SERVICE);
+
+    if(telecomManager != null){
+        List<PhoneAccountHandle> phoneAccountHandleList = telecomManager.getCallCapablePhoneAccounts();
+
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_CALL);
+        intent.setData(Uri.parse("tel:" + telNum));
+        intent.putExtra(TelecomManager.EXTRA_PHONE_ACCOUNT_HANDLE, phoneAccountHandleList.get(id));
+        context.startActivity(intent);
+    }
+}
+获取卡的颜色
+public static int getSimColor(Context context, int id){
+    int highlightColor = 0;
+    TelecomManager telecomManager = (TelecomManager) context.getSystemService(Context.TELECOM_SERVICE);
+    if(telecomManager != null) {
+        List<PhoneAccountHandle> phoneAccountHandleList = telecomManager.getCallCapablePhoneAccounts();
+
+        PhoneAccount phoneAccount = telecomManager.getPhoneAccount(phoneAccountHandleList.get(id));
+        if (phoneAccount != null) {
+            highlightColor = phoneAccount.getHighlightColor();
+        }
+    }
+    return highlightColor;
+}
+获取最近一次通话使用的 sim 卡
+public static String getLastestSim(Context context, String telNum){
+    String result = "SIM1";
+    Cursor cursor = null;
+    try {
+        cursor = context.getContentResolver().query(CallLog.Calls.CONTENT_URI, new String[]{CallLog.Calls.NUMBER, CallLog.Calls.PHONE_ACCOUNT_ID},
+                CallLog.Calls.NUMBER + " = ?", new String[]{telNum}, CallLog.Calls.DEFAULT_SORT_ORDER);
+        if (cursor != null && cursor.moveToFirst()) {
+            int subId = cursor.getInt(cursor.getColumnIndex(CallLog.Calls.PHONE_ACCOUNT_ID));
+            Logger.d(TAG, "getLastestSim subId:" + subId);
+            int slotId = getSlotIdUsingSubId(subId, context);
+            Logger.d(TAG, "getLastestSim slotId:" + slotId);
+            if(1 == slotId){
+                result = "SIM2";
+            }
+        }
+    }catch (Exception e){
+        e.printStackTrace();
+    }finally {
+        if(cursor != null){
+            cursor.close();
+        }
+    }
+
+    Logger.d(TAG, "getLastestSim result:" + result);
+
+    return result;
+}
+用 SubscriptionId 获取 slot_id
+public static int getSlotIdUsingSubId(int subId,Context context) throws InvocationTargetException {
+    int  result = 0;
+    try {
+        Class<?> clz = Class.forName(SUBSCRIPTION_MANAGER);
+        Object subSm;
+        Constructor<?> constructor = clz.getDeclaredConstructor(Context.class);
+        subSm  = constructor.newInstance(context);
+        Method mth = clz.getMethod("getSlotId", int.class);
+        result = (int)mth.invoke(subSm, subId);
+
+    } catch (ClassNotFoundException | InstantiationException | IllegalAccessException
+            | IllegalArgumentException | NoSuchMethodException | InvocationTargetException e) {
+        e.printStackTrace();
+    }
+    return result;
+}
