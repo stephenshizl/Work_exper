@@ -3003,6 +3003,10 @@ http://portal.digitimetech.com/signin
 192.168.1.8
 erobbing/root
 samba服务器guest guest
+编译命令
+主干sh /home/erobbing/work/L503/autobuild.sh -p -m -b usermsm -r -s
+-n l503_hw_v2代表编译modem分支l503_hw_v2
+sh /home/erobbing/work/L503/autobuild.sh -p -m -b usermsm -n l503_hw_v2 -r -s
 
 
 git创建分支
