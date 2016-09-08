@@ -3000,6 +3000,10 @@ MTK暗码
 LUOBIN   luobin2015
 http://portal.digitimetech.com/signin
 
+192.168.1.8
+erobbing/root
+samba服务器guest guest
+
 
 git创建分支
 git checkout -b newBrach origin/master
