@@ -3312,3 +3312,17 @@ public class SysProp {
         }
     }
 }
+
+
+
+[Author : zhangzhaolei][项目:L503X] [Bug]
+1.问题描述
+【客户反馈】通话界面光感反应较慢
+2.原因分析
+亮屏延迟高
+3.解决方案
+亮屏延迟由300改为10
+4.影响范围
+psensor，powermanager
+5.GIT版本号
+AP d909c03e7d9e7347de0a07f6ea9b959266a2eb2d
