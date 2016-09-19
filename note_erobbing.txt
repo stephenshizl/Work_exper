@@ -2366,6 +2366,8 @@ system-config-printer
 
 git 查看某个文件的修改
 git log --pretty=oneline frameworks/base/packages/SystemUI/AndroidManifest.xml 34b7ac981a39193ca78e0d4673ce66515c23988d
+查看修改内容：
+git show 34b7ac981a39193ca78e0d4673ce66515c23988d frameworks/base/packages/SystemUI/AndroidManifest.xml
 
 显示git提交信息
 git log --pretty=format:"%s %an, %ad - %H" --graph
