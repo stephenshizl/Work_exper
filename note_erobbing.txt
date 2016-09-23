@@ -3328,3 +3328,6 @@ public class SysProp {
 psensor，powermanager
 5.GIT版本号
 AP d909c03e7d9e7347de0a07f6ea9b959266a2eb2d
+
+erobbing appleID
+quhuabo@erobbing.com           Abcd,1234  
