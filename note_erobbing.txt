@@ -3009,6 +3009,8 @@ samba服务器guest guest
 主干sh /home/erobbing/work/L503/autobuild.sh -p -m -b usermsm -r -s
 -n l503_hw_v2代表编译modem分支l503_hw_v2
 sh /home/erobbing/work/L503/autobuild.sh -p -m -b usermsm -n l503_hw_v2 -r -s
+生产版本编译命令
+sh /home/erobbing/work/L503/autobuild.sh -p -m -n l503_hw_v2 -b userdebugmsm -r -s -c
 
 
 git创建分支
