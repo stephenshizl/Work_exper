@@ -3003,7 +3003,7 @@ LUOBIN   luobin2015
 http://portal.digitimetech.com/signin
 
 192.168.1.8
-erobbing/root
+erobbing/Robbie          root(已废弃)
 samba服务器guest guest
 编译命令
 主干sh /home/erobbing/work/L503/autobuild.sh -p -m -b usermsm -r -s
