@@ -3342,3 +3342,6 @@ AP d909c03e7d9e7347de0a07f6ea9b959266a2eb2d
 
 erobbing appleID
 quhuabo@erobbing.com           Abcd,1234  
+
+android7.0源码
+https://mirrors.tuna.tsinghua.edu.cn/aosp-monthly/aosp-latest.tar
