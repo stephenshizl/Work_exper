@@ -3345,3 +3345,11 @@ quhuabo@erobbing.com           Abcd,1234
 
 android7.0源码
 https://mirrors.tuna.tsinghua.edu.cn/aosp-monthly/aosp-latest.tar
+
+adb shell操作数据库
+adb shell
+cd /data/data/com.android.providers.settings/databases
+sqlite3 settings.db
+select * from system;
+SELECT * FROM system WHERE name =  'navi_start_stop';//读，注意最后分号
+update system set value='0' where name='navi_start_stop';//写
