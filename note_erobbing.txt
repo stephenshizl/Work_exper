@@ -3362,8 +3362,8 @@ update system set value='0' where name='navi_start_stop';//写
 
 录制视频命令需要root权限，eng的boot
 adb shell screenrecord data/media/0/demo.mp4  默认时间是180s
-adb shell screenrecord --time-limit 180 data/media/0/demo.mp4  限制时间
-adb shell screenrecord --size 1280*720 data/media/0/demo.mp4   指定分辨率
+adb shell screenrecord --time-limit 100 data/media/0/demo.mp4  限制时间
+adb shell screenrecord --size 720x1280 data/media/0/demo.mp4   指定分辨率
 adb shell screenrecord --bit-rate 6000000 data/media/0/demo.mp4   比特率指定
 adb shell screenrecord --time-limit 10 --verbose data/media/0/demo.mp4   在命令行显示log
 adb shell screenrecord --help   帮助命令
