@@ -2370,6 +2370,13 @@ git log --pretty=oneline frameworks/base/packages/SystemUI/AndroidManifest.xml 3
 git show 34b7ac981a39193ca78e0d4673ce66515c23988d frameworks/base/packages/SystemUI/AndroidManifest.xml
 重新修改commit信息（未push之前）
 git commit --amend
+重新修改commit信息（push之后,实践证明，不好使，错误的提交信息依然会存在，正确的信息会增加）
+git rebase -i HEAD~3
+表示要修改当前版本的倒数第三次状态。
+如果你要修改哪个，就把那行的pick改成edit，然后退出。
+git commit --amend
+git rebase --continue
+git push
 
 显示git提交信息
 git log --pretty=format:"%s %an, %ad - %H" --graph
