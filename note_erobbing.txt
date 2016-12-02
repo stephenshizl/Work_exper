@@ -3377,3 +3377,14 @@ adb shell screenrecord --bit-rate 6000000 data/media/0/demo.mp4   比特率指�
 adb shell screenrecord --time-limit 10 --verbose data/media/0/demo.mp4   在命令行显示log
 adb shell screenrecord --help   帮助命令
 adb pull data/media/0/demo.mp4
+
+system.img打包命令
+make_ext4fs -T -1 -S out/target/product/LB1617A/root/file_contexts -l 452733173 -a system system.img out/target/product/LB1617A/system
+参数说明：
+// -s 表示安静处理，不输出动作，可以不带该参数
+// -T 表示Unix时间戳，对system.img中的文件设置修改时间，可以到搜索“站长之家 时间戳”获取某个时间点的时间戳；
+// -S 表示sepolicy 的file_contexts
+// -l 表示最大的文件大小（受限于分区大小）；
+// -a 表示Android的mount点，比如system、userdata、recovery；
+// system.img 表示输出文件名；
+// system/ 表示输入目录，该目录下有framework、app、bin等目录；
