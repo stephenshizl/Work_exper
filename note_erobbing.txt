@@ -3388,3 +3388,11 @@ make_ext4fs -T -1 -S out/target/product/LB1617A/root/file_contexts -l 452733173 
 // -a 表示Android的mount点，比如system、userdata、recovery；
 // system.img 表示输出文件名；
 // system/ 表示输入目录，该目录下有framework、app、bin等目录；
+
+mac显示lsusb命令
+1、system_profiler SPUSBDataTypevim
+vim ~/.android/adb_usb.ini
+2、$ brew update
+$ brew tap jlhonora/lsusb
+$ brew install lsusb
+$ lsusb
