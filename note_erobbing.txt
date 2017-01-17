@@ -2334,13 +2334,20 @@ English Version英文版本：
 http://222.66.158.138/cqweb/login
 
 Username： erobbing
-Password： erobbingcq
+Password： Erob123
 
 FTP:
 访问地址：ftp.spreadtrum.com
 帐号：errobbing    
 密码：5Pmnw3Qh
 
+Isupport网站：
+Username： erobbing
+Password： Erobbing123
+
+http://cs.spreadtrum.com.cn 
+User：erobbing 
+Password：mjcqjd
 
 通过adb 发送广播 
 adb shell am broadcast -a "send_by_frank_test"
