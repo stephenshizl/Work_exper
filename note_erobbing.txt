@@ -3403,3 +3403,7 @@ vim ~/.android/adb_usb.ini
 $ brew tap jlhonora/lsusb
 $ brew install lsusb
 $ lsusb
+
+珞宾网盘
+yitongjianghu2015@126.com
+jiqiren**
