@@ -3041,6 +3041,8 @@ samba服务器guest guest
 sh /home/erobbing/work/L503/autobuild.sh -p -m -b usermsm -n l503_hw_v2 -r -s
 生产版本编译命令
 sh /home/erobbing/work/L503/autobuild.sh -p -m -n l503_hw_v2 -b userdebugmsm -r -s -c
+OTA整包制作
+./build/tools/releasetools/ota_from_target_files -p out/host/linux-x86 -k build/target/product/security/releasekey  -w ../../build_out/L503/build_2017_03_02_00_08_12/signed-new.zip ../../build_out/L503/build_2017_03_02_00_08_12/ZG-L501-V2.0-20170302-Wholeupdate.zip
 
 
 git创建分支
